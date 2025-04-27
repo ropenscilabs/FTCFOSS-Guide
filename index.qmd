@@ -1,0 +1,10 @@
+# **Community-Driven Open Source: Enabling First-Time Contributors to Open Source Projects** {.unnumbered}
+
+Over the last decade, rOpenSci has played a pivotal role in diversifying the open research software community by integrating new developers from underrepresented communities and transforming newcomers into regular contributors to our federation of scientific software various engagement channels.
+
+
+To further this work, we propose to pilot a new program designed to support sustainability for scientific software packages by recruiting and mentoring contributors and co-maintainers, using community calls and coworking sessions (mini hackathons) to provide a structured yet flexible environment to onboard new participants to open-source projects in real-time.
+
+This book presents the lessons learned and the organization details of these events.
+
+

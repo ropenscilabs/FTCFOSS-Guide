@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "FTCFOSS-Guide"
+  author: "Yani and Steffi"
+  date: "4/27/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - commcall.qmd
+    - traslathon.qmd
+    - hackathon.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
