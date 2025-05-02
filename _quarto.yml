@@ -11,6 +11,10 @@ book:
     - commcall.qmd
     - traslathon.qmd
     - hackathon.qmd
+  appendices:
+    - resources.qmd
+    - templates_emails.qmd
+    - templates_forms.qmd
 
 bibliography: references.bib
 

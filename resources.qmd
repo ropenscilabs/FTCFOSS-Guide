@@ -1,0 +1,18 @@
+---
+title: "Resources"
+---
+
+## Pilot project 2024-2025
+
+- Community calls
+    - Nov 6 2025 - [A comunidade R fala português](https://ropensci.org/commcalls/translation-portuguese/)
+    - Jan 20 2025 - [From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/)
+
+- Blog posts
+    - Oct 22 2024 - [Looking for Maintainers to Support First-Time Contributors](https://ropensci.org/blog/2024/10/22/first-time-contributions/)
+    - Jan 24 2025 - [Coworking Mini-Hackathon for First-Time Contributors](https://ropensci.org/blog/2025/01/24/coworking-hackathons/)
+    - Sep 19 2013 - [Attract Contributors with ‘help wanted’ Issues](https://ropensci.org/blog/2023/09/19/help-wanted/)
+    
+- Event listings
+    - Feb 4 2025 - [Coworking Mini-Hackathon for First-Time Contributors!](https://ropensci.org/events/coworking-2025-02/)
+    - Mar 4 2025 - [Coworking Mini-Hackathon for First-Time Contributors!](https://ropensci.org/events/coworking-2025-03/)
