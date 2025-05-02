@@ -2,11 +2,43 @@
 title: "Coworking Mini-hackathon"
 ---
 
+## Overview
+
+Participants completed an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.
+
+## Community Call
+It will provide an overview of software package architecture, contributing guidelines, and outstanding issues.
+It will do so in a welcoming environment where authors and potential contributors can share experiences, address common questions, and provide esential resources.
+Attendees has the opportunity to ask questions and engage with new and experienced contributors in a supportive atmosphere.
+
+## Mini-Hackathons
+
+Hosted by rOpenSci staff and package maintainers who will be on hand to support participants with their first contributions.
+Maintainers sign up to participate beforehand and prepare relevant issues for new contributors.
+As we expect the maintainers to go above simple package maintenance and to be supportive mentors and teachers, we will provide an honorarium.
+In this pilot we hosted two of these events as multilingual events in English and Spanish.
+
+## Tasks
+- Open Call to Mentors ([blog](https://ropensci.org/blog/2024/10/22/first-time-contributions/))
+- Open Call to Participants ([blog](https://ropensci.org/blog/2025/01/24/coworking-hackathons/))
+- Choose dates
+
+- Mentors
+- Attendees
+
+
 ## Infrastructure
+
+
+### Choosing dates
+It's important to choose dates that reflect the availability of our mentors, but
+also give a reasonable level of international coverage. We chose a European 
+Australian time zones to cover as much time as possible, but these times may
+still be too early/late for those living in 
 
 ### AirTable
 
-### GitHub Prject
+### GitHub Project
 
 Labels
 
