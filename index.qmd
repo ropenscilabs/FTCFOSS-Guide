@@ -8,3 +8,4 @@ To further this work, we propose to pilot a new program designed to support sust
 This book presents the lessons learned and the organization details of these events.
 
 
+TODO: Add details about NumFocus grant and thank funders
