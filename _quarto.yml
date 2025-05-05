@@ -8,6 +8,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - event-overview.qmd
     - commcall.qmd
     - translathon.qmd
     - hackathon.qmd
@@ -23,6 +24,4 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
-
-editor: visual
 

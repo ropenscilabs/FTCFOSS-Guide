@@ -1,0 +1,28 @@
+# Events Overview
+
+Here we have a rough overview of the projected timeline for running a set of events.
+One set of events consists of a Community Call paired with 1-2 hands-on mini hackathons or translathons.
+
+See the relevant chapter for specific details for organizing a specific event type.
+
+
+## Timeline - Translathons
+
+Chp | Task                                    | Platform
+--- | ---------------------------------------- | -------------
+[2](#community-call) | Contact potential panelists and moderators for Community Call | Email etc.
+[2](#community-call) | Choose date for Community call with participants' input | 
+[2](#community-call) | Advertise Community call | Website / Social Media
+[5](#mini-translathon)/[6](#mini-hackathon) | Choose date(s) for mini-hackathon/translathon | 
+[5](#mini-translathon)/[6](#mini-hackathon) | Open call for mentors/maintainers at hands-on events | Blog / Registration
+[5](#mini-translathon)/[6](#mini-hackathon) | Advertise Mini-hackathon(s)/translathon(s) | Website / Social Media
+[5](#mini-translathon)/[6](#mini-hackathon) | Open call for participants at hands-on event(s)  | Blog / Registration
+[2](#community-call) | Run Community Call | Zoom / Docs
+[5](#mini-translathon)/[6](#mini-hackathon) | Run mini-hackathon(s)/translathon(s) | Zoom / Docs
+[5](#mini-translathon)/[6](#mini-hackathon) | Evaluate participant feedback | 
+
+<!-- TODO: Yani, does this timeline work for the translathons as well as the hackathons? -->
+
+<!-- TODO: Should evaluate participant feedback have it's own chapter? -->
+
+
