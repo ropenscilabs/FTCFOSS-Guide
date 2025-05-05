@@ -2,11 +2,11 @@
 title: "Form templates"
 ---
 
-## Registration for mentors
+## Registration for mentors {#mentors}
 
 **Call for rOpenSci Maintainers to Support First-Time Contributors**
 
-Welcome! We are looking for maintainers of rOpenSci packages or R packages maintainers to participate in coworking events designed to support people making first-time contributions. If you are interested in participating please fill out this form. Please contact Yani or Steffi if you have any questions, or check out the blog post announcement (ADD BLOG POST LINK).
+Welcome! We are looking for maintainers of rOpenSci packages or R packages maintainers to participate in coworking events designed to support people making first-time contributions. If you are interested in participating please fill out this form. Please contact [CONTACT 1] or [CONTACT 2] if you have any questions, or check out the blog post announcement [ADD BLOG POST LINK].
 
 Then, if participating, we ask that maintainers:
 
@@ -20,7 +20,9 @@ If you participate, you can also expect that:
 
 - We will connect with you before the events to find a date/time for the coworking sessions and see if you have any questions regarding issue-labelling or the coworking sessions.
 - We will be available to support you during the Coworking sessions on Zoom, as well as on GitHub, Slack, or by email before and after.
-- You will receive a $XXX USD stipend to help offset the time you spend teaching and mentoring these new contributors.
+- You will receive a $[XXX] USD stipend to help offset the time you spend teaching and mentoring these new contributors.
+
+With the support of [FUNDER].
 
 *Form fields* 
 
@@ -32,19 +34,21 @@ If you participate, you can also expect that:
 - Why would you like to participate? *2-3 sentences*
 
 
-## Registration for attendees
+## Registration for participants {#participants}
 
 Join rOpenSci Minihackathons!
 
-These [collaborative events](ADD BLOG POST LINK) are designed to help first-time contributors get started with open-source projects. Whether you're improving documentation, reviewing translations, fixing bugs, or adding new features, our mentors will guide you every step of the way. 
+These collaborative events [ADD BLOG POST LINK] are designed to help first-time contributors get started with open-source projects. Whether you're improving documentation, reviewing translations, fixing bugs, or adding new features, our mentors will guide you every step of the way. 
 
 No prior experience required. Non-first time contributors are very welcome too—just bring your curiosity and enthusiasm!
 
 Events are open and free.
 
-With the support of FUNDER
+With the support of [FUNDER].
 
 Please, fill out this form to register for the events. We require this information to organize the meetings with mentors, breakout rooms and resources.
+
+*Form fields* 
 
 - Full Name*
 - Email*  *This email address will be used to send event information (zoom link and other resources) and the Slack channel invitation to interact before, during and after the event.*

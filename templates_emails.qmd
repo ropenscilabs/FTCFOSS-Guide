@@ -3,7 +3,7 @@ title: "Email templates"
 ---
 
 
-## Contacting mentors two weeks before
+## Mentors - 2 weeks before {#mentors1}
 
 **Subject**: rOpenSci Mini Hackathon - Preparation
 
@@ -29,7 +29,7 @@ Community Manager, rOpenSci
 Steffi LaZerte
 Community Manager Assistant
 
-## Contacting mentors the week before
+## Mentors - 1 week before {#mentors2}
 
 **Subject**: rOpenSci Mini Hackathon - Information
 
@@ -63,7 +63,7 @@ Meeting ID:
 Passcode:   
   
 
-## Contacting participants a couple of days before
+## Participants - 2-3 days before {#participants}
 
 **Subject**: rOpenSci Mini Hackathon - Information
 
@@ -97,7 +97,7 @@ Meeting ID:
 Passcode:   
 
 
-## Contacting participants one hour before
+## Participants - 1 hour before
 
 **Subject**: Reminder: rOpenSci co-working and mini-hackathon start in 1 hour
 
