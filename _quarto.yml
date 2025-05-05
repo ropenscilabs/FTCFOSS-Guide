@@ -9,7 +9,7 @@ book:
     - index.qmd
     - intro.qmd
     - commcall.qmd
-    - traslathon.qmd
+    - translathon.qmd
     - hackathon.qmd
   appendices:
     - resources.qmd
