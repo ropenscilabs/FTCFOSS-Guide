@@ -4,49 +4,458 @@
     "href": "index.html",
     "title": "FTCFOSS-Guide",
     "section": "",
-    "text": "Community-Driven Open Source: Enabling First-Time Contributors to Open Source Projects\nOver the last decade, rOpenSci has played a pivotal role in diversifying the open research software community by integrating new developers from underrepresented communities and transforming newcomers into regular contributors to our federation of scientific software various engagement channels.\n\nTo further this work, we propose to pilot a new program designed to support sustainability for scientific software packages by recruiting and mentoring contributors and co-maintainers, using community calls and coworking sessions (mini hackathons) to provide a structured yet flexible environment to onboard new participants to open-source projects in real-time.\nThis book presents the lessons learned and the organization details of these events.",
+    "text": "1 Preface",
     "crumbs": [
-      "**Community-Driven Open Source: Enabling First-Time Contributors to Open Source Projects**"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "2  Introduction",
     "section": "",
-    "text": "We piloted a new community event format for connecting new contributors to open-source scientific software and documentation translation, based on rOpenSci’s successful community call and coworking activities, and developed materials to replicate these events across software ecosystems. \nrOpenSci Community Calls are 1-hour online events with 2-5 speakers, 1 moderator, and include 20-40 minutes of discussion/Q&A. These calls serve to strengthen connections between members of the rOpenSci community, teach technical and social topics, bring different stakeholders’ perspectives to light, and identify unmet needs on a topic. Video, transcripts, notes and summaries of all our calls are published. We have hosted 43 calls with xx unique presenters attended by more than xx people from xx countries.  We attract a global audience with representation from academia, government, non-profit, and industry. In the past year we have started holding these events in Spanish and Portuguese to expand global accessibility.\nWe introduced Coworking sessions in 2021. These sessions give our members the opportunity to cowork on open-source projects with common themes. Each session features a different Community Host with expertise in the theme, facilitated by rOpenSci staff.  At these events, participants meet other scientific software developers and experts, and ask questions and receive guidance as they work. After each session we publish shared notes and resources. To date, we have hosted xx sessions. \nUsing our success hosting community calls and coworking sessions, we piloted a series of paired events with the goal of guiding community members into first-time contributions to open source scientific software and translation projects through an inclusive and supportive learning experience.  The model proposed is designed to be scalable across our federation of scientific OSS and will serve as a model for maintainers to replicate in recruiting contributors and co-maintainers. We used community calls to introduce the topics and hands-on coworking sessions to give opportunities to participate. To reduce barriers to participation and broaden the scope of involvement, we will host events in both English and Spanish. This series will kick off with an English community call on the topic of first-time contributions to open source software and introducing a set of packages from our federation seeking contributors. It will provide an overview of software package architecture, contributing guidelines, and outstanding issues. It will do so in a welcoming environment where authors and potential contributors can share experiences, address common questions, and provide esential resources. Attendees has the opportunity to ask questions and engage with new and experienced contributors in a supportive atmosphere. Following this community call will be special coworking sessions (mini hackathons), hosted by rOpenSci staff and package maintainers who will be on hand to support participants with their first contributions. Maintainers sign up to participate beforehand and prepare relevant issues for new contributors. As we expect the maintainers to go above simple package maintenance and to be supportive mentors and teachers, we will provide an honorarium. In this pilot we hosted two of these events as multilingual events in English and Spanish.\nA second set of events focus on contributing translations to documentation and message localization in open source projects.  As in the code contribution events, we pair a community call with coworking. The community call will provide guidance on how to get started with translation contributions. In the coworking events (translathons), participants work together on translating open source documentation and interfaces. These event was hosted in Portuguese and focus on Portuguese documentation translation. The event occured in conjunction with LatinR 2024.\nParticipants completed an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement. We combine these results with our learned best practices into a these guide for software maintainers for running these events.",
+    "text": "2.1 Background\nIn 2024/2025, rOpenSci piloted a new community event format for connecting new contributors to open-source scientific software and documentation translation. This event format involves pairing community calls and specialized coworking sessions with goal of guiding community members into first-time contributions to open source scientific software and translation projects through an inclusive and supportive learning experience.\nThis new format was an extension of our successful and established community call and coworking activities.\nrOpenSci Community Calls are 1-hour online events with 2-5 speakers, 1 moderator, and include 20-40 minutes of discussion/Q&A. These calls serve to strengthen connections between members of the rOpenSci community, teach technical and social topics, bring different stakeholders’ perspectives to light, and identify unmet needs on a topic. Video, transcripts, notes and summaries of all our calls are published. We have hosted 43 calls with XX unique presenters attended by more than xx people from xx countries.  We attract a global audience with representation from academia, government, non-profit, and industry. In the past year we have started holding these events in Spanish and Portuguese to expand global accessibility.\nWe introduced Coworking sessions in 2021. These sessions give our members the opportunity to cowork on open-source projects with common themes. Each session features a different Community Host with expertise in the theme, facilitated by rOpenSci staff.  At these events, participants meet other scientific software developers and experts, and ask questions and receive guidance as they work. After each session we publish shared notes and resources. To date, we have hosted XX sessions.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "commcall.html",
+    "href": "commcall.html",
+    "title": "4  Community Call",
+    "section": "",
+    "text": "4.1 Communication\nrOpenSci Community Calls are Zoom calls held several times a year featuring a panel of speakers on a specific topic with a significant Question & Answer period. Calls cover a variety of topics, from technical (“A Journey through Arrow in R”) to community (“Set Up Your Package to Foster a Community”). Most topics are in English, but we are introducing Calls in Spanish (“Proyecto Multilingüe”) as well as in Portugese(“A comunidade R fala português”, part of this Pilot)].\nFor general organizing, see our blog post “How rOpenSci Runs Community Calls” as well as our “Checklist for a Community Call”.\nIn this chapter we will address the specifics of running a Community Call to support first time contributors to open source software.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Community Call</span>"
     ]
   },
   {
     "objectID": "commcall.html#communication",
     "href": "commcall.html#communication",
-    "title": "2  Community Call",
-    "section": "2.1 Communication",
-    "text": "2.1 Communication\n\n2.1.1 Blog post\n\n\n2.1.2 Newsletter\n\n\n2.1.3 Slack\nGather stories about first time contributions from the Slack\n\n“Do you remember your first time contribution…?”\n“Do you remember the first time you helped someone contribute…?”\n\n\n\n2.1.4 Email\n\n\n2.1.5 Social Media\nHastag Live posting",
+    "title": "4  Community Call",
+    "section": "",
+    "text": "4.1.1 Blog post\n\n\n4.1.2 Newsletter\n\n\n4.1.3 Slack\nGather stories about first time contributions from the Slack\n\n“Do you remember your first time contribution…?”\n“Do you remember the first time you helped someone contribute…?”\n\n\n\n4.1.4 Email\n\n\n4.1.5 Social Media\nHastag Live posting",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Community Call</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Community Call</span>"
     ]
   },
   {
     "objectID": "traslathon.html",
     "href": "traslathon.html",
-    "title": "3  Traslathon",
+    "title": "4  Traslathon",
     "section": "",
     "text": "Details about the format.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Traslathon</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Traslathon</span>"
+    ]
+  },
+  {
+    "objectID": "hackathon.html",
+    "href": "hackathon.html",
+    "title": "6  Mini-hackathon",
+    "section": "",
+    "text": "6.1 Overview\nMini-hackathons are 2-hr events designed as a variation on the standard rOpenSci coworking format. They are a combination of a hackathon (where participants come together to make contributions to FOSS) and an rOpenSci coworking event.\nrOpenSci Coworking Sessions are generally 2-hr sessions with a primary host and a guest community host with a different theme each month. During a session, the primary host orientates participants and leads introductions. Then participants can choose work on their own projects, to socialize or discuss the monthly theme in a ‘noisy’ breakout room with the community host, or a combination of the two. The primary host arranges a break and mini-scavenger hunt in the middle and wraps up the meeting at the end.\nMini-hackathons differ from coworking (and from many hackathons) in that it is presumed that most if not all participants are attending to contribute to FOSS (possibly for the first time), there are many breakout rooms, and there are at least 5-10 mentors or maintainers to support the participants.\nIn a mini-hackathon, rOpenSci staff, mentors, and package maintainers are on hand to support participants with their first contributions. Maintainers sign up to participate beforehand and prepare relevant issues for new contributors. During the coworking session, mentors and maintainers split into different Zoom breakout rooms to chat with participants one-on-one or in small groups to support them with their contributions. All maintainers, mentors and participants are also added to a special mini-hackathon channel in the rOpenSci Slack where they can further discuss contributions after the event ends.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
     ]
   },
   {
     "objectID": "hackathon.html#infrastructure",
     "href": "hackathon.html#infrastructure",
-    "title": "4  Coworking Mini-hackathon",
-    "section": "4.1 Infrastructure",
-    "text": "4.1 Infrastructure\n\n4.1.1 AirTable\n\n\n4.1.2 GitHub Prject\nLabels\nCategories",
+    "title": "6  Mini-hackathon",
+    "section": "6.4 Infrastructure",
+    "text": "6.4 Infrastructure\n\n6.4.1 Registration\nWe used AirTable forms to collect registration from maintainers/mentors as well as participants.\nRegistration is required for maintainers/mentors as we need to ensure there are enough and we will be sending out further instructions. However, although for our for our first mini-hackathon pilot, we made registration mandatory, we didn’t feel that it was necessary, and for the second we made registration optional.\nBy having optional registration we had an idea of numbers, but simplified the process as we didn’t have to send out meeting links or deal with last minute registrants.\nWe pre-populated the coworking documents with the names of maintainer/mentors as well as registered participation, but other, unregistered participants were invited to add their names to the end.\n\nCoworking documeent\n\n\n\n6.4.2 GitHub Project\nLabels\nCategories",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Coworking Mini-hackathon</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#pilot",
+    "href": "intro.html#pilot",
+    "title": "2  Introduction",
+    "section": "2.2 Pilot",
+    "text": "2.2 Pilot\nIn 2024/2025 we hosted two sets of paired events to suppport first time contributors to open source software. We used community calls to introduce the topics and hands-on coworking sessions to give opportunities for participation. This format is designed to be scalable across our federation of scientific OSS and will serve as a model for maintainers to replicate in recruiting contributors and co-maintainers.\nThe first set of events were designed to support first-time contributors to open source Translation projects, using rOpenSci’s Portugese translation projects as an example. To this end, in November 2025 we hosted a Portugese Community Call (A comunidade R fala português) followed by a mini-translathon at LatinR.\nThe second set of events were designed to support first-time contributors to open source R packages. In Januaray 2025 we hosted an English Community Call (From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS), followed by two mini-hackathon coworking sessions in Februrary and March.\n\n2.2.1 Pilot Feedback\nAs part of each hands-on mini-hackathon or translation, participants completed an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.\nTODO: ADD GENERAL, summarized Feedback\nIn this guide we share resources and lessons learned from hosting these events.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "hackathon.html#community-call",
+    "href": "hackathon.html#community-call",
+    "title": "6  Mini-hackathon",
+    "section": "6.2 Community Call",
+    "text": "6.2 Community Call\nIt will provide an overview of software package architecture, contributing guidelines, and outstanding issues. It will do so in a welcoming environment where authors and potential contributors can share experiences, address common questions, and provide esential resources. Attendees has the opportunity to ask questions and engage with new and experienced contributors in a supportive atmosphere.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
+    ]
+  },
+  {
+    "objectID": "hackathon.html#mini-hackathons",
+    "href": "hackathon.html#mini-hackathons",
+    "title": "6  Mini-hackathon",
+    "section": "6.3 Mini-Hackathons",
+    "text": "6.3 Mini-Hackathons\nHosted by rOpenSci staff and package maintainers who will be on hand to support participants with their first contributions. Maintainers sign up to participate beforehand and prepare relevant issues for new contributors. As we expect the maintainers to go above simple package maintenance and to be supportive mentors and teachers, we will provide an honorarium. In this pilot we hosted two of these events as multilingual events in English and Spanish.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
+    ]
+  },
+  {
+    "objectID": "hackathon.html#tasks",
+    "href": "hackathon.html#tasks",
+    "title": "6  Mini-hackathon",
+    "section": "6.3 Tasks",
+    "text": "6.3 Tasks\n\nOpen Call to Mentors (blog)\nOpen Call to Participants (blog)\nChoose dates\nMentors\nAttendees\n\n\n6.3.1 Choosing dates\nIt’s important to choose dates that reflect the availability of our mentors, but also give a reasonable level of international coverage. We chose a European Australian time zones to cover as much time as possible, but these times may still be too early/late for those living in",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html",
+    "href": "templates_emails.html",
+    "title": "Appendix B — Email templates",
+    "section": "",
+    "text": "B.1 Mentors - 2 weeks before\nSubject: rOpenSci Mini Hackathon - Preparation\nHi Everyone!\nWe’re looking forward to our second Mini-hackathon coworking session in two weeks, March 4th, 13:00–15:00 UTC (find your local time). Some of you have signed up as Package Maintainers, and some as Mentors to help guide participants during the hackathon. We’ll send out details of how things will go next week, but in the meantime we wanted to give Package Maintainers some suggestions for preparing.\nBefore the hackathon we ask that Maintainers take a bit of time to create and/or label issues in your packages. In our first minihackathon we found that small ‘bite-size’ tasks were the most appealing, and small coding-related tasks especially so.\nConsider issues for things like adding simple tests (e.g., testing that functions fail correctly), or adding argument checks to an existing function (e.g., ensure that the function fails informatively given incorrect inputs). You can run test coverage on your package to identify lines that need coverage which might be straightforward to address. Another thing that you can consider is addressing problems identified by ‘goodpractice’ (we’d suggest running this beforehand and creating specific issues for the items identified). Updating the README or clarifying the CONTRIBUTING guide are also useful, yet manageable tasks.\nMake sure you use the label “ro-hackathon-2025” so we can find it and add the issue to our master list. Also consider labels such as “help wanted” and “good first issue”. There may be participants who have more advanced skills so feel free to label some non-beginner issues with “ro-hackathon-2025” as well.\nWe’ve created a channel called “ro-hackathon-2025” in the rOpenSci Slack and have added those of you who are already in this Slack. If you are not in our workspace, you will get an invitation from Yani nearer to the event.\nFeel free to advertise this event in your circles or social media!\nLet us know if you have any questions or would like any help or feedback on anything,\nYani Bellini Saibene Community Manager, rOpenSci\nSteffi LaZerte Community Manager Assistant",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html#contacting-mentors-the-week-before",
+    "href": "templates_emails.html#contacting-mentors-the-week-before",
+    "title": "Appendix B — Email templates",
+    "section": "B.2 Contacting mentors the week before",
+    "text": "B.2 Contacting mentors the week before\nSubject: rOpenSci Mini Hackathon - Information\nHi Everyone!\nWe’re looking forward to our second Mini-hackathon coworking session next week, MONTH DAYth, HH:MM–HH:MM UTC (find your local time). This will be on Zoom (details on the event page and below) and Yani and Steffi will be available to help out.\nBefore the hackathon\nAs a reminder, we ask that Maintainers take a bit of time before the event to create and/or label issues in your packages. Remember to use the “ro-hackathon-2025” label and let us know if you have any questions or need any help with this.\nDuring the hackathon\nWe will do a brief introduction and ask Maintainers and Mentors to introduce themselves.. Once we get started we will ask Mentors to hang out in specific topic breakout rooms (e.g., “git/GitHub”) for at least the first 5 min to see if any participants would like to chat. After that they are free to roam about the rooms, helping as they like. Maintainers can claim a breakout room to chat with participants wanting to work on their package or can move about among the rooms. Participants may need some time to get oriented with what tasks are available and how to start working on them. Remember that some participants may be raw beginners, so help them find an appropriate issue to tackle and be encouraging and patient. This will be a coworking session, so people can dive in with getting started but still have others around to help or answer questions.\nAfter the hackathon\nEveryone who participated in the hackathon will be added to a special Slack channel so conversations can continue asynchronously. We suspect that some participants may not finish all they hope to do during the coworking session itself, so we hope that both Maintainers and Mentors will have some availability to answer questions that may come up on the Slack channel in the week following the event (Yani and Steffi will be available too). Yani will also contact you regarding your stipend to help offset the costs of your time for this amazing work!\nWe’re looking forward to seeing you next week, let us know if you have any questions!\nYani Bellini Saibene\nCommunity Manager, rOpenSci\nSteffi LaZerte\nCommunity Manager Assistant\nZoom info:\nLink:\nMeeting ID:\nPasscode:",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html#contacting-participants-a-couple-of-days-before",
+    "href": "templates_emails.html#contacting-participants-a-couple-of-days-before",
+    "title": "Appendix B — Email templates",
+    "section": "B.3 Contacting participants a couple of days before",
+    "text": "B.3 Contacting participants a couple of days before\nSubject: rOpenSci Mini Hackathon - Information\nHi Everyone!\nWe’re looking forward to our second Mini-hackathon coworking session next week, March 4th, 13:00–15:00 UTC (find your local time; Zoom details on the event page and below). We just wanted to check in and give you an overview of how things will go.\nBefore the hackathon\nMost of our packages are on GitHub, so you need to have a GitHub user account.\nDuring the hackathon\nWe will have a list of issues prepared by package maintainers and other experienced mentors available to help guide you. You may want to ask Maintainers to explain details of an issue or package, or you may want to ask any of the Mentors about the basics of git and GitHub (see also Developing Software Together and Happy Git and GitHub for the useR if you’d like to get a head start). This will be a coworking session, so you can dive in with getting started on making a contribution, but still have others around to help or answer questions.\nAfter the hackathon\nEveryone who participated in the hackathon will be added to a special Slack channel so conversations can continue asynchronously. We suspect that some participants may not finish all they hope to do during the coworking session itself, so this channel will be a place where you can ask follow up questions in the week following the event.\nWe’re looking forward to seeing you next week, let us know if you have any questions!\nYani Bellini Saibene\nCommunity Manager, rOpenSci\nSteffi LaZerte\nCommunity Manager Assistant\nZoom info:\nLink:\nMeeting ID:\nPasscode:",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html#contacting-participants-one-hour-before",
+    "href": "templates_emails.html#contacting-participants-one-hour-before",
+    "title": "Appendix B — Email templates",
+    "section": "B.4 Contacting participants one hour before",
+    "text": "B.4 Contacting participants one hour before\nSubject: Reminder: rOpenSci co-working and mini-hackathon start in 1 hour\nHi everyone! This email is a friendly reminder that our Co-Working Sessions on First-Time Contributions will start in one hour.\nZoom information:\nSee you all there!\nYanina Bellini Saibene\nrOpenSci Community Manager\nSteffi LaZerte\nCommunity Manager Assistant",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_forms.html",
+    "href": "templates_forms.html",
+    "title": "Appendix C — Form templates",
+    "section": "",
+    "text": "C.1 Registration for mentors\nCall for rOpenSci Maintainers to Support First-Time Contributors\nWelcome! We are looking for maintainers of rOpenSci packages or R packages maintainers to participate in coworking events designed to support people making first-time contributions. If you are interested in participating please fill out this form. Please contact [CONTACT 1] or [CONTACT 2] if you have any questions, or check out the blog post announcement [ADD BLOG POST LINK].\nThen, if participating, we ask that maintainers:\nIf you participate, you can also expect that:\nWith the support of [FUNDER].\nForm fields",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Form templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_forms.html#registration-for-mentors",
+    "href": "templates_forms.html#registration-for-mentors",
+    "title": "Appendix C — Form templates",
+    "section": "",
+    "text": "Work with rOpenSci staff to pick dates/times for the coworking events which best work for everyone.\nCreate and/or identify issues in your rOpenSci repository as ‘Help wanted’ and ‘Good first issue’.\nThese can range from documentation to coding changes. We just ask that some issues are relatively accessible to contributors with less experience.\nAttend one of the Coworking sessions to be available to offer advice or answer questions.\nHave some availability before and after the Coworking event to respond via GitHub and Slack to issues, comments, or PRs which may arise from contributors outside of the two-hour coworking slot.\n\n\n\nWe will connect with you before the events to find a date/time for the coworking sessions and see if you have any questions regarding issue-labelling or the coworking sessions.\nWe will be available to support you during the Coworking sessions on Zoom, as well as on GitHub, Slack, or by email before and after.\nYou will receive a $[XXX] USD stipend to help offset the time you spend teaching and mentoring these new contributors.\n\n\n\n\nFull Name\nYour email\nTimezone - Which timezone will you be in during the events? This information helps us to organize the events\nWhich rOpenSci package(s) would you like to invite contribution for?\nIf you have more the one package, please list them below\nWhy would you like to participate? 2-3 sentences",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Form templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_forms.html#registration-for-attendees",
+    "href": "templates_forms.html#registration-for-attendees",
+    "title": "Appendix C — Form templates",
+    "section": "C.2 Registration for attendees",
+    "text": "C.2 Registration for attendees\nJoin rOpenSci Minihackathons!\nThese collaborative events [ADD BLOG POST LINK] are designed to help first-time contributors get started with open-source projects. Whether you’re improving documentation, reviewing translations, fixing bugs, or adding new features, our mentors will guide you every step of the way.\nNo prior experience required. Non-first time contributors are very welcome too—just bring your curiosity and enthusiasm!\nEvents are open and free.\nWith the support of [FUNDER].\nPlease, fill out this form to register for the events. We require this information to organize the meetings with mentors, breakout rooms and resources.\nForm fields\n\nFull Name*\nEmail* This email address will be used to send event information (zoom link and other resources) and the Slack channel invitation to interact before, during and after the event.\nPronouns Please indicate your pronouns (example: she, they, he)\nCountry*\nMeetings*\nChoose the meeting(s) you plan to attend [Drop down menu]\n\nMessage after they register:\nThank you for registering for rOpenSci coworking and minihackathons for contributions to FOSS. You will get an email with the event information soon. Feel free to contact us at info@ropensci.org if you have any questions about these events.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Form templates</span>"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Appendix A — Resources",
+    "section": "",
+    "text": "A.1 Pilot project 2024-2025",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "resources.html#pilot-project-2024-2025",
+    "href": "resources.html#pilot-project-2024-2025",
+    "title": "Appendix A — Resources",
+    "section": "",
+    "text": "Community calls\n\nA comunidade R fala português (Nov 6 2025)\nFrom Novice to Contributor: Making and Supporting First-Time Contributions to FOSS (Jan 20 2025)\n\nBlog posts\n\nLooking for Maintainers to Support First-Time Contributors (Oct 22 2024)\nCoworking Mini-Hackathon for First-Time Contributors (Jan 24 2025)\nAttract Contributors with ‘help wanted’ Issues (Sep 19 2013)\n\nEvent listings\n\nCoworking Mini-Hackathon for First-Time Contributors! (Feb 4 2025 & Mar 4 2025)\n\nCoworking mini-translathons\n\nXXXX\n\nCoworking mini-hackathons\n\nCoworking Document (Mar 4 2025)\nSlides\nGitHub Issues Search\nGitHub Issues Project Board",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#community-driven-open-source-enabling-first-time-contributors-to-open-source-projects",
+    "href": "index.html#community-driven-open-source-enabling-first-time-contributors-to-open-source-projects",
+    "title": "FTCFOSS-Guide",
+    "section": "Community-Driven Open Source:Enabling First-Time Contributors to Open Source Projects",
+    "text": "Community-Driven Open Source:Enabling First-Time Contributors to Open Source Projects\nOver the last decade, rOpenSci has played a pivotal role in diversifying the open research software community by integrating new developers from underrepresented communities and transforming newcomers into regular contributors to our federation of scientific software various engagement channels.\nTo further this work, in 2024 we proposed to pilot a new program designed to support sustainability for scientific software packages by recruiting and mentoring contributors and co-maintainers, using community calls and coworking sessions (mini hackathons) to provide a structured yet flexible environment to onboard new participants to open-source projects in real-time.\nThis book presents the lessons learned and the organization details of these events. While instructions and notes are presented within an rOpenSci context, we hope that they are clear enough that they could be adapted as a model for use in other organizations.\nTODO: Statement about how to give feedback on this guide.\nTODO: Add details about NumFocus grant and thank funders",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "event-overview.html",
+    "href": "event-overview.html",
+    "title": "3  Events Overview",
+    "section": "",
+    "text": "3.1 Timeline - Translathons\nHere we have a rough overview of the projected timeline for running a set of events. One set of events consists of a Community Call paired with 1-2 hands-on mini hackathons or translathons.\nSee the relevant chapter for specific details for organizing a specific event type.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Events Overview</span>"
+    ]
+  },
+  {
+    "objectID": "translathon.html",
+    "href": "translathon.html",
+    "title": "5  Mini-translathon",
+    "section": "",
+    "text": "Details about the format.\nThe community call provided guidance on how to get started with translation contributions. In the coworking events (translathons), participants work together on translating open source documentation and interfaces. These event was hosted in Portuguese and focus on Portuguese documentation translation. The event occured in conjunction with LatinR 2024.\nParticipants completed an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathon</span>"
+    ]
+  },
+  {
+    "objectID": "event-overview.html#timeline",
+    "href": "event-overview.html#timeline",
+    "title": "3  Event Overview",
+    "section": "",
+    "text": "Chp\nTask\nPlatform\n\n\n\n\n2\nContact potential panelists and moderators for Community Call\nEmail etc.\n\n\n2\nChoose date for Community call with participants’ input\n\n\n\n2\nAdvertise Community call\nWebsite / Social Media\n\n\n2\nChoose date(s) for mini-hackathon/translathon1\n\n\n\n2\nOpen call for mentors/maintainers at hands-on events\nBlog / Registration2\n\n\n2\nAdvertise Mini-hackathon(s)/translathon(s)\nWebsite / Social Media\n\n\n2\nOpen call for participants at hands-on event(s)\nBlog / Registration3\n\n\n2\nRun Community Call\nZoom / Docs\n\n\n2\nRun mini-hackathon(s)/translathon(s)\nZoom / Docs",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Event Overview</span>"
+    ]
+  },
+  {
+    "objectID": "event-overview.html#footnotes",
+    "href": "event-overview.html#footnotes",
+    "title": "3  Events Overview",
+    "section": "",
+    "text": "In our pilot we had opened the call for mentors before setting a date. We then used a poll to decide on appropriate dates for the mini-hackathon. This made it difficult for mentors to commit to the event, as we were asking for expressions of interest before we had a date, so for future, generic events we suggest picking a date first.  However, if conducting domain-specific events, then it could be worth contacting mentor/maintainers first and then organizing the events in tandem with their schedules (similar to Community Calls).↩︎\nRegistration is required for mentor/maintainers as we need to ensure there are enough and we will be sending out further instructions.↩︎\nFor our first mini-hackathon, we required registration, but for the second we made registration optional. This helped us have an idea of numbers, but simplified the process as we didn’t have to send out meeting links or deal with last minute registrants.↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Events Overview</span>"
+    ]
+  },
+  {
+    "objectID": "event-overview.html#timeline---translathons",
+    "href": "event-overview.html#timeline---translathons",
+    "title": "3  Events Overview",
+    "section": "",
+    "text": "Chp\nTask\nPlatform\n\n\n\n\n2\nContact potential panelists and moderators for Community Call\nEmail etc.\n\n\n2\nChoose date for Community call with participants’ input\n\n\n\n2\nAdvertise Community call\nWebsite / Social Media\n\n\n5/6\nChoose date(s) for mini-hackathon/translathon\n\n\n\n5/6\nOpen call for mentors/maintainers at hands-on events\nBlog / Registration\n\n\n5/6\nAdvertise Mini-hackathon(s)/translathon(s)\nWebsite / Social Media\n\n\n5/6\nOpen call for participants at hands-on event(s)\nBlog / Registration\n\n\n2\nRun Community Call\nZoom / Docs\n\n\n5/6\nRun mini-hackathon(s)/translathon(s)\nZoom / Docs\n\n\n5/6\nEvaluate participant feedback",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Events Overview</span>"
+    ]
+  },
+  {
+    "objectID": "event-overview.html#timeline---hackathons",
+    "href": "event-overview.html#timeline---hackathons",
+    "title": "3  Events Overview",
+    "section": "3.2 Timeline - Hackathons",
+    "text": "3.2 Timeline - Hackathons\n\n\n\nChp\nTask\nPlatform\n\n\n\n\n2\nContact potential panelists and moderators for Community Call\nEmail etc.\n\n\n2\nChoose date for Community call with participants’ input\n\n\n\n5\nAdvertise Community call\nWebsite / Social Media\n\n\n5\nChoose date(s) for mini-hackathon/translathon4\n\n\n\n5\nOpen call for mentors/maintainers at hands-on events\nBlog / Registration5\n\n\n5\nAdvertise Mini-hackathon(s)/translathon(s)\nWebsite / Social Media\n\n\n5\nOpen call for participants at hands-on event(s)\nBlog / Registration6\n\n\n2\nRun Community Call\nZoom / Docs\n\n\n5\nRun mini-hackathon(s)/translathon(s)\nZoom / Docs",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Events Overview</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html#mentors---1-week-before",
+    "href": "templates_emails.html#mentors---1-week-before",
+    "title": "Appendix B — Email templates",
+    "section": "B.2 Mentors - 1 week before",
+    "text": "B.2 Mentors - 1 week before\nSubject: rOpenSci Mini Hackathon - Information\nHi Everyone!\nWe’re looking forward to our second Mini-hackathon coworking session next week, MONTH DAYth, HH:MM–HH:MM UTC (find your local time). This will be on Zoom (details on the event page and below) and Yani and Steffi will be available to help out.\nBefore the hackathon\nAs a reminder, we ask that Maintainers take a bit of time before the event to create and/or label issues in your packages. Remember to use the “ro-hackathon-2025” label and let us know if you have any questions or need any help with this.\nDuring the hackathon\nWe will do a brief introduction and ask Maintainers and Mentors to introduce themselves.. Once we get started we will ask Mentors to hang out in specific topic breakout rooms (e.g., “git/GitHub”) for at least the first 5 min to see if any participants would like to chat. After that they are free to roam about the rooms, helping as they like. Maintainers can claim a breakout room to chat with participants wanting to work on their package or can move about among the rooms. Participants may need some time to get oriented with what tasks are available and how to start working on them. Remember that some participants may be raw beginners, so help them find an appropriate issue to tackle and be encouraging and patient. This will be a coworking session, so people can dive in with getting started but still have others around to help or answer questions.\nAfter the hackathon\nEveryone who participated in the hackathon will be added to a special Slack channel so conversations can continue asynchronously. We suspect that some participants may not finish all they hope to do during the coworking session itself, so we hope that both Maintainers and Mentors will have some availability to answer questions that may come up on the Slack channel in the week following the event (Yani and Steffi will be available too). Yani will also contact you regarding your stipend to help offset the costs of your time for this amazing work!\nWe’re looking forward to seeing you next week, let us know if you have any questions!\nYani Bellini Saibene\nCommunity Manager, rOpenSci\nSteffi LaZerte\nCommunity Manager Assistant\nZoom info:\nLink:\nMeeting ID:\nPasscode:",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html#participants-a-couple-of-days-before",
+    "href": "templates_emails.html#participants-a-couple-of-days-before",
+    "title": "Appendix B — Email templates",
+    "section": "B.3 Participants a couple of days before",
+    "text": "B.3 Participants a couple of days before\nSubject: rOpenSci Mini Hackathon - Information\nHi Everyone!\nWe’re looking forward to our second Mini-hackathon coworking session next week, March 4th, 13:00–15:00 UTC (find your local time; Zoom details on the event page and below). We just wanted to check in and give you an overview of how things will go.\nBefore the hackathon\nMost of our packages are on GitHub, so you need to have a GitHub user account.\nDuring the hackathon\nWe will have a list of issues prepared by package maintainers and other experienced mentors available to help guide you. You may want to ask Maintainers to explain details of an issue or package, or you may want to ask any of the Mentors about the basics of git and GitHub (see also Developing Software Together and Happy Git and GitHub for the useR if you’d like to get a head start). This will be a coworking session, so you can dive in with getting started on making a contribution, but still have others around to help or answer questions.\nAfter the hackathon\nEveryone who participated in the hackathon will be added to a special Slack channel so conversations can continue asynchronously. We suspect that some participants may not finish all they hope to do during the coworking session itself, so this channel will be a place where you can ask follow up questions in the week following the event.\nWe’re looking forward to seeing you next week, let us know if you have any questions!\nYani Bellini Saibene\nCommunity Manager, rOpenSci\nSteffi LaZerte\nCommunity Manager Assistant\nZoom info:\nLink:\nMeeting ID:\nPasscode:",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html#participants---couple-of-days-before",
+    "href": "templates_emails.html#participants---couple-of-days-before",
+    "title": "Appendix B — Email templates",
+    "section": "B.3 Participants - Couple of days before",
+    "text": "B.3 Participants - Couple of days before\nSubject: rOpenSci Mini Hackathon - Information\nHi Everyone!\nWe’re looking forward to our second Mini-hackathon coworking session next week, March 4th, 13:00–15:00 UTC (find your local time; Zoom details on the event page and below). We just wanted to check in and give you an overview of how things will go.\nBefore the hackathon\nMost of our packages are on GitHub, so you need to have a GitHub user account.\nDuring the hackathon\nWe will have a list of issues prepared by package maintainers and other experienced mentors available to help guide you. You may want to ask Maintainers to explain details of an issue or package, or you may want to ask any of the Mentors about the basics of git and GitHub (see also Developing Software Together and Happy Git and GitHub for the useR if you’d like to get a head start). This will be a coworking session, so you can dive in with getting started on making a contribution, but still have others around to help or answer questions.\nAfter the hackathon\nEveryone who participated in the hackathon will be added to a special Slack channel so conversations can continue asynchronously. We suspect that some participants may not finish all they hope to do during the coworking session itself, so this channel will be a place where you can ask follow up questions in the week following the event.\nWe’re looking forward to seeing you next week, let us know if you have any questions!\nYani Bellini Saibene\nCommunity Manager, rOpenSci\nSteffi LaZerte\nCommunity Manager Assistant\nZoom info:\nLink:\nMeeting ID:\nPasscode:",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html#participants---1-hour-before",
+    "href": "templates_emails.html#participants---1-hour-before",
+    "title": "Appendix B — Email templates",
+    "section": "B.4 Participants - 1 hour before",
+    "text": "B.4 Participants - 1 hour before\nSubject: Reminder: rOpenSci co-working and mini-hackathon start in 1 hour\nHi everyone! This email is a friendly reminder that our Co-Working Sessions on First-Time Contributions will start in one hour.\nZoom information:\nSee you all there!\nYanina Bellini Saibene\nrOpenSci Community Manager\nSteffi LaZerte\nCommunity Manager Assistant",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html#participants---2-3-of-days-before",
+    "href": "templates_emails.html#participants---2-3-of-days-before",
+    "title": "Appendix B — Email templates",
+    "section": "B.3 Participants - 2-3 of days before",
+    "text": "B.3 Participants - 2-3 of days before\nSubject: rOpenSci Mini Hackathon - Information\nHi Everyone!\nWe’re looking forward to our second Mini-hackathon coworking session next week, March 4th, 13:00–15:00 UTC (find your local time; Zoom details on the event page and below). We just wanted to check in and give you an overview of how things will go.\nBefore the hackathon\nMost of our packages are on GitHub, so you need to have a GitHub user account.\nDuring the hackathon\nWe will have a list of issues prepared by package maintainers and other experienced mentors available to help guide you. You may want to ask Maintainers to explain details of an issue or package, or you may want to ask any of the Mentors about the basics of git and GitHub (see also Developing Software Together and Happy Git and GitHub for the useR if you’d like to get a head start). This will be a coworking session, so you can dive in with getting started on making a contribution, but still have others around to help or answer questions.\nAfter the hackathon\nEveryone who participated in the hackathon will be added to a special Slack channel so conversations can continue asynchronously. We suspect that some participants may not finish all they hope to do during the coworking session itself, so this channel will be a place where you can ask follow up questions in the week following the event.\nWe’re looking forward to seeing you next week, let us know if you have any questions!\nYani Bellini Saibene\nCommunity Manager, rOpenSci\nSteffi LaZerte\nCommunity Manager Assistant\nZoom info:\nLink:\nMeeting ID:\nPasscode:",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "hackathon.html#mentors-maintainers",
+    "href": "hackathon.html#mentors-maintainers",
+    "title": "6  Mini-hackathon",
+    "section": "6.2 Mentors / Maintainers",
+    "text": "6.2 Mentors / Maintainers\nThe goal of mini-hackathons is less that open source projects receive attention, and more that participants have a good experience from which they learn how to make contributions, and gain the confidence/motivation to continue making contributions. Therefore, the core idea of the mini-hackathon is that it is a live and synchronous event, and that there will be active and immediate support for participants.\nAs such it is important to ensure that sufficient maintainers and mentors are present. Maintainers are mentors who maintain an R package to which they will be supporting contributions. Mentors are mentors who are not expliciting supporting contributions to their own R package, but who will be generally helping participants learn how to make contributions to other packages.\nBecause this work doesn’t necessarily directly benefit the maintainer/mentor and may require extra work to prepare an R package for contributions of this nature, we suggest offering maintainers/mentors an honorarium to help equalize participation by offsetting the cost of their time.\n\nIn our 2024/2025 pilot we applied received funding from NumFocus to offer Mentors/Maintainers a $200 USD honorarium for participating in the mini-hackathons.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
+    ]
+  },
+  {
+    "objectID": "hackathon.html#maintainers-mentors",
+    "href": "hackathon.html#maintainers-mentors",
+    "title": "6  Mini-hackathon",
+    "section": "6.2 Maintainers / Mentors",
+    "text": "6.2 Maintainers / Mentors\nThe goal of mini-hackathons is less that open source projects receive attention, and more that participants have a good experience from which they learn how to make contributions, and gain the confidence/motivation to continue making contributions. Therefore, the core idea of the mini-hackathon is that it is a live and synchronous event, and that there will be active and immediate support for participants.\nAs such it is important to ensure that sufficient maintainers and mentors are present. Maintainers are those who maintain an R package to which they will be supporting contributions. Mentors are those who are not expliciting supporting contributions to their own R package, but who will be generally helping participants learn how to make contributions to other packages.\nBecause this work doesn’t necessarily directly benefit the maintainer/mentor and may require extra work to prepare an R package for contributions of this nature, we suggest offering maintainers/mentors an honorarium to help equalize participation by offsetting the cost of their time.\n\nIn our 2024/2025 pilot we applied received funding from NumFocus to offer Mentors/Maintainers a $200 USD honorarium for participating in the mini-hackathons.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
+    ]
+  },
+  {
+    "objectID": "hackathon.html#timeline",
+    "href": "hackathon.html#timeline",
+    "title": "6  Mini-hackathon",
+    "section": "6.3 Timeline",
+    "text": "6.3 Timeline\n(See Events Overview for the full timeline of paired events.\n\n\n\nTask\nPlatform\n\n\n\n\nChoose date(s) for mini-hackathon/translathon\n\n\n\nOpen call for mentors/maintainers at hands-on events\nBlog / Registration\n\n\nAdvertise Mini-hackathon(s)/translathon(s)\nWebsite / Social Media\n\n\nOpen call for participants at hands-on event(s)\nBlog / Registration\n\n\nSend instructions to maintainers\nEmail (Labelling & Process)\n\n\nSend instructions to participants\nEmail (Process)\n\n\nRun mini-hackathon(s)/translathon(s)\nZoom / Docs / Issues / Project Board\n\n\nEvaluate participant feedback\n\n\n\n\n\n6.3.1 Choosing dates\nIn our pilot we had opened the call for mentors before setting a date. We then used a poll to decide on appropriate dates for the mini-hackathon. This made it difficult for mentors to commit to the event, as we were asking for expressions of interest before we had a date, so for future, generic events we suggest picking a date first.\n\nHowever, if conducting domain-specific events, then it could be worth contacting mentor/maintainers first and then organizing the events in tandem with their schedules (similar to Community Calls).\nRegardless of when dates are set, if arranging several events, choose dates which give a reasonable level of international coverage.\n\nIn our pilot, we had two events, and so chose European and Australian time zones to cover as much time as possible.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
+    ]
+  },
+  {
+    "objectID": "hackathon.html#resources",
+    "href": "hackathon.html#resources",
+    "title": "6  Mini-hackathon",
+    "section": "6.5 Resources",
+    "text": "6.5 Resources\n\n[Blog] Looking for Maintainers to Support First-Time Contributors (Oct 22 2024)\n[Blog] Coworking Mini-Hackathon for First-Time Contributors (Jan 24 2025)\n[Blog] Attract Contributors with ‘help wanted’ Issues (Sep 19 2013)\n[Event] Coworking Mini-Hackathon for First-Time Contributors! (Feb 4 2025 & Mar 4 2025)\nCoworking Document (Mar 4 2025)\nSlides\nGitHub Issues Search\nGitHub Issues Project Board",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html#participants---2-3-days-before-participants",
+    "href": "templates_emails.html#participants---2-3-days-before-participants",
+    "title": "Appendix B — Email templates",
+    "section": "B.3 Participants - 2-3 days before (#participants)",
+    "text": "B.3 Participants - 2-3 days before (#participants)\nSubject: rOpenSci Mini Hackathon - Information\nHi Everyone!\nWe’re looking forward to our second Mini-hackathon coworking session next week, March 4th, 13:00–15:00 UTC (find your local time; Zoom details on the event page and below). We just wanted to check in and give you an overview of how things will go.\nBefore the hackathon\nMost of our packages are on GitHub, so you need to have a GitHub user account.\nDuring the hackathon\nWe will have a list of issues prepared by package maintainers and other experienced mentors available to help guide you. You may want to ask Maintainers to explain details of an issue or package, or you may want to ask any of the Mentors about the basics of git and GitHub (see also Developing Software Together and Happy Git and GitHub for the useR if you’d like to get a head start). This will be a coworking session, so you can dive in with getting started on making a contribution, but still have others around to help or answer questions.\nAfter the hackathon\nEveryone who participated in the hackathon will be added to a special Slack channel so conversations can continue asynchronously. We suspect that some participants may not finish all they hope to do during the coworking session itself, so this channel will be a place where you can ask follow up questions in the week following the event.\nWe’re looking forward to seeing you next week, let us know if you have any questions!\nYani Bellini Saibene\nCommunity Manager, rOpenSci\nSteffi LaZerte\nCommunity Manager Assistant\nZoom info:\nLink:\nMeeting ID:\nPasscode:",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html#participants",
+    "href": "templates_emails.html#participants",
+    "title": "Appendix B — Email templates",
+    "section": "B.3 Participants - 2-3 days before",
+    "text": "B.3 Participants - 2-3 days before\nSubject: rOpenSci Mini Hackathon - Information\nHi Everyone!\nWe’re looking forward to our second Mini-hackathon coworking session next week, March 4th, 13:00–15:00 UTC (find your local time; Zoom details on the event page and below). We just wanted to check in and give you an overview of how things will go.\nBefore the hackathon\nMost of our packages are on GitHub, so you need to have a GitHub user account.\nDuring the hackathon\nWe will have a list of issues prepared by package maintainers and other experienced mentors available to help guide you. You may want to ask Maintainers to explain details of an issue or package, or you may want to ask any of the Mentors about the basics of git and GitHub (see also Developing Software Together and Happy Git and GitHub for the useR if you’d like to get a head start). This will be a coworking session, so you can dive in with getting started on making a contribution, but still have others around to help or answer questions.\nAfter the hackathon\nEveryone who participated in the hackathon will be added to a special Slack channel so conversations can continue asynchronously. We suspect that some participants may not finish all they hope to do during the coworking session itself, so this channel will be a place where you can ask follow up questions in the week following the event.\nWe’re looking forward to seeing you next week, let us know if you have any questions!\nYani Bellini Saibene\nCommunity Manager, rOpenSci\nSteffi LaZerte\nCommunity Manager Assistant\nZoom info:\nLink:\nMeeting ID:\nPasscode:",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_emails.html#mentors2",
+    "href": "templates_emails.html#mentors2",
+    "title": "Appendix B — Email templates",
+    "section": "B.2 Mentors - 1 week before",
+    "text": "B.2 Mentors - 1 week before\nSubject: rOpenSci Mini Hackathon - Information\nHi Everyone!\nWe’re looking forward to our second Mini-hackathon coworking session next week, MONTH DAYth, HH:MM–HH:MM UTC (find your local time). This will be on Zoom (details on the event page and below) and Yani and Steffi will be available to help out.\nBefore the hackathon\nAs a reminder, we ask that Maintainers take a bit of time before the event to create and/or label issues in your packages. Remember to use the “ro-hackathon-2025” label and let us know if you have any questions or need any help with this.\nDuring the hackathon\nWe will do a brief introduction and ask Maintainers and Mentors to introduce themselves.. Once we get started we will ask Mentors to hang out in specific topic breakout rooms (e.g., “git/GitHub”) for at least the first 5 min to see if any participants would like to chat. After that they are free to roam about the rooms, helping as they like. Maintainers can claim a breakout room to chat with participants wanting to work on their package or can move about among the rooms. Participants may need some time to get oriented with what tasks are available and how to start working on them. Remember that some participants may be raw beginners, so help them find an appropriate issue to tackle and be encouraging and patient. This will be a coworking session, so people can dive in with getting started but still have others around to help or answer questions.\nAfter the hackathon\nEveryone who participated in the hackathon will be added to a special Slack channel so conversations can continue asynchronously. We suspect that some participants may not finish all they hope to do during the coworking session itself, so we hope that both Maintainers and Mentors will have some availability to answer questions that may come up on the Slack channel in the week following the event (Yani and Steffi will be available too). Yani will also contact you regarding your stipend to help offset the costs of your time for this amazing work!\nWe’re looking forward to seeing you next week, let us know if you have any questions!\nYani Bellini Saibene\nCommunity Manager, rOpenSci\nSteffi LaZerte\nCommunity Manager Assistant\nZoom info:\nLink:\nMeeting ID:\nPasscode:",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Email templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_forms.html#mentors",
+    "href": "templates_forms.html#mentors",
+    "title": "Appendix C — Form templates",
+    "section": "",
+    "text": "Work with rOpenSci staff to pick dates/times for the coworking events which best work for everyone.\nCreate and/or identify issues in your rOpenSci repository as ‘Help wanted’ and ‘Good first issue’.\nThese can range from documentation to coding changes. We just ask that some issues are relatively accessible to contributors with less experience.\nAttend one of the Coworking sessions to be available to offer advice or answer questions.\nHave some availability before and after the Coworking event to respond via GitHub and Slack to issues, comments, or PRs which may arise from contributors outside of the two-hour coworking slot.\n\n\n\nWe will connect with you before the events to find a date/time for the coworking sessions and see if you have any questions regarding issue-labelling or the coworking sessions.\nWe will be available to support you during the Coworking sessions on Zoom, as well as on GitHub, Slack, or by email before and after.\nYou will receive a $[XXX] USD stipend to help offset the time you spend teaching and mentoring these new contributors.\n\n\n\n\nFull Name\nYour email\nTimezone - Which timezone will you be in during the events? This information helps us to organize the events\nWhich rOpenSci package(s) would you like to invite contribution for?\nIf you have more the one package, please list them below\nWhy would you like to participate? 2-3 sentences",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Form templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates_forms.html#participants",
+    "href": "templates_forms.html#participants",
+    "title": "Appendix C — Form templates",
+    "section": "C.2 Registration for participants",
+    "text": "C.2 Registration for participants\nJoin rOpenSci Minihackathons!\nThese collaborative events [ADD BLOG POST LINK] are designed to help first-time contributors get started with open-source projects. Whether you’re improving documentation, reviewing translations, fixing bugs, or adding new features, our mentors will guide you every step of the way.\nNo prior experience required. Non-first time contributors are very welcome too—just bring your curiosity and enthusiasm!\nEvents are open and free.\nWith the support of [FUNDER].\nPlease, fill out this form to register for the events. We require this information to organize the meetings with mentors, breakout rooms and resources.\nForm fields\n\nFull Name*\nEmail* This email address will be used to send event information (zoom link and other resources) and the Slack channel invitation to interact before, during and after the event.\nPronouns Please indicate your pronouns (example: she, they, he)\nCountry*\nMeetings*\nChoose the meeting(s) you plan to attend [Drop down menu]\n\nMessage after they register:\nThank you for registering for rOpenSci coworking and minihackathons for contributions to FOSS. You will get an email with the event information soon. Feel free to contact us at info@ropensci.org if you have any questions about these events.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Form templates</span>"
+    ]
+  },
+  {
+    "objectID": "hackathon.html#footnotes",
+    "href": "hackathon.html#footnotes",
+    "title": "6  Mini-hackathon",
+    "section": "",
+    "text": "Registration is required for maintainers/mentors as we need to ensure there are enough and we will be sending out further instructions.↩︎\nFor our first mini-hackathon, we required registration, but for the second we made registration optional. This helped us have an idea of numbers, but simplified the process as we didn’t have to send out meeting links or deal with last minute registrants.↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
+    ]
+  },
+  {
+    "objectID": "hackathon.html#tools",
+    "href": "hackathon.html#tools",
+    "title": "6  Mini-hackathon",
+    "section": "6.4 Tools",
+    "text": "6.4 Tools\n\n6.4.1 Registration\nWe used AirTable forms to collect registration from maintainers/mentors as well as participants. Any form system could work for this step.\nRegistration is required for maintainers/mentors as we need to ensure there are enough and we will be sending out further instructions. However, although for our for our first mini-hackathon pilot, we made registration mandatory, we didn’t feel that it was necessary, and for the second we made registration optional.\nBy having optional registration we had an idea of numbers, but simplified the process as we didn’t have to send out meeting links or deal with last minute registrants.\nWe pre-populated the coworking documents with the names of maintainer/mentors as well as registered participation, but other, unregistered participants were invited to add their names to the end.\n\nCoworking documeent\n\n\n\n6.4.2 GitHub Project\nLabels\nCategories",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
+    ]
+  },
+  {
+    "objectID": "hackathon.html#details",
+    "href": "hackathon.html#details",
+    "title": "6  Mini-hackathon",
+    "section": "6.4 Details",
+    "text": "6.4 Details\n\n6.4.1 Registration\nWe used AirTable forms to collect registration from maintainers/mentors as well as participants. Any form system could work for this step.\nRegistration is required for maintainers/mentors as we need to ensure there are enough and we will be sending out further instructions. However, although for our for our first mini-hackathon pilot, we made registration mandatory, we didn’t feel that it was necessary, and for the second we made registration optional.\nBy having optional registration we had an idea of numbers, but simplified the process as we didn’t have to send out meeting links or deal with last minute registrants.\nWe pre-populated the coworking documents with the names of maintainer/mentors as well as registered participation, but other, unregistered participants were invited to add their names to the end.\n\n\n6.4.2 Labelling\nTODO\n\n\n6.4.3 Coworking\nTODO\n\n6.4.3.1 Document\nTODO\n\n\n6.4.3.2 GitHub Project\nTODO",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mini-hackathon</span>"
     ]
   }
 ]
