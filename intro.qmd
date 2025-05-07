@@ -22,6 +22,8 @@ To date, we have hosted XX sessions. 
 
 ## Pilot
 
+<!-- TODO: Yani, do you think we should move the Pilot and included sections here to their own Chapter? -->
+
 In 2024/2025 we hosted two sets of paired events to suppport first time contributors to open source software.
 We used community calls to introduce the topics and hands-on coworking sessions to give opportunities for  participation.
 This format is designed to be scalable across our federation of scientific OSS and will serve as a model for maintainers to replicate in recruiting contributors and co-maintainers.
@@ -33,7 +35,9 @@ The second set of events were designed to support first-time contributors to ope
 In Januaray 2025 we hosted an English Community Call ([From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/)), 
 followed by two mini-hackathon coworking sessions in [Februrary](https://ropensci.org/events/coworking-2025-02/) and [March](https://ropensci.org/events/coworking-2025-03/). 
 
-### Pilot Feedback
+In this guide we share resources to help plan and host more of these events as well as lessons learned. 
+
+### Feedback
 
 As part of each hands-on mini-hackathon or translation, 
 participants completed an optional feedback survey collecting insights on their experiences, 
@@ -43,7 +47,19 @@ challenges faced, and suggestions for improvement.
 TODO: ADD GENERAL, summarized Feedback
 
 
+### Takeaways
+In addition to the official feedback provided, the organizers also picked up on some trends and details during the events. 
 
+For the **translathons**...
 
+For the **mini-hackathons**, while we had originally expected to have many participants new to GitHub, 
+in reality most participants were familiar with GitHub in general, but were unfamiliar with *collaborating* on GitHub. 
+They knew how to make and push commits, but wanted to learn how to make Pull Requests and how that process worked. 
+They were also interested in understanding the etiquette and workflow of making contributions.
 
-In this guide we share resources and lessons learned from hosting these events. 
+Further, many participants were very familiar with coding in R (or other programming languages), 
+but were not familiar with R package development (i.e. working with the package structure, using development tools, testing interactively, and using formal unit tests). 
+
+It took time for participants to decide on an issue,
+and there was the sense sometimes that they felt a bit rushed. 
+If possible, it might therefore be nice to share the GitHub Issues Project Board with participatns *before* the start of coworking, so they have more time to explore the issues and think about what they would like to tackle.
