@@ -24,15 +24,17 @@ If you participate, you can also expect that:
 
 With the support of [FUNDER].
 
-*Form fields* 
+**Form fields** 
 
-- Full Name
-- Your email
-- Timezone - *Which timezone will you be in during the events? This information helps us to organize the events*
+- Full Name*
+- Email*
+- Timezone* - *Which timezone will you be in during the events? This information helps us to organize the events*
 - Which rOpenSci package(s) would you like to invite contribution for?
 - If you have more the one package, please list them below
 - Why would you like to participate? *2-3 sentences*
 
+> Originally we asked for maintainers of rOpenSci packages in particular, 
+> later however, we opened up registration to maintainers of any R package.
 
 ## Registration for participants {#participants}
 
@@ -48,7 +50,9 @@ With the support of [FUNDER].
 
 Please, fill out this form to register for the events. We require this information to organize the meetings with mentors, breakout rooms and resources.
 
-*Form fields* 
+**Form fields** 
+
+[\* fields are required]
 
 - Full Name*
 - Email*  *This email address will be used to send event information (zoom link and other resources) and the Slack channel invitation to interact before, during and after the event.*
@@ -63,3 +67,19 @@ Please, fill out this form to register for the events. We require this informati
 Thank you for registering for rOpenSci coworking and minihackathons for contributions to FOSS. 
 You will get an email with the event information soon.
 Feel free to contact us at info@ropensci.org if you have any questions about these events.
+
+## Feedback Form {#feedback}
+
+This is an anonymous form for you to tell us what you thought of the event. 
+This information is very useful for us to improve the organization and the overall experience for our participants.
+
+**Form fields**   
+
+[All are free-form answers with the exception of "How likely are you to recommend this event..."]  
+[No fields are required]
+
+- One thing you liked *Please share one thing that you liked or which we should keep.  One positive aspect of the meeting.*
+- One thing to improve *Please share one thing we could improve. One constructive criticism.*
+- How likely are you to recommend this even to a friend or colleague? [0-10 Stars]
+- How did you hear about the event? *Please mention all methods (Newsletter, Slack, Mastodon, BlueSky, Blog Post, LinkedIn, word of mouth, etc.*
+
