@@ -177,23 +177,26 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">6.1</span> Overview</a></li>
   <li><a href="#maintainers-mentors" id="toc-maintainers-mentors" class="nav-link" data-scroll-target="#maintainers-mentors"><span class="header-section-number">6.2</span> Maintainers / Mentors</a></li>
-  <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline"><span class="header-section-number">6.3</span> Timeline</a>
+  <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline"><span class="header-section-number">6.3</span> Timeline</a></li>
+  <li><a href="#planning" id="toc-planning" class="nav-link" data-scroll-target="#planning"><span class="header-section-number">6.4</span> Planning</a>
   <ul class="collapse">
-  <li><a href="#choosing-dates" id="toc-choosing-dates" class="nav-link" data-scroll-target="#choosing-dates"><span class="header-section-number">6.3.1</span> Choosing dates</a></li>
+  <li><a href="#choosing-dates" id="toc-choosing-dates" class="nav-link" data-scroll-target="#choosing-dates"><span class="header-section-number">6.4.1</span> Choosing dates</a></li>
+  <li><a href="#registration" id="toc-registration" class="nav-link" data-scroll-target="#registration"><span class="header-section-number">6.4.2</span> Registration</a></li>
+  <li><a href="#good-issues-and-labelling" id="toc-good-issues-and-labelling" class="nav-link" data-scroll-target="#good-issues-and-labelling"><span class="header-section-number">6.4.3</span> Good issues and Labelling</a></li>
+  <li><a href="#github-project-board" id="toc-github-project-board" class="nav-link" data-scroll-target="#github-project-board"><span class="header-section-number">6.4.4</span> GitHub Project Board</a></li>
   </ul></li>
-  <li><a href="#details" id="toc-details" class="nav-link" data-scroll-target="#details"><span class="header-section-number">6.4</span> Details</a>
+  <li><a href="#coworking" id="toc-coworking" class="nav-link" data-scroll-target="#coworking"><span class="header-section-number">6.5</span> Coworking</a>
   <ul class="collapse">
-  <li><a href="#registration" id="toc-registration" class="nav-link" data-scroll-target="#registration"><span class="header-section-number">6.4.1</span> Registration</a></li>
-  <li><a href="#labelling" id="toc-labelling" class="nav-link" data-scroll-target="#labelling"><span class="header-section-number">6.4.2</span> Labelling</a></li>
-  <li><a href="#coworking" id="toc-coworking" class="nav-link" data-scroll-target="#coworking"><span class="header-section-number">6.4.3</span> Coworking</a></li>
+  <li><a href="#to-do-list" id="toc-to-do-list" class="nav-link" data-scroll-target="#to-do-list"><span class="header-section-number">6.5.1</span> To Do List</a></li>
+  <li><a href="#running-the-event" id="toc-running-the-event" class="nav-link" data-scroll-target="#running-the-event"><span class="header-section-number">6.5.2</span> Running the event</a></li>
   </ul></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources"><span class="header-section-number">6.5</span> Resources</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources"><span class="header-section-number">6.6</span> Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -221,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">6.1</span> Overview</h2>
-<p>Mini-hackathons are 2-hr events designed as a variation on the standard rOpenSci coworking format. They are a combination of a hackathon (where participants come together to make contributions to FOSS) and an rOpenSci coworking event.</p>
+<p>Mini-hackathons are 2-hr events designed as a variation on the standard rOpenSci coworking format. They are a combination of a hackathon (a dedicated period of time where participants make contributions to selected FOSS projects) and an rOpenSci coworking event (an online video meeting where participants come together to work on different things and socialize).</p>
 <p>rOpenSci <a href="https://ropensci.org/coworking/">Coworking Sessions</a> are generally 2-hr sessions with a primary host and a guest community host with a different theme each month. During a session, the primary host orientates participants and leads introductions. Then participants can choose work on their own projects, to socialize or discuss the monthly theme in a ‘noisy’ breakout room with the community host, or a combination of the two. The primary host arranges a break and mini-scavenger hunt in the middle and wraps up the meeting at the end.</p>
 <p>Mini-hackathons differ from coworking (and from many hackathons) in that it is presumed that most if not all participants are attending to contribute to FOSS (possibly for the first time), there are many breakout rooms, and there are at least 5-10 mentors or maintainers to support the participants.</p>
 <p>In a mini-hackathon, rOpenSci staff, mentors, and package maintainers are on hand to support participants with their first contributions. Maintainers sign up to participate beforehand and prepare relevant issues for new contributors. During the coworking session, mentors and maintainers split into different Zoom breakout rooms to chat with participants one-on-one or in small groups to support them with their contributions. All maintainers, mentors and participants are also added to a special mini-hackathon channel in the rOpenSci Slack where they can further discuss contributions after the event ends.</p>
@@ -234,54 +237,71 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>In our 2024/2025 pilot we applied received funding from NumFocus to offer Mentors/Maintainers a $200 USD honorarium for participating in the mini-hackathons.</p>
 </blockquote>
+<blockquote class="blockquote">
+<p>Originally we asked for maintainers of rOpenSci packages in particular, later however, we opened up registration to maintainers of any R package.</p>
+</blockquote>
 </section>
 <section id="timeline" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="timeline"><span class="header-section-number">6.3</span> Timeline</h2>
-<p>(See <a href="events-overview.html">Events Overview</a> for the full timeline of paired events.</p>
+<p>See <a href="events-overview.html">Events Overview</a> for the full timeline of paired events.</p>
+<p>The timeline is setup for a single event, but repeat events are easy to insert after the first three tasks.</p>
 <table class="caption-top table">
+<caption>Approximate timeline of tasks</caption>
 <thead>
 <tr class="header">
+<th>Weeks Before</th>
 <th>Task</th>
 <th>Platform</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Choose date(s) for mini-hackathon/translathon</td>
+<td>10</td>
+<td><a href="#choosing-dates">Choose date</a> for mini-hackathon/translathon</td>
 <td></td>
 </tr>
 <tr class="even">
+<td>8</td>
 <td>Open call for mentors/maintainers at hands-on events</td>
-<td><a href="https://ropensci.org/blog/2024/10/22/first-time-contributions/">Blog</a> / <a href="templates_forms.html#mentors">Registration</a></td>
+<td><a href="https://ropensci.org/blog/2024/10/22/first-time-contributions/">Blog</a> / <a href="templates_forms.html#mentors">Registration</a> / <a href="https://hachyderm.io/@rOpenSci/113351705028413328">Social</a></td>
 </tr>
 <tr class="odd">
-<td>Advertise Mini-hackathon(s)/translathon(s)</td>
-<td><a href="https://ropensci.org/events/coworking-2025-03/">Website</a> / Social Media</td>
+<td>4-6</td>
+<td>Open call for participants at hands-on event(s)</td>
+<td><a href="https://ropensci.org/blog/2025/01/24/coworking-hackathons/">Blog</a> / <a href="templates_forms.html#participants">Registration</a> / <a href="https://hachyderm.io/@rOpenSci/113884059275725175">Social</a></td>
 </tr>
 <tr class="even">
-<td>Open call for participants at hands-on event(s)</td>
-<td><a href="https://ropensci.org/blog/2025/01/24/coworking-hackathons/">Blog</a> / <a href="templates_forms.html#participants">Registration</a></td>
+<td>4-6</td>
+<td>Event Advertising<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
+<td><a href="https://ropensci.org/events/coworking-2025-03/">Website</a></td>
 </tr>
 <tr class="odd">
+<td>1-2</td>
 <td>Send instructions to maintainers</td>
 <td>Email (<a href="templates_emails.html#mentors1">Labelling</a> &amp; <a href="templates_emails.html#mentors2">Process</a>)</td>
 </tr>
 <tr class="even">
+<td>0-1</td>
 <td>Send instructions to participants</td>
 <td>Email (<a href="templates_emails.html#participants">Process</a>)</td>
 </tr>
 <tr class="odd">
+<td>0</td>
 <td>Run mini-hackathon(s)/translathon(s)</td>
 <td>Zoom / <a href="https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?tab=t.0#heading=h.jja0j3hbdd5p">Docs</a> / <a href="https://github.com/search?q=label%3Aro-hackathon-2025&amp;type=issues">Issues</a> / <a href="https://github.com/orgs/rosadmin/projects/14/views/1">Project Board</a></td>
 </tr>
 <tr class="even">
+<td>After event</td>
 <td>Evaluate participant feedback</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<section id="choosing-dates" class="level3" data-number="6.3.1">
-<h3 data-number="6.3.1" class="anchored" data-anchor-id="choosing-dates"><span class="header-section-number">6.3.1</span> Choosing dates</h3>
+</section>
+<section id="planning" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="planning"><span class="header-section-number">6.4</span> Planning</h2>
+<section id="choosing-dates" class="level3" data-number="6.4.1">
+<h3 data-number="6.4.1" class="anchored" data-anchor-id="choosing-dates"><span class="header-section-number">6.4.1</span> Choosing dates</h3>
 <p>In our pilot we had opened the call for mentors before setting a date. We then used a poll to decide on appropriate dates for the mini-hackathon. This made it difficult for mentors to commit to the event, as we were asking for expressions of interest before we had a date, so for future, generic events we suggest picking a date first.</p>
 <!--TODO: Yani, did we decide that it would be better/easier to set the date before hand?-->
 <p>However, if conducting domain-specific events, then it could be worth contacting mentor/maintainers first and then organizing the events in tandem with their schedules (similar to Community Calls).</p>
@@ -290,47 +310,133 @@ ul.task-list li input[type="checkbox"] {
 <p>In our pilot, we had two events, and so chose European and Australian time zones to cover as much time as possible.</p>
 </blockquote>
 </section>
-</section>
-<section id="details" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="details"><span class="header-section-number">6.4</span> Details</h2>
-<section id="registration" class="level3" data-number="6.4.1">
-<h3 data-number="6.4.1" class="anchored" data-anchor-id="registration"><span class="header-section-number">6.4.1</span> Registration</h3>
-<p>We used AirTable forms to collect registration from <a href="templates_forms.html#mentors">maintainers/mentors</a> as well as <a href="templates_forms.html#participants">participants</a>. Any form system could work for this step.</p>
-<p>Registration is required for maintainers/mentors as we need to ensure there are enough and we will be sending out further instructions. However, although for our for our first mini-hackathon pilot, we made registration mandatory, we didn’t feel that it was necessary, and for the second we made registration optional.</p>
+<section id="registration" class="level3" data-number="6.4.2">
+<h3 data-number="6.4.2" class="anchored" data-anchor-id="registration"><span class="header-section-number">6.4.2</span> Registration</h3>
+<p>Registration is required for <a href="templates_forms.html#mentors">maintainers/mentors</a> as we need to ensure there are enough and we will be sending out further instructions. However, although for our for our first mini-hackathon pilot we made registration mandatory for <a href="templates_forms.html#participants">participants</a>, in the end we didn’t find it necessary, so for the second event we made registration optional.</p>
 <p>By having optional registration we had an idea of numbers, but simplified the process as we didn’t <em>have</em> to send out meeting links or deal with last minute registrants.</p>
 <p>We pre-populated the coworking documents with the names of maintainer/mentors as well as registered participation, but other, unregistered participants were invited to add their names to the end.</p>
+<blockquote class="blockquote">
+<p>We used AirTable forms to collect registration from <a href="templates_forms.html#mentors">maintainers/mentors</a> as well as <a href="templates_forms.html#participants">participants</a>. However, any registration form system could work for this step (e.g., Google Forms etc.)</p>
+</blockquote>
 </section>
-<section id="labelling" class="level3" data-number="6.4.2">
-<h3 data-number="6.4.2" class="anchored" data-anchor-id="labelling"><span class="header-section-number">6.4.2</span> Labelling</h3>
-<p>TODO</p>
+<section id="good-issues-and-labelling" class="level3" data-number="6.4.3">
+<h3 data-number="6.4.3" class="anchored" data-anchor-id="good-issues-and-labelling"><span class="header-section-number">6.4.3</span> Good issues and Labelling</h3>
+<p>About two weeks before the event we <a href="templates_emails.html#mentors1">contact maintainers</a> to remind them about the event and ask them to prepare and label issues in their repositories using a label specific to the event.</p>
+<blockquote class="blockquote">
+<p>In the 2025 mini-hackathons, we used <code>ro-hackathon-2025</code> as the label and Slack channel name.</p>
+</blockquote>
+<p>In our first mini-hackathon we found that issues most likely to be tackled by participants were small, bite-sized, coding-related tasks.</p>
+<p>Examples included</p>
+<ul>
+<li>adding simple tests to improve code coverage</li>
+<li>adding checks to input arguments to existing functions</li>
+<li>fixing problems with best-practices</li>
+<li>updating use of deprecated functions</li>
+<li>adding badges to READMEs</li>
+</ul>
+<p>While documentation is something that can be completed by first-time contributors, it didn’t seem to be as attractive. Possibly because updateing usage or creating tutorials requires more time to understand the package, or because it didn’t give participants a chance to develop the skills they really wanted to develop.</p>
 </section>
-<section id="coworking" class="level3" data-number="6.4.3">
-<h3 data-number="6.4.3" class="anchored" data-anchor-id="coworking"><span class="header-section-number">6.4.3</span> Coworking</h3>
-<p>TODO</p>
-<section id="document" class="level4" data-number="6.4.3.1">
-<h4 data-number="6.4.3.1" class="anchored" data-anchor-id="document"><span class="header-section-number">6.4.3.1</span> Document</h4>
-<p>TODO</p>
-</section>
-<section id="github-project" class="level4" data-number="6.4.3.2">
-<h4 data-number="6.4.3.2" class="anchored" data-anchor-id="github-project"><span class="header-section-number">6.4.3.2</span> GitHub Project</h4>
-<p>TODO</p>
+<section id="github-project-board" class="level3" data-number="6.4.4">
+<h3 data-number="6.4.4" class="anchored" data-anchor-id="github-project-board"><span class="header-section-number">6.4.4</span> GitHub Project Board</h3>
+<p>By havinging maintainers use a specific label for issues, we can use a <a href="https://github.com/search?q=label%3Aro-hackathon-2025&amp;type=issues">GitHub search</a> to identify these issues.</p>
+<p>We then also find it useful to manually organize these issues into a <a href="https://github.com/orgs/rosadmin/projects/14/views/1">GitHub Project</a>. This allows us to categorize the issues by type (Documentation, Feature, Best Practices, Testing, etc.) to help participants more quickly find an issue they would like to address.</p>
 </section>
 </section>
+<section id="coworking" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="coworking"><span class="header-section-number">6.5</span> Coworking</h2>
+<p>Here we cover the specifics of actually running the event. What needs to be done just before, during, and after the event.</p>
+<p>Note that during coworking, we used a <a href="https://docs.google.com/presentation/d/1mMeMkt2Vy7B-ablhimxc2voEyqWOcTN-obuIUkgI1cE/edit?usp=sharing">slide</a> deck and <a href="https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing">Coworking Document</a> for introductions, sharing links, and sharing notes.</p>
+<section id="to-do-list" class="level3" data-number="6.5.1">
+<h3 data-number="6.5.1" class="anchored" data-anchor-id="to-do-list"><span class="header-section-number">6.5.1</span> To Do List</h3>
+<ul>
+<li>Before
+<ul>
+<li>Create <a href="https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing">Coworking Document</a> (prepopulate registrants)</li>
+<li>Create <a href="https://docs.google.com/presentation/d/1mMeMkt2Vy7B-ablhimxc2voEyqWOcTN-obuIUkgI1cE/edit?usp=sharing">Slides</a></li>
+<li>Prepare <a href="template_forms.html#feedback">Feedback forms</a> and add to Coworking Doc and Slides</li>
+<li>Finalize <a href="#github-project-board">GitHub Project Board</a></li>
+<li>Add links to the Slack Channel</li>
+</ul></li>
+<li>During
+<ul>
+<li>Share link to Coworking Document</li>
+<li>Share link to GitHub Project Board</li>
+<li>Prepare Breakout rooms</li>
+<li>Keep track of contributions (get GitHub handles for all participants) and make sure people get acknowledged</li>
+<li>Remind people to fill out the feedback form throughout the event</li>
+</ul></li>
+<li>After
+<ul>
+<li>Follow up as needed in Slack, keep updating PR merges etc.</li>
+<li>Send out email to maintainers/mentors to thank them and give them details on how to receive honourarium</li>
+</ul></li>
+</ul>
 </section>
-<section id="resources" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="resources"><span class="header-section-number">6.5</span> Resources</h2>
+<section id="running-the-event" class="level3" data-number="6.5.2">
+<h3 data-number="6.5.2" class="anchored" data-anchor-id="running-the-event"><span class="header-section-number">6.5.2</span> Running the event</h3>
+<section id="schedule" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="schedule">Schedule</h4>
+<ul>
+<li>Introduction (10-15 min)</li>
+<li>Co-working (45 min)</li>
+<li>Break/Checkin (5-10 min) <em>Mini scavenger hunt</em></li>
+<li>Co-working (45 min)</li>
+<li>Wrap up (5 min)</li>
+</ul>
+<p>During coworking, we open breakout rooms to cover different topics. We included a Quiet room where people could work without chatter, as well as several generic rooms (“Room 1”, etc.) where package maintainers can chat one-on-one or with small groups of participants about their package.</p>
+<p>At the start of coworking an organizer asks mentors (those without a package), to go to a topic room and stay for 5min in case a participant would like help with that topic. Afterwards they are free to ‘roam’ and see where they might assist participants or maintainers.</p>
+<p>Next an organizer will ask participants if they have a particular package or issue they’d like to work on, and will help match participants up with maintainers if they are unsure. The organizer will assign maintainers to specific rooms to chat with participants as participants express interest.</p>
+<p>After this initial sorting, at least one organizer remains in the ‘main’ room to help direct participants.</p>
+</section>
+<section id="breakout-room-topics" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="breakout-room-topics">Breakout room topics</h4>
+<ul>
+<li>General (main room) ‘If you’re not sure, come here’</li>
+<li>Collaboration Workflows and Etiquette</li>
+<li>Collaborating on GitHub (Pull Requests)</li>
+<li>Translations</li>
+<li>Quiet Room</li>
+<li>Room 1</li>
+<li>Room 2</li>
+<li>…</li>
+</ul>
+<blockquote class="blockquote">
+<p>In our first mini-hackathons, we had one ‘Git and GitHub’ room rather than the two ‘Collaborating’ rooms, but it was <a href="intro.html#takeaways">almost never used</a>.</p>
+</blockquote>
+</section>
+</section>
+</section>
+<section id="resources" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="resources"><span class="header-section-number">6.6</span> Resources</h2>
+<ul>
+<li><strong>Templates</strong>
+<ul>
+<li><a href="templates_emails.html">Appendix - Email templates</a></li>
+<li><a href="templates_forms.html">Appendix - Form templates</a></li>
+</ul></li>
+<li><strong>Example advertising</strong>
 <ul>
 <li>[Blog] <a href="https://ropensci.org/blog/2024/10/22/first-time-contributions/">Looking for Maintainers to Support First-Time Contributors</a> (Oct 22 2024)</li>
 <li>[Blog] <a href="https://ropensci.org/blog/2025/01/24/coworking-hackathons/">Coworking Mini-Hackathon for First-Time Contributors</a> (Jan 24 2025)</li>
 <li>[Blog] <a href="https://ropensci.org/blog/2023/09/19/help-wanted/">Attract Contributors with ‘help wanted’ Issues</a> (Sep 19 2013)</li>
 <li>[Event] Coworking Mini-Hackathon for First-Time Contributors! (<a href="https://ropensci.org/events/coworking-2025-02/">Feb 4 2025</a> &amp; <a href="https://ropensci.org/events/coworking-2025-03/">Mar 4 2025</a>)</li>
+</ul></li>
+<li><strong>Supporting Tools for Running the Event</strong>
+<ul>
 <li><a href="https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?tab=t.0#heading=h.jja0j3hbdd5p">Coworking Document</a> (Mar 4 2025)</li>
 <li><a href="https://docs.google.com/presentation/d/1mMeMkt2Vy7B-ablhimxc2voEyqWOcTN-obuIUkgI1cE/edit?usp=sharing">Slides</a></li>
 <li><a href="https://github.com/search?q=label%3Aro-hackathon-2025&amp;type=issues">GitHub Issues Search</a></li>
 <li><a href="https://github.com/orgs/rosadmin/projects/14/views/1">GitHub Issues Project Board</a></li>
+</ul></li>
 </ul>
 
 
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Advertsing the Open Call for participants has a lot of overlap with advertising the dates of the event itself.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 </main> <!-- /main -->

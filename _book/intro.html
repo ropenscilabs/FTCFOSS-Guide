@@ -177,14 +177,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background"><span class="header-section-number">2.1</span> Background</a></li>
   <li><a href="#pilot" id="toc-pilot" class="nav-link" data-scroll-target="#pilot"><span class="header-section-number">2.2</span> Pilot</a>
   <ul class="collapse">
-  <li><a href="#pilot-feedback" id="toc-pilot-feedback" class="nav-link" data-scroll-target="#pilot-feedback"><span class="header-section-number">2.2.1</span> Pilot Feedback</a></li>
+  <li><a href="#feedback" id="toc-feedback" class="nav-link" data-scroll-target="#feedback"><span class="header-section-number">2.2.1</span> Feedback</a></li>
+  <li><a href="#takeaways" id="toc-takeaways" class="nav-link" data-scroll-target="#takeaways"><span class="header-section-number">2.2.2</span> Takeaways</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -220,14 +221,23 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="pilot" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="pilot"><span class="header-section-number">2.2</span> Pilot</h2>
+<!-- TODO: Yani, do you think we should move the Pilot and included sections here to their own Chapter? -->
 <p>In 2024/2025 we hosted two sets of paired events to suppport first time contributors to open source software. We used community calls to introduce the topics and hands-on coworking sessions to give opportunities for participation. This format is designed to be scalable across our federation of scientific OSS and will serve as a model for maintainers to replicate in recruiting contributors and co-maintainers.</p>
 <p>The first set of events were designed to support first-time contributors to open source Translation projects, using rOpenSci’s Portugese translation projects as an example. To this end, in November 2025 we hosted a Portugese Community Call (<a href="https://ropensci.org/commcalls/translation-portuguese/">A comunidade R fala português</a>) followed by a <a href="https://latinr.org/en/cronograma/translaton/translaton-en.html">mini-translathon at LatinR</a>.</p>
 <p>The second set of events were designed to support first-time contributors to open source R packages. In Januaray 2025 we hosted an English Community Call (<a href="https://ropensci.org/commcalls/first-time-contributor/">From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS</a>), followed by two mini-hackathon coworking sessions in <a href="https://ropensci.org/events/coworking-2025-02/">Februrary</a> and <a href="https://ropensci.org/events/coworking-2025-03/">March</a>.</p>
-<section id="pilot-feedback" class="level3" data-number="2.2.1">
-<h3 data-number="2.2.1" class="anchored" data-anchor-id="pilot-feedback"><span class="header-section-number">2.2.1</span> Pilot Feedback</h3>
+<p>In this guide we share resources to help plan and host more of these events as well as lessons learned.</p>
+<section id="feedback" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="feedback"><span class="header-section-number">2.2.1</span> Feedback</h3>
 <p>As part of each hands-on mini-hackathon or translation, participants completed an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.</p>
 <p>TODO: ADD GENERAL, summarized Feedback</p>
-<p>In this guide we share resources and lessons learned from hosting these events.</p>
+</section>
+<section id="takeaways" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="takeaways"><span class="header-section-number">2.2.2</span> Takeaways</h3>
+<p>In addition to the official feedback provided, the organizers also picked up on some trends and details during the events.</p>
+<p>For the <strong>translathons</strong>…</p>
+<p>For the <strong>mini-hackathons</strong>, while we had originally expected to have many participants new to GitHub, in reality most participants were familiar with GitHub in general, but were unfamiliar with <em>collaborating</em> on GitHub. They knew how to make and push commits, but wanted to learn how to make Pull Requests and how that process worked. They were also interested in understanding the etiquette and workflow of making contributions.</p>
+<p>Further, many participants were very familiar with coding in R (or other programming languages), but were not familiar with R package development (i.e.&nbsp;working with the package structure, using development tools, testing interactively, and using formal unit tests).</p>
+<p>It took time for participants to decide on an issue, and there was the sense sometimes that they felt a bit rushed. If possible, it might therefore be nice to share the GitHub Issues Project Board with participatns <em>before</em> the start of coworking, so they have more time to explore the issues and think about what they would like to tackle.</p>
 
 
 </section>
