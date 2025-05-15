@@ -1,0 +1,118 @@
+---
+title: "Email templates"
+---
+
+
+## Mentors - 2 weeks before {#mentors1}
+
+**Subject**: rOpenSci Mini Hackathon - Preparation
+
+Hi Everyone!
+
+We’re looking forward to our second Mini-hackathon coworking session in two weeks, March 4th, 13:00–15:00 UTC ([find your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Co-working+first+time+contributors&iso=20250204T01&p1=1440&ah=2) [UPDATE DATE/TIME]). Some of you have signed up as Package Maintainers, and some as Mentors to help guide participants during the hackathon. We’ll send out details of how things will go next week, but in the meantime we wanted to give Package Maintainers some suggestions for preparing.
+
+Before the hackathon we ask that Maintainers take a bit of time to [create and/or label issues](https://ropensci.org/blog/2023/09/19/help-wanted/) in your packages. 
+We find that small ‘bite-size’ tasks work well, and small coding-related tasks especially so.
+
+Consider issues for things like adding simple tests (e.g., testing that functions fail correctly), or adding argument checks to an existing function (e.g., ensure that the function fails informatively given incorrect inputs). You can run test coverage on your package to identify lines that need coverage which might be straightforward to address. Another thing that you can consider is addressing problems identified by ‘[goodpractice](http://goodpractice)’ (we’d suggest running this beforehand and creating specific issues for the items identified). Updating the README or clarifying the CONTRIBUTING guide are also useful, yet manageable tasks. 
+
+Make sure you use the label “ro-hackathon-YYYY” so we can find it and add the issue to our master list. Also consider labels such as “help wanted” and “good first issue”. There may be participants who have more advanced skills so feel free to label some non-beginner issues as well. 
+
+We’ve created a channel called “ro-hackathon-YYYY” in the rOpenSci Slack and have added those of you who are already in this Slack. If you are not in our workspace, you will get an invitation from Yani nearer to the event.
+
+Feel free to advertise this [event](https://ropensci.org/events/coworking-2025-03/) [UPDATE LINK] in your circles or social media!
+
+Let us know if you have any questions or would like any help or feedback on anything,
+
+Yani Bellini Saibene   
+Community Manager, rOpenSci
+
+Steffi LaZerte   
+Community Manager Assistant
+
+## Mentors - 1 week before {#mentors2}
+
+**Subject**: rOpenSci Mini Hackathon - Information
+
+Hi Everyone!
+
+We’re looking forward to our second Mini-hackathon coworking session next week, MONTH DAYth, HH:MM–HH:MM UTC ([find your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Co-working+first+time+contributors&iso=20250204T01&p1=1440&ah=2) [UPDATE DATE/TIME]). This will be on Zoom (details on the [event page](https://ropensci.org/events/coworking-2025-03/) [UPDATE LINK] and below) and Yani and Steffi will be available to help out.
+
+**Before the hackathon**
+
+As a reminder, we ask that Maintainers take a bit of time before the event to [create and/or label issues](https://ropensci.org/blog/2023/09/19/help-wanted/) in your packages. Remember to use the “ro-hackathon-2025” label and let us know if you have any questions or need any help with this.
+
+**During the hackathon**
+
+We will do a brief introduction and ask Maintainers and Mentors to introduce themselves.. Once we get started we will ask Mentors to hang out in specific topic breakout rooms (e.g., “git/GitHub”) for at least the first 5 min to see if any participants would like to chat. After that they are free to roam about the rooms, helping as they like. Maintainers can claim a breakout room to chat with participants wanting to work on their package or can move about among the rooms. Participants may need some time to get oriented with what tasks are available and how to start working on them. Remember that some participants may be raw beginners, so help them find an appropriate issue to tackle and be encouraging and patient. This will be a coworking session, so people can dive in with getting started but still have others around to help or answer questions.
+
+**After the hackathon**
+
+Everyone who participated in the hackathon will be added to a special Slack channel so conversations can continue asynchronously. We suspect that some participants may not finish all they hope to do during the coworking session itself, so we hope that both Maintainers and Mentors will have some availability to answer questions that may come up on the Slack channel in the week following the event (Yani and Steffi will be available too). Yani will also contact you regarding your stipend to help offset the costs of your time for this amazing work!
+
+We’re looking forward to seeing you next week, let us know if you have any questions!
+
+Yani Bellini Saibene  
+Community Manager, rOpenSci
+
+Steffi LaZerte  
+Community Manager Assistant
+
+**Zoom info:**    
+Link:   
+Meeting ID:   
+Passcode:   
+  
+
+## Participants - 2-3 days before {#participants}
+
+**Subject**: rOpenSci Mini Hackathon - Information
+
+Hi Everyone!
+
+We’re looking forward to our second Mini-hackathon coworking session next week, March 4th, 13:00–15:00 UTC ([find your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Co-working+first+time+contributors&iso=20250304T13&p1=1440&ah=2) [UPDATE DATE/TIME]; Zoom details on the [event page](https://ropensci.org/events/coworking-2025-03/) [UPDATE LINK] and below). We just wanted to check in and give you an overview of how things will go.
+
+**Before the hackathon**
+
+Most of our packages are on GitHub, so you need to have a [GitHub user account](https://github.com/signup). 
+
+**During the hackathon**
+
+We will have a list of issues prepared by package maintainers and other experienced mentors available to help guide you. You may want to ask Maintainers to explain details of an issue or package, or you may want to ask any of the Mentors about the basics of git and GitHub (see also [Developing Software Together](https://paocorrales.github.io/git-developing-software-together/) and [Happy Git and GitHub](https://happygitwithr.com/) for the useR if you’d like to get a head start). This will be a coworking session, so you can dive in with getting started on making a contribution, but still have others around to help or answer questions.
+
+**After the hackathon**
+
+Everyone who participated in the hackathon will be added to a special Slack channel so conversations can continue asynchronously. We suspect that some participants may not finish all they hope to do during the coworking session itself, so this channel will be a place where you can ask follow up questions in the week following the event.
+
+We’re looking forward to seeing you next week, let us know if you have any questions!
+
+Yani Bellini Saibene  
+Community Manager, rOpenSci
+
+Steffi LaZerte  
+Community Manager Assistant
+
+Zoom info:  
+Link:   
+Meeting ID:   
+Passcode:   
+
+> If possible, consider also including a link to the Project Board so that participants have the chance to consider in advance any issues they might like to tackle during coworking.
+
+## Participants - 1 hour before
+
+**Subject**: Reminder: rOpenSci co-working and mini-hackathon start in 1 hour
+
+Hi everyone!  This email is a friendly reminder that our Co-Working Sessions on First-Time Contributions will start in one hour. 
+
+Zoom information:  
+
+See you all there!  
+
+Yanina Bellini Saibene    
+rOpenSci Community Manager    
+
+Steffi LaZerte  
+Community Manager Assistant
+
+

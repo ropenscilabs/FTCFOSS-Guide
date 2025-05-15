@@ -1,0 +1,13 @@
+---
+title: "Mini-translathon"
+---
+
+Details about the format.
+
+
+The community call provided guidance on how to get started with translation contributions.
+In the coworking events (translathons), participants work together on translating open source documentation and interfaces.
+These event was hosted in Portuguese and focus on Portuguese documentation translation.
+The event occured in conjunction with LatinR 2024.
+
+Participants completed an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.

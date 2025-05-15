@@ -1,5 +1,0 @@
----
-title: "Traslathon"
----
-
-Details about the format.

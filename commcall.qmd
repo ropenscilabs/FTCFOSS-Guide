@@ -2,7 +2,22 @@
 title: "Community Call"
 ---
 
-Details about organization
+rOpenSci [Community Calls](https://ropensci.org/commcalls) are Zoom calls held several times a year featuring a panel of speakers on a specific topic with a significant Question & Answer period.
+Calls cover a variety of topics, from technical (["A Journey through Arrow in R"](https://ropensci.org/commcalls/jun2023-arrow/))
+to community (["Set Up Your Package to Foster a Community"](https://ropensci.org/commcalls/apr2021-pkg-community/)). 
+Most topics are in English, but we are introducing Calls in Spanish (["Proyecto Multilingüe"](https://ropensci.org/es/commcalls/nov2023-multilenguaje/)) as well
+as in Portugese(["A comunidade R fala português"](https://ropensci.org/commcalls/translation-portuguese/), part of this Pilot)]. 
+
+For general organizing, see our blog post ["How rOpenSci Runs Community Calls"](https://ropensci.org/blog/2021/02/02/ropensci-community-calls/) as well
+as our ["Checklist for a Community Call"](https://github.com/ropensci-org/community-calls/blob/master/checklist.md). 
+
+In this chapter we will address the specifics of running a Community Call to 
+support first time contributors to open source software.
+
+<!-- Yani, I would suggest only adding things here which are specific to this 
+project. Anything that is a general Community Call organization thing and which
+is covered in the above links I think you can either omit, or simply refer to the
+above links. No need to 'reinvent the wheel' ;)  -->
 
 ## Communication
 

@@ -5,20 +5,27 @@ book:
   title: "FTCFOSS-Guide"
   author: "Yani and Steffi"
   date: "4/27/2025"
+  favicon: apple-touch-icon.png
+  repo-url: https://github.com/ropenscilabs/FTCFOSS-Guide
   chapters:
     - index.qmd
     - intro.qmd
+    - event-overview.qmd
     - commcall.qmd
-    - traslathon.qmd
+    - translathon.qmd
     - hackathon.qmd
+  appendices:
+    - resources.qmd
+    - templates_emails.qmd
+    - templates_forms.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    toc-depth: 3
+    toc-expand: 3
   pdf:
     documentclass: scrreprt
-
-editor: visual
 

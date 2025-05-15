@@ -1,10 +1,22 @@
-# **Community-Driven Open Source: Enabling First-Time Contributors to Open Source Projects** {.unnumbered}
+---
+toc: false
+---
 
-Over the last decade, rOpenSci has played a pivotal role in diversifying the open research software community by integrating new developers from underrepresented communities and transforming newcomers into regular contributors to our federation of scientific software various engagement channels.
+::: {.hidden} 
+# Preface
+:::
 
+## **Community-Driven Open Source:<br>Enabling First-Time Contributors to Open Source Projects** {-}
 
-To further this work, we propose to pilot a new program designed to support sustainability for scientific software packages by recruiting and mentoring contributors and co-maintainers, using community calls and coworking sessions (mini hackathons) to provide a structured yet flexible environment to onboard new participants to open-source projects in real-time.
+Over the last decade, [rOpenSci](https://ropensci.org) has played a pivotal role in diversifying the open research software community by integrating new developers from underrepresented communities and transforming newcomers into regular contributors to our federation of scientific software various engagement channels.
+
+To further this work, in 2024 we proposed to pilot a new program designed to support sustainability for scientific software packages by recruiting and mentoring contributors and co-maintainers, using community calls and coworking sessions (mini hackathons) to provide a structured yet flexible environment to onboard new participants to open-source projects in real-time.
 
 This book presents the lessons learned and the organization details of these events.
+While instructions and notes are presented within an rOpenSci context, we hope that they are clear enough 
+that they could be adapted as a model for use in other organizations.
+
+TODO: Statement about how to give feedback on this guide.
 
 
+TODO: Add details about NumFocus grant and thank funders
