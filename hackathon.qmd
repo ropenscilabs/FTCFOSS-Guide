@@ -33,7 +33,7 @@ As such it is important to ensure that sufficient maintainers *and* mentors are 
 **Mentors** are those who are not expliciting supporting contributions to their own R package, but who will be generally helping participants learn how to make contributions to other packages. 
 
 Because this work doesn't necessarily directly benefit the maintainer/mentor and may require extra work to prepare an R package for contributions of this nature, 
-**we suggest offering maintainers/mentors an honorarium** to help equalize participation by offsetting the cost of their time.
+**we suggest offering maintainers/mentors an honorarium** to help equalize participation by offsetting the cost of their time. If you do, prepare clear instructions on how to get paid and sent those instructions with relevants links and template and a why to made questions after the event finished.
 
 > In our 2024/2025 pilot we applied received funding from NumFocus 
 > to offer Mentors/Maintainers a $200 USD honorarium for participating in the
@@ -90,19 +90,23 @@ However, although for our for our first mini-hackathon pilot we made registratio
 in the end we didn't find it necessary, so for the second event we made registration optional.
 
 By having optional registration we had an idea of numbers, but simplified the process as we didn't
-_have_ to send out meeting links or deal with last minute registrants.
+_have_ to send out meeting links or deal with last minute registrants. 
+
+> Have a mandatory registration was very useful to have an idea if interest and plan for numbers of events, mentors and co-host. We also use the email in the registration to sent the invitations for our Slack.
 
 We pre-populated the coworking documents with the names of maintainer/mentors as well as registered participation, but other, unregistered participants were invited to add their names to the end. 
 
 > We used AirTable forms to collect registration from [maintainers/mentors](templates_forms.html#mentors)
 as well as [participants](templates_forms.html#participants).
-> However, any registration form system could work for this step (e.g., Google Forms etc.)
+> However, any registration form system could work for this step (e.g., Google Forms, Zoom, etc.)
 
 ### Good issues and Labelling
 
 About two weeks before the event we [contact maintainers](templates_emails.html#mentors1) to remind them about the event and ask them to prepare and label issues in their repositories using a label specific to the event.
 
 > In the 2025 mini-hackathons, we used `ro-hackathon-2025` as the label and Slack channel name.
+
+> There is other labels that are very useful, like ['help wanted'](https://ropensci.org/blog/2023/09/19/help-wanted/) and 'good first issue'. You can considerer [different type of label according to the type of project](https://ropensci.org/blog/2024/09/12/labels-writing-projects/).
 
 In our first mini-hackathon we found that issues most likely to be tackled by participants were
 small, bite-sized, coding-related tasks. 
@@ -117,7 +121,7 @@ Examples included
 
 While documentation is something that can be completed by first-time contributors, 
 it didn't seem to be as attractive.
-Possibly because updateing usage or creating tutorials requires more time to understand the package, 
+Possibly because updating usage or creating tutorials requires more time to understand the package, 
 or because it didn't give participants a chance to develop the skills they really wanted to develop.
 
 
@@ -128,6 +132,7 @@ to identify these issues.
 
 We then also find it useful to manually organize these issues into a [GitHub Project](https://github.com/orgs/rosadmin/projects/14/views/1). 
 This allows us to categorize the issues by type (Documentation, Feature, Best Practices, Testing, etc.) to help participants more quickly find an issue they would like to address.
+The link to the project and the search is added to the Slack channel to easy access.
 
 ## Coworking
 
@@ -143,11 +148,16 @@ Note that during coworking, we used a [slide](https://docs.google.com/presentati
     - Prepare [Feedback forms](template_forms.html#feedback) and add to Coworking Doc and Slides
     - Finalize [GitHub Project Board](#github-project-board)
     - Add links to the Slack Channel
+    - [optional] Email links to join the event and instructions on participation one week, one day and one hour before
 - During
+    - Remind the CoC and share relevants links.
     - Share link to Coworking Document
+    - Ask people to add their name and email address to the document if they want to join the Slack
+    - Sent Slack invitation to attendees and add them to the event channel
     - Share link to GitHub Project Board
     - Prepare Breakout rooms
     - Keep track of contributions (get GitHub handles for all participants) and make sure people get acknowledged
+    - Share contributions on social media (use the event relevant hastag) and in the event Slack channel 
     - Remind people to fill out the feedback form throughout the event
 - After
     - Follow up as needed in Slack, keep updating PR merges etc.
@@ -163,6 +173,10 @@ Note that during coworking, we used a [slide](https://docs.google.com/presentati
 - Break/Checkin (5-10 min) *Mini scavenger hunt*
 - Co-working (45 min)
 - Wrap up (5 min)
+
+During the introduction each mentor and maintainer introduces himself and comments on how he can help or what kind 
+of contributions they expects for their package. In this way the attendees can begin to decide what 
+they are going to work on and with whom. 
 
 During coworking, we open breakout rooms to cover different topics. 
 We included a Quiet room where people could work without chatter, 
