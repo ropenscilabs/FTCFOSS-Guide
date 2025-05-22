@@ -54,13 +54,13 @@ after the first three tasks.
 
 Weeks Before | Task                                    | Platform
 ----- | ---------------------------------------- | -------------
-10 | [Choose date](#choosing-dates) for mini-hackathon/translathon | 
-8 | Open call for mentors/maintainers at hands-on events | [Blog](https://ropensci.org/blog/2024/10/22/first-time-contributions/) / [Registration](templates_forms.html#mentors) / [Social](https://hachyderm.io/@rOpenSci/113351705028413328)
+10 | [Choose date/time](#dates) for mini-hackathon | 
+6-8 | Open call for maintainers/mentors at hands-on events | [Blog](https://ropensci.org/blog/2024/10/22/first-time-contributions/) / [Registration](templates_forms.html#mentors) / [Social](https://hachyderm.io/@rOpenSci/113351705028413328)
 4-6 | Open call for participants at hands-on event(s) | [Blog](https://ropensci.org/blog/2025/01/24/coworking-hackathons/) / [Registration](templates_forms.html#participants) / [Social](https://hachyderm.io/@rOpenSci/113884059275725175)
-4-6 | Event Advertising[^2] | [Website](https://ropensci.org/events/coworking-2025-03/) 
+4-6 | Event advertising[^2] | [Website](https://ropensci.org/events/coworking-2025-03/) 
 1-2 | Send instructions to maintainers  | Email ([Labelling](templates_emails.html#mentors1) & [Process](templates_emails.html#mentors2))
 0-1 | Send instructions to participants  | Email ([Process](templates_emails.html#participants))
- 0   |Run mini-hackathon(s)/translathon(s) | Zoom / [Docs](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?tab=t.0#heading=h.jja0j3hbdd5p) / [Issues](https://github.com/search?q=label%3Aro-hackathon-2025&type=issues) / [Project Board](https://github.com/orgs/rosadmin/projects/14/views/1)
+ 0   |Run mini-hackathon(s) | Zoom / [Docs](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?tab=t.0#heading=h.jja0j3hbdd5p) / [Issues](https://github.com/search?q=label%3Aro-hackathon-2025&type=issues) / [Project Board](https://github.com/orgs/rosadmin/projects/14/views/1)
 After event | Evaluate participant feedback | 
 : Approximate timeline of tasks
 
@@ -70,19 +70,24 @@ advertising the dates of the event itself.
 
 ## Planning
 
-### Choosing dates
-In our pilot we had opened the call for mentors before setting a date. 
-We then used a poll to decide on appropriate dates for the mini-hackathon. 
-This made it difficult for mentors to commit to the event, as we were
-asking for expressions of interest before we had a date, so for future, generic events we suggest picking a date first.
+### Choosing date/times {#dates}
 
-<!--TODO: Yani, did we decide that it would be better/easier to set the date before hand?-->
-However, if conducting domain-specific events, then it could be worth contacting mentor/maintainers first and then organizing the events in tandem with their schedules (similar to Community Calls). 
+Pick dates for the events prior to advertising open calls for maintainers/mentors and participants. 
+Make sure you give yourself enough time to recruit maintainers/mentors (~6-8 weeks) and to change the date if you feel that you may not have enough maintainers/mentors. 
+Then once you have a good set of maintainers/mentors registered, 
+start advertizing for general participants (~4-6 weeks). 
 
-Regardless of when dates are set, if arranging several events, 
-choose dates which give a reasonable level of international coverage. 
+However, if conducting domain-specific events, then it could be worth contacting maintainers/mentors first and *then* picking dates with their schedules in mind (similar to how rOpenSci organizes [Community Calls](https://ropensci.org/blog/2021/02/02/ropensci-community-calls/)). 
 
-> In our pilot, we had two events, and so chose European and Australian time zones to cover as much time as possible.
+> In our pilot we had opened the call for mentors before setting a date. 
+> We then used a poll to decide on appropriate dates for the mini-hackathon. 
+> This made it difficult for mentors to commit to the event, as we were
+> asking for expressions of interest before we had a date.
+
+Regardless of how dates are set, if arranging several events, 
+choose times which give a reasonable level of international coverage. 
+
+> In our pilot, we had two events, and so chose European and Australian time zones to cover as much range as possible.
 
 ### Registration
 
