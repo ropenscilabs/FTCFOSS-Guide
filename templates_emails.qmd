@@ -2,8 +2,9 @@
 title: "Email templates"
 ---
 
+## Mini-hackathon
 
-## Mentors - 2 weeks before {#mentors1}
+### Mentors - 2 weeks before {#mentors1}
 
 **Subject**: rOpenSci Mini Hackathon - Preparation
 
@@ -30,7 +31,7 @@ Community Manager, rOpenSci
 Steffi LaZerte   
 Community Manager Assistant
 
-## Mentors - 1 week before {#mentors2}
+### Mentors - 1 week before {#mentors2}
 
 **Subject**: rOpenSci Mini Hackathon - Information
 
@@ -64,7 +65,7 @@ Meeting ID:
 Passcode:   
   
 
-## Participants - 2-3 days before {#participants}
+### Participants - 2-3 days before {#participants}
 
 **Subject**: rOpenSci Mini Hackathon - Information
 
@@ -99,7 +100,7 @@ Passcode:
 
 > If possible, consider also including a link to the Project Board so that participants have the chance to consider in advance any issues they might like to tackle during coworking.
 
-## Participants - 1 hour before
+### Participants - 1 hour before
 
 **Subject**: Reminder: rOpenSci co-working and mini-hackathon start in 1 hour
 

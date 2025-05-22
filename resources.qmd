@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: "Example Resources"
 ---
 
 ## Pilot project 2024-2025
@@ -11,9 +11,11 @@ title: "Resources"
 - Blog posts
     - [Looking for Maintainers to Support First-Time Contributors](https://ropensci.org/blog/2024/10/22/first-time-contributions/) (Oct 22 2024)
     - [Coworking Mini-Hackathon for First-Time Contributors](https://ropensci.org/blog/2025/01/24/coworking-hackathons/) (Jan 24 2025)
-    - [Attract Contributors with ‘help wanted’ Issues](https://ropensci.org/blog/2023/09/19/help-wanted/) (Sep 19 2013)
+    - [Labels For Technical Writing Projects](https://ropensci.org/blog/2024/09/12/labels-writing-projects/) (Sep 12 2024)
+    - [Attract Contributors with ‘help wanted’ Issues](https://ropensci.org/blog/2023/09/19/help-wanted/) (Sep 19 2023)
     
 - Event listings
+    - [Translation + Hackathon = Traslaton rOpenSci](https://latinr.org/en/cronograma/translaton/translaton-en.html) at LatinR
     - Coworking Mini-Hackathon for First-Time Contributors! ([Feb 4 2025](https://ropensci.org/events/coworking-2025-02/) & [Mar 4 2025](https://ropensci.org/events/coworking-2025-03/))
     
 - Coworking mini-translathons
