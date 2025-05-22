@@ -147,6 +147,17 @@ We then also find it useful to manually organize these issues into a [GitHub Pro
 This allows us to categorize the issues by type (Documentation, Feature, Best Practices, Testing, etc.) to help participants more quickly find an issue they would like to address.
 The links to the Project and the Search are added to the Coworking document as well as the Slack channel for easy access.
 
+### Outreach and Communication
+
+We advertise the calls for maintainers/mentors and participants
+with 
+
+- blog posts (e.g., [mentors](https://ropensci.org/blog/2024/10/22/first-time-contributions/), [participants](https://ropensci.org/blog/2025/01/24/coworking-hackathons/))
+- social media (e.g., LinkedIn and Mastodon; see [example](examples_socials.html#hackathon) text), 
+- Slack channels (rOpenSci as well as on partnering Slack workspaces)
+- rOpenSci Newsletter (e.g., [mentors](https://ropensci.org/blog/2024/11/29/news-november-2024/#looking-for-maintainers-to-support-first-time-contributors), [participants](https://ropensci.org/blog/2025/01/27/news-january-2025/#coworking-mini-hackathons)).
+
+In addition the these announcements, it's important to send reminders 1 week, 1 day, and 1 hour in advance on social media ([examples](examples_socials.html#hackathon)).
 
 ## Coworking
 
@@ -226,10 +237,15 @@ After this initial sorting, at least one organizer remains in the 'main' room to
     - [Appendix - Email templates](templates_emails.html)
     - [Appendix - Form templates](templates_forms.html)
 - **Example advertising**
+    - [Examples - Social Media](examples_socials.html)
     - [Blog] [Looking for Maintainers to Support First-Time Contributors](https://ropensci.org/blog/2024/10/22/first-time-contributions/) (Oct 22 2024)
     - [Blog] [Coworking Mini-Hackathon for First-Time Contributors](https://ropensci.org/blog/2025/01/24/coworking-hackathons/) (Jan 24 2025)
     - [Blog] [Attract Contributors with ‘help wanted’ Issues](https://ropensci.org/blog/2023/09/19/help-wanted/) (Sep 19 2013)
     - [Event] Coworking Mini-Hackathon for First-Time Contributors! ([Feb 4 2025](https://ropensci.org/events/coworking-2025-02/) & [Mar 4 2025](https://ropensci.org/events/coworking-2025-03/))
+    - [rOpenSci Newsletter - Maintainers/Mentors](https://ropensci.org/blog/2024/11/29/news-november-2024/#looking-for-maintainers-to-support-first-time-contributors)
+    - [rOpenSci Newsletter - Participants](https://ropensci.org/blog/2025/01/27/news-january-2025/#coworking-mini-hackathons)
+    
+    
 - **Supporting Tools for Running the Event**
     - [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?tab=t.0#heading=h.jja0j3hbdd5p) (Mar 4 2025)
     - [Slides](https://docs.google.com/presentation/d/1mMeMkt2Vy7B-ablhimxc2voEyqWOcTN-obuIUkgI1cE/edit?usp=sharing)
