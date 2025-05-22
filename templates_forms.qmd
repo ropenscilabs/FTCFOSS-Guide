@@ -2,7 +2,9 @@
 title: "Form templates"
 ---
 
-## Registration for mentors {#mentors}
+## Mini-hackathon
+
+### Registration for mentors {#mentors}
 
 **Call for rOpenSci Maintainers to Support First-Time Contributors**
 
@@ -36,7 +38,7 @@ With the support of [FUNDER].
 > Originally we asked for maintainers of rOpenSci packages in particular, 
 > later however, we opened up registration to maintainers of any R package.
 
-## Registration for participants {#participants}
+### Registration for participants {#participants}
 
 Join rOpenSci Minihackathons!
 
@@ -68,7 +70,7 @@ Thank you for registering for rOpenSci coworking and minihackathons for contribu
 You will get an email with the event information soon.
 Feel free to contact us at info@ropensci.org if you have any questions about these events.
 
-## Feedback Form {#feedback}
+### Feedback Form {#feedback}
 
 This is an anonymous form for you to tell us what you thought of the event. 
 This information is very useful for us to improve the organization and the overall experience for our participants.

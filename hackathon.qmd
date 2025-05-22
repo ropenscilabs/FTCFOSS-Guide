@@ -168,26 +168,36 @@ Note that during coworking, we use a [slide deck](https://docs.google.com/presen
 and [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing) for introductions, sharing links, and sharing notes.
 
 ### To Do List
-- Before
-    - Create [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing) (prepopulate registrants)
-    - Create [Slides](https://docs.google.com/presentation/d/1mMeMkt2Vy7B-ablhimxc2voEyqWOcTN-obuIUkgI1cE/edit?usp=sharing)
-    - Prepare [Feedback forms](template_forms.html#feedback) and add to Coworking Doc and Slides
-    - Finalize [GitHub Project Board](#github-project-board)
-    - Add links to the Slack Channel
-    - [optional] Email links to join the event and instructions on participation one week, one day and one hour before
-- During
-    - Remind the CoC and share relevants links.
-    - Share link to Coworking Document
-    - Ask people to add their name and email address to the document if they want to join the Slack
-    - Sent Slack invitation to attendees and add them to the event channel
-    - Share link to GitHub Project Board
-    - Prepare Breakout rooms
-    - Keep track of contributions (get GitHub handles for all participants) and make sure people get acknowledged
-    - Share contributions on social media (use the event relevant hastag) and in the event Slack channel 
-    - Remind people to fill out the feedback form throughout the event
-- After
-    - Follow up as needed in Slack, keep updating PR merges etc.
-    - Send out email to maintainers/mentors to thank them and give them details on how to receive honourarium
+
+#### Before {-}
+- Social posts advertising the event 1 week, 1 day, and 1 hour in advance on social media ([examples](examples_socials.html#hackathon))
+- Advertise with posts in rOpenSci Slack and other community Slack channels
+- Advertise event in HQ section of the rOpenSci Newsletter
+- Create [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing) (prepopulate registrants)
+- Create [Slides](https://docs.google.com/presentation/d/1mMeMkt2Vy7B-ablhimxc2voEyqWOcTN-obuIUkgI1cE/edit?usp=sharing)
+- Prepare [Feedback forms](template_forms.html#feedback) and add to Coworking Doc and Slides
+- Finalize [GitHub Project Board](#github-project-board)
+- Add links to the Slack Channel
+- [optional] Email links to join the event and participation instructions one week, one day and one hour before
+ 
+#### During {-}
+- Prepare Breakout rooms
+- Share link to Coworking Document
+- Point out the CoC and relevants links in the document
+- Ask people to add their contact information to the document
+  - name
+  - email address (if they want to join the Slack)
+  - GitHub handle (to track contributions)
+- Send Slack invitations to attendees and add them to the event channel
+- Share link to GitHub Project Board
+- Keep track of contributions and make sure people get acknowledged
+- Share contributions on social media (use the event hastag) and in the event Slack channel 
+- Remind people to fill out the feedback form throughout the event
+
+
+#### After {-}
+- Follow up as needed on Slack, keep updating PR merges etc.
+- Send out email to maintainers/mentors to thank them and give them details on how to receive honourarium
 
 
 ### Running the event
