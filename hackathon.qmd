@@ -111,18 +111,20 @@ However, by having mandatory registration you would have an even better idea of 
 as well as [participants](templates_forms.html#participants).
 > However, any registration form system could work for this step (e.g., Google Forms, Zoom, etc.)
 
-### Good issues and Labelling
+### Issues and Labelling
 
 About two weeks before the event we [contact maintainers](templates_emails.html#mentors1) to remind them about the event and ask them to prepare and label issues in their repositories using a label specific to the event.
 
+There are also other labels that are very useful, like ['help wanted'](https://ropensci.org/blog/2023/09/19/help-wanted/) 
+and 'good first issue'. 
+You can also encourage maintainers to consider [different type of label according to the type of project](https://ropensci.org/blog/2024/09/12/labels-writing-projects/).
+
 > In the 2025 mini-hackathons, we used `ro-hackathon-2025` as the label and Slack channel name.
 
-> There is other labels that are very useful, like ['help wanted'](https://ropensci.org/blog/2023/09/19/help-wanted/) and 'good first issue'. You can considerer [different type of label according to the type of project](https://ropensci.org/blog/2024/09/12/labels-writing-projects/).
+We also suggest that maintainers create certain types of issues for these events.
+We find that small, bite-sized, coding-related tasks are issues most likely to be tackled by participants.
 
-In our first mini-hackathon we found that issues most likely to be tackled by participants were
-small, bite-sized, coding-related tasks. 
-
-Examples included
+Examples include
 
 - adding simple tests to improve code coverage
 - adding checks to input arguments to existing functions
