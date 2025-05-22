@@ -18,10 +18,10 @@ most if not all participants are attending to contribute to FOSS (possibly for t
 there are many breakout rooms,
 and there are at least 5-10 mentors or maintainers to support the participants. 
 
-In a mini-hackathon, rOpenSci staff, mentors, and package maintainers are on hand to support participants with their first contributions.
-Maintainers sign up to participate beforehand and prepare relevant issues for new contributors.
+In a mini-hackathon, rOpenSci staff, package maintainers, and mentors are on hand to support participants with their first contributions.
+Maintainers and mentors sign up to participate beforehand and prepare relevant issues for new contributors.
 During the coworking session, mentors and maintainers split into different Zoom breakout rooms to chat with participants one-on-one or in small groups to support them with their contributions. 
-All maintainers, mentors and participants are also added to a special mini-hackathon channel in the rOpenSci Slack where they can further discuss contributions after the event ends.
+All maintainers, mentors, and participants are also added to a special mini-hackathon channel in the rOpenSci Slack where they can further discuss contributions after the event ends.
 
 ## Maintainers / Mentors
 
@@ -32,15 +32,17 @@ As such it is important to ensure that sufficient maintainers *and* mentors are 
 **Maintainers** are those who maintain an R package to which they will be supporting contributions. 
 **Mentors** are those who are not expliciting supporting contributions to their own R package, but who will be generally helping participants learn how to make contributions to other packages. 
 
-Because this work doesn't necessarily directly benefit the maintainer/mentor and may require extra work to prepare an R package for contributions of this nature, 
-**we suggest offering maintainers/mentors an honorarium** to help equalize participation by offsetting the cost of their time. If you do, prepare clear instructions on how to get paid and sent those instructions with relevants links and template and a why to made questions after the event finished.
+> Originally we solicited participation from maintainers of rOpenSci packages in particular, 
+> later however, we opened up registration to maintainers of any R package and mentors in general 
+> in order to increase the number of maintainers/mentors participating.
 
-> In our 2024/2025 pilot we applied received funding from NumFocus 
-> to offer Mentors/Maintainers a $200 USD honorarium for participating in the
+Because this work doesn't necessarily directly benefit the maintainer/mentor and it may require extra work to prepare an R package for contributions of this nature, 
+**we suggest offering maintainers/mentors an honorarium** to help equalize participation by offsetting the cost of their time. If you do, prepare clear instructions on how mentors can receive their honorarium after the event. 
+Depending on how your organization works, you may wish to include links to optional invoice templates.
+
+> In our 2024/2025 pilot we applied for and received funding from NumFocus through an Small Development Grant
+> which allowed us to offer maintainers/mentors a $200 USD honorarium for participating in the
 > mini-hackathons.
-
-> Originally we asked for maintainers of rOpenSci packages in particular, 
-> later however, we opened up registration to maintainers of any R package.
 
 ## Timeline
 
@@ -84,19 +86,23 @@ choose dates which give a reasonable level of international coverage.
 
 ### Registration
 
-Registration is required for [maintainers/mentors](templates_forms.html#mentors) as we need to ensure there are enough and we will be 
-sending out further instructions.
-However, although for our for our first mini-hackathon pilot we made registration mandatory for [participants](templates_forms.html#participants), 
-in the end we didn't find it necessary, so for the second event we made registration optional.
+Registration is required for [maintainers/mentors](templates_forms.html#mentors) 
+as we need to ensure there we have enough to help, and we need a way of contacting them to send out further instructions.
 
-By having optional registration we had an idea of numbers, but simplified the process as we didn't
-_have_ to send out meeting links or deal with last minute registrants. 
+Registration is optional for [participants](templates_forms.html#participants)
+to encourage last minute attendance, while still giving us an idea of the level 
+of interest in the event. 
+This helps us ensure we have enough maintainers/mentors and makes it easier to send Slack invitations as we already have the emails of some participants.
+We also pre-populate the coworking documents with the names of maintainers/mentors as well as registered participants. 
 
-> Have a mandatory registration was very useful to have an idea if interest and plan for numbers of events, mentors and co-host. We also use the email in the registration to sent the invitations for our Slack.
+> In our first mini-hackathon pilot we made registration mandatory for participants, 
+but in the end we didn't find it necessary, so for the second event we made registration optional.
 
-We pre-populated the coworking documents with the names of maintainer/mentors as well as registered participation, but other, unregistered participants were invited to add their names to the end. 
+We find that optional registration simplifies organizing the event as we dodn't necessarily _have_ to send out meeting links or deal with last minute registrants. 
 
-> We used AirTable forms to collect registration from [maintainers/mentors](templates_forms.html#mentors)
+However, by having mandatory registration you would have an even better idea of the number of participants to expect, so the trade offs may be worth it for your organization, or depending on the nature of your hackathon.
+
+> We used AirTable forms to collect registrations for [maintainers/mentors](templates_forms.html#mentors)
 as well as [participants](templates_forms.html#participants).
 > However, any registration form system could work for this step (e.g., Google Forms, Zoom, etc.)
 
@@ -120,9 +126,9 @@ Examples included
 - adding badges to READMEs
 
 While documentation is something that can be completed by first-time contributors, 
-it didn't seem to be as attractive.
+it doesn't seem to be as attractive.
 Possibly because updating usage or creating tutorials requires more time to understand the package, 
-or because it didn't give participants a chance to develop the skills they really wanted to develop.
+or because it doesn't give participants a chance to develop the skills they really want to develop.
 
 
 ### GitHub Project Board
@@ -132,14 +138,16 @@ to identify these issues.
 
 We then also find it useful to manually organize these issues into a [GitHub Project](https://github.com/orgs/rosadmin/projects/14/views/1). 
 This allows us to categorize the issues by type (Documentation, Feature, Best Practices, Testing, etc.) to help participants more quickly find an issue they would like to address.
-The link to the project and the search is added to the Slack channel to easy access.
+The links to the Project and the Search are added to the Coworking document as well as the Slack channel for easy access.
+
 
 ## Coworking
 
-Here we cover the specifics of actually running the event. 
-What needs to be done just before, during, and after the event. 
+Here we cover the specifics of actually running the event, 
+specifically what needs to be done just before, during, and after. 
 
-Note that during coworking, we used a [slide](https://docs.google.com/presentation/d/1mMeMkt2Vy7B-ablhimxc2voEyqWOcTN-obuIUkgI1cE/edit?usp=sharing) deck and [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing) for introductions, sharing links, and sharing notes.
+Note that during coworking, we use a [slide deck](https://docs.google.com/presentation/d/1mMeMkt2Vy7B-ablhimxc2voEyqWOcTN-obuIUkgI1cE/edit?usp=sharing)
+and [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing) for introductions, sharing links, and sharing notes.
 
 ### To Do List
 - Before
@@ -174,16 +182,16 @@ Note that during coworking, we used a [slide](https://docs.google.com/presentati
 - Co-working (45 min)
 - Wrap up (5 min)
 
-During the introduction each mentor and maintainer introduces himself and comments on how he can help or what kind 
-of contributions they expects for their package. In this way the attendees can begin to decide what 
-they are going to work on and with whom. 
+During the introductions each maintainer/mentor introduces themself and comments 
+on how they can help or what kind of contributions they expect for their package. 
+In this way the attendees can begin to decide what they would like to work on and with whom. 
 
 During coworking, we open breakout rooms to cover different topics. 
-We included a Quiet room where people could work without chatter, 
+We include a Quiet room where people can work without chatter, 
 as well as several generic rooms ("Room 1", etc.) where package maintainers can chat one-on-one or with small groups of participants about their package.
 
 At the start of coworking an organizer asks mentors (those without a package), 
-to go to a topic room and stay for 5min in case a participant would like help with that topic. 
+to go to a topic room and stay for 5 min in case a participant would like help with that topic. 
 Afterwards they are free to 'roam' and see where they might assist participants or maintainers.
 
 Next an organizer will ask participants if they have a particular package or issue they'd like to work on, 
@@ -203,7 +211,7 @@ After this initial sorting, at least one organizer remains in the 'main' room to
 - Room 2
 - ...
 
-> In our first mini-hackathons, we had one 'Git and GitHub' room rather than the two 'Collaborating' rooms, but it was [almost never used](intro.html#takeaways).  
+> In our pilot mini-hackathons, we had one 'Git and GitHub' room rather than the two 'Collaborating' rooms, but it was [almost never used](intro.html#takeaways).  
 
 ## Resources
 
