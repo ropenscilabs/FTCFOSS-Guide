@@ -1,5 +1,5 @@
 ---
-title: "Mini-hackathon"
+title: "Mini-hackathons"
 ---
 
 ## Overview
@@ -49,7 +49,7 @@ Depending on how your organization works, you may wish to include links to optio
 See [Events Overview](events-overview.html) for the full timeline of paired 
 events.
 
-The timeline is setup for a single event, but repeat events are easy to insert
+The following timeline is setup for a single event, but repeat events are easy to insert
 after the first three tasks. 
 
 Weeks Before | Task                                    | Platform
@@ -65,7 +65,7 @@ After event | Evaluate participant feedback |
 : Approximate timeline of tasks
 
 [^1]: Negative are before, positive after, the event
-[^2]: Advertsing the Open Call for participants has a lot of overlap with 
+[^2]: Advertising the Open Call for participants has a lot of overlap with 
 advertising the dates of the event itself. 
 
 ## Planning
@@ -132,6 +132,8 @@ Examples include
 - updating use of deprecated functions
 - adding badges to READMEs
 
+> In our pilot hackathons, participants also [pointed out](pilot.html#mini-hackathons) that when thinking about task complexity, maintainers should consider the number of files which need to be modified as well as whether or not any files need to be compiled or the package needs to be re-built.
+
 While documentation is something that can be completed by first-time contributors, 
 it doesn't seem to be as attractive.
 Possibly because updating usage or creating tutorials requires more time to understand the package, 
@@ -178,7 +180,7 @@ and [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO
 - Prepare [Feedback forms](template_forms.html#feedback) and add to Coworking Doc and Slides
 - Finalize [GitHub Project Board](#github-project-board)
 - Add links to the Slack Channel
-- [optional] Email links to join the event and participation instructions one week, one day and one hour before
+- [optional] Email links to join the event and participation instructions one week, one day and one hour before [*Include link to GitHub Project Board if possible*]
  
 #### During {-}
 - Prepare Breakout rooms
@@ -206,7 +208,7 @@ and [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO
 
 - Introduction (10-15 min)
 - Co-working (45 min)
-- Break/Checkin (5-10 min) *Mini scavenger hunt*
+- Break/Checkin/Mini scavenger hunt (5-10 min) 
 - Co-working (45 min)
 - Wrap up (5 min)
 
@@ -233,13 +235,14 @@ After this initial sorting, at least one organizer remains in the 'main' room to
 - General (main room) 'If you’re not sure, come here'
 - Collaboration Workflows and Etiquette
 - Collaborating on GitHub (Pull Requests)
+- Build tools for R packages
 - Translations
 - Quiet Room
 - Room 1 
 - Room 2
 - ...
 
-> In our pilot mini-hackathons, we had one 'Git and GitHub' room rather than the two 'Collaborating' rooms, but it was [almost never used](intro.html#takeaways).  
+> In our pilot mini-hackathons, we had one 'Git and GitHub' room rather than the two 'Collaborating' rooms, but it was [rarely used](intro.html#takeaways).  
 
 ## Resources
 
