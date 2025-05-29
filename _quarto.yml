@@ -10,6 +10,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - pilot.qmd
     - event-overview.qmd
     - commcall.qmd
     - translathon.qmd
