@@ -1,0 +1,92 @@
+---
+title: "Social Media examples"
+---
+
+These are examples of social media posts for advertising the events. 
+
+## Mini-hackathon
+
+### Registration for mentors
+
+Original posted on [Mastodon](https://hachyderm.io/@rOpenSci/113351705028413328)
+
+> Looking for Maintainers to Support First-Time Contributors
+>
+> Making your first contribution to Open Source can be both empowering and intimidating. So we’re exited to announce a special series of activities to support first-time contributors to rOpenSci packages! 🎉 
+>
+> Are you an rOpenSci package maintainer who would like to help someone make their first contribution?
+>
+> See our blog post for more details and how to sign up (by Nov 24): https://ropensci.org/blog/2024/10/22/first-time-contributions/
+>
+> #RStats    
+> \@rstats@a.gup.pe
+
+----
+
+Original posted on [Mastodon](https://hachyderm.io/@rOpenSci/113529321689600026)
+
+> Reminder! 
+>
+> Making your first contribution to Open Source can be both empowering and intimidating.
+>
+> Therefore we’re exited to announce a special series of activities to support first-time contributors to rOpenSci packages! 🎉 
+>
+> We're hoping to get enough maintainers registered by this Sunday (Nov 24th) so we can start the ball rolling finding times that work for everyone in 2025.
+>
+> If you've been thinking about it, here's a mini push to register 😄 
+>
+> https://ropensci.org/blog/2024/10/22/first-time-contributions/
+>
+> #RStats    
+> \@rstats@a.gup.pe
+
+
+### Registration for participants
+
+Original posted on [Mastodon](https://hachyderm.io/@rOpenSci/113884059275725175)
+
+> Coworking Mini-Hackathon for First-Time Contributors 🎉
+>
+> Curious or excited about contributing to Open Source Software? Would you like some support to get started?
+> If any of the above, our upcoming coworking mini-hackathons are for you!
+>
+> Feb 4th 2025 1-3 UTC and March 4th 2025 13-15 UTC
+>
+> Join us and contribute to R packages while package maintainers and other mentors are available 'live' to answer questions and give guidance.
+>
+> See our blog post for more details: https://ropensci.org/blog/2025/01/24/coworking-hackathons/
+>
+> #RStats  
+> \@rstats@a.gup.pe
+
+### Reminders
+
+Original posted on [Mastodon](https://hachyderm.io/@rOpenSci/114064703039060736)
+
+> Coworking Mini-Hackathon for First-Time Contributors next week!
+>
+> Tuesday March 4th 14:00 European Central (13:00 UTC)
+>
+> Join other participants and mentors to make contributions to R packages in a fun and supportive environment.
+>
+> Registration is appreciated but not required. 
+>
+> https://ropensci.org/events/coworking-2025-03
+>
+> #RStats  
+> \@rstats@a.gup.pe
+
+---
+
+Original posted on [Mastodon](https://hachyderm.io/@rOpenSci/114104077511757525)
+
+> Coworking Mini-Hackathon for First-Time Contributors coming up in an hour!
+>
+> Join other participants and mentors to make contributions to R packages in a fun and supportive environment.
+>
+> Registration is appreciated but not required. 
+>
+> https://ropensci.org/events/coworking-2025-03
+>
+> #RStats  
+> \@rstats@a.gup.pe
