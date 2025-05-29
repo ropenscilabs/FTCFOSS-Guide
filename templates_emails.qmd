@@ -6,7 +6,7 @@ title: "Email templates"
 
 ### Mentors - 2 weeks before {#mentors1}
 
-**Subject**: rOpenSci Mini Hackathon - Preparation
+**Subject**: rOpenSci Mini-Hackathon - Preparation
 
 Hi Everyone!
 
@@ -33,7 +33,7 @@ Community Manager Assistant
 
 ### Mentors - 1 week before {#mentors2}
 
-**Subject**: rOpenSci Mini Hackathon - Information
+**Subject**: rOpenSci Mini-Hackathon - Information
 
 Hi Everyone!
 
@@ -67,7 +67,7 @@ Passcode:
 
 ### Participants - 2-3 days before {#participants}
 
-**Subject**: rOpenSci Mini Hackathon - Information
+**Subject**: rOpenSci Mini-Hackathon - Information
 
 Hi Everyone!
 

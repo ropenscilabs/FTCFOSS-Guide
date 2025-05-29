@@ -1,5 +1,5 @@
 ---
-title: "Community Call"
+title: "Community Calls"
 ---
 
 rOpenSci [Community Calls](https://ropensci.org/commcalls) are Zoom calls held several times a year featuring a panel of speakers on a specific topic with a significant Question & Answer period.
@@ -14,7 +14,7 @@ as our ["Checklist for a Community Call"](https://github.com/ropensci-org/commun
 In this chapter we will address the specifics of running a Community Call to 
 support first time contributors to open source software.
 
-<!-- Yani, I would suggest only adding things here which are specific to this 
+<!-- TODO: Yani, I would suggest only adding things here which are specific to this 
 project. Anything that is a general Community Call organization thing and which
 is covered in the above links I think you can either omit, or simply refer to the
 above links. No need to 'reinvent the wheel' ;)  -->

@@ -1,5 +1,16 @@
 # Guide for First-time Contributor to FOSS events at rOpenSci
 
-## TODO
-- Replace all `XX`'s with values
-- Fix all `TODO`s
+Over the last decade, [rOpenSci](https://ropensci.org) has played a pivotal role in diversifying the open research software community by integrating new developers from underrepresented communities and transforming newcomers into regular contributors to our federation of scientific software via various engagement channels.
+
+To further this work, in 2024 we proposed to pilot a new program designed to support sustainability for scientific software packages by recruiting and mentoring contributors and co-maintainers, using community calls and coworking sessions (mini-hackathons and mini-translathons) to provide a structured yet flexible environment to onboard new participants to open-source projects in real-time.
+
+This book presents the lessons learned and the organization details of these events.
+While instructions and notes are presented within an rOpenSci context, we hope that they are clear enough 
+that they could be adapted as a model for use in other organizations.
+The format has been designed to be scalable across our federation of scientific open source software and we hope will serve as a model for maintainers to replicate in recruiting contributors and co-maintainers.
+
+If you find any errors or things that need clarification, we would be grateful if you opened an issue or pull request in the repository for this book.
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.
+
+This work was supported by a NumFOCUS Small Development Grant to rOpenSci.
