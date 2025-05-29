@@ -57,15 +57,14 @@ Weeks Before | Task                                    | Platform
 10 | [Choose date/time](#dates) for mini-hackathon | 
 6-8 | Open call for maintainers/mentors at hands-on events | [Blog](https://ropensci.org/blog/2024/10/22/first-time-contributions/) / [Registration](templates_forms.html#mentors) / [Social](https://hachyderm.io/@rOpenSci/113351705028413328)
 4-6 | Open call for participants at hands-on event(s) | [Blog](https://ropensci.org/blog/2025/01/24/coworking-hackathons/) / [Registration](templates_forms.html#participants) / [Social](https://hachyderm.io/@rOpenSci/113884059275725175)
-4-6 | Event advertising[^2] | [Website](https://ropensci.org/events/coworking-2025-03/) 
+4-6 | Event advertising[^1] | [Website](https://ropensci.org/events/coworking-2025-03/) 
 1-2 | Send instructions to maintainers  | Email ([Labelling](templates_emails.html#mentors1) & [Process](templates_emails.html#mentors2))
 0-1 | Send instructions to participants  | Email ([Process](templates_emails.html#participants))
  0   |Run mini-hackathon(s) | Zoom / [Docs](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?tab=t.0#heading=h.jja0j3hbdd5p) / [Issues](https://github.com/search?q=label%3Aro-hackathon-2025&type=issues) / [Project Board](https://github.com/orgs/rosadmin/projects/14/views/1)
 After event | Evaluate participant feedback | 
 : Approximate timeline of tasks
 
-[^1]: Negative are before, positive after, the event
-[^2]: Advertising the Open Call for participants has a lot of overlap with 
+[^1]: Advertising the Open Call for participants has a lot of overlap with 
 advertising the dates of the event itself. 
 
 ## Planning
