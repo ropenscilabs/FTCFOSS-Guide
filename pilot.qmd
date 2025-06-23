@@ -19,7 +19,15 @@ participants completed an optional feedback survey collecting insights on their 
 what they enjoyed and suggestions for improvement.
 
 ### Translathons
-...
+As part of the translation efforts, we organized a mini-hackathon focused on reviewing existing Portuguese translations and introducing participants to the review workflow. The event was divided into two main parts: a walkthrough of the translation review process and hands-on sessions where participants practiced doing reviews.
+
+Participants expressed that they enjoyed the opportunity to contribute and valued the chance to learn more about using GitHub. Many highlighted that learning the review process helped them contribute to this project and gave them skills and ideas they plan to apply in other open-source and localization projects. There was a suggestion to support other R-related translation projects. 
+
+ Most participants also mentioned that organizing this event in collaboration with the LatinR Conference was especially meaningful. It created a space to collaborate with others across the region and contribute to something that brings value to the broader Latin American community. 
+
+One key suggestion that emerged was the importance of documenting shared agreements—especially on how to translate technical terms consistently. Having a reference guide or glossary would support current and future contributors in maintaining coherence across translations.
+
+The enthusiasm sparked during the hackathon continued after the event, with several participants actively engaging in translation and review work in Slack and GitHub. Their commitment and motivation reflect the impact of creating inclusive, hands-on spaces for collaboration and learning.
 
 
 ### Mini-hackathons
