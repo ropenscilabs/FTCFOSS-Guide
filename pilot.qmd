@@ -77,11 +77,9 @@ we have some general takeaways and ideas for future events.
 ### Translathons
 For the **translathons** one of the suggestion was to organize events focused on translating resources into more languages. Before expanding to more languages, our priority is to consolidate our work in Spanish and Portuguese. We will continue improving and maintaining translations in these two languages to ensure quality and consistency.
   
-In parallel, we plan to organize trasnlathon, ideally in collaboration with other R community initiatives. Working together will allow us to share a common glossary and community language agreements, strengthening the overall translation effort. Organizing these events alongside other conferences or with communities like R-Ladies chapters or other R User Groups could help broaden participation. 
+We plan to organize more translathons, ideally in collaboration with other R community initiatives. Working together will allow us to share a common glossary and community language agreements, strengthening the overall translation effort. Organizing these events alongside other conferences or with communities like R-Ladies chapters or other R User Groups could help broaden participation. 
 
-The GitHub project with the Pull Request that need translation work with the specific status was very helpful to choose the work, but even with this tool, some people choose the same PR to work, this signal us that we need to be more clear on the process of assigning a PR to a reviewer. 
-
-The GitHub project with Pull Requests labeled by translation status was very helpful for attendees to select in which one to work. However, even with this tool, some people chose the same PR. This suggests we need to clarify the process for assigning PRs to reviewers.
+Having the GitHub project listing Pull Requests which needed translation work (labelled by translation status) was very helpful to organize how participants chose what to work on, but even with this tool, some people accidentally started working on PRs already in use by another. This signalled to us that we need to be more clear on the process of assigning a PR to a reviewer. 
 
 After the event, contributors often continue their work asynchronously, supported by ongoing discussions and updates in our Slack multilingual channel, where people share progress, ask questions, and collaborate.  To support ongoing work, we’re considering regular traslathon meetings at a fixed time where people can join to learn, collaborate, and contribute to active translation projects.
 
