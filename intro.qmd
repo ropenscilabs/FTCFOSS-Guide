@@ -2,7 +2,7 @@
 
 Making your first contribution to Open Source can be both empowering and yet very intimidating.
 Therefore, to encourage and empower contributors, we created a new type of community event which supports specifically first-time contributors to open source software and translation projects.
-Our goal was to create an inclusive and supportive evironment, which would result in a positive learning experience and empower participants to continue contributing.
+Our goal was to create an inclusive and supportive environment, which would result in a positive learning experience and empower participants to continue contributing.
 
 We designed and piloted this new community event format based on pairing 
 [community calls](https://ropensci.org/commcalls) to introduce the topics, 
@@ -25,3 +25,22 @@ an [overview](event-overview.html) of how to run these kinds of events,
 and specific details on how to run the [community calls](commcall.html), 
 [mini-translathons](translathon.html), and [mini-hackathons](hackathon.html).
 In the Appendices we share examples and templates useful for running these events.  
+
+We hope this book will inspire and empower you to run your own events to support first-time contributors to open source software and translation projects.
+
+## Summary Comparision
+
+|  |  |  |
+|------------------------|------------------------|------------------------|
+| **Aspect** | **Mini-Hackathon** | **Traslathon** |
+| **Main Goal** | Help participants make their **first contributions** to FOSS projects, usually through coding or documentation. | Help participants make their **first contributions** to translations/localizations of FOSS documentation or websites. |
+| **Format** | 2-hour live online coworking session combining hackathon + rOpenSci coworking. | 2-hour live online coworking session combining translation + hackathon. |
+| **Expected Participant Role** | Contribute code or small documentation fixes to issues prepared by maintainers. | Review translated texts prepared as pull requests. |
+| **Preparation by Staff** | Collect issues from maintainers, label them, and organize in GitHub Project Board. | Create and label translation PRs, organize them in GitHub Project Board. |
+| **Support Roles** | **Maintainers** (support contributions to their package) and **Mentors** (help participants with general contribution workflows). | **Editors** (review and maintain quality of translations) and **Mentors** (guide newcomers through the translation process/tools). |
+| **Contribution Type** | Coding tasks (tests, bug fixes, dependencies, deprecations, best practices, CI, etc.) and documentation task. | Translation tasks (documentation sections, tutorials, website pages, UI strings, blog post, books). |
+| **Breakout Rooms** | Coding support (GitHub, collaboration workflows), quiet room, maintainer-specific rooms, quiet room. | Translation process/tools, language-specific rooms (e.g., Portuguese, Spanish), review rooms, quiet room. |
+| **Slack Channel** | Dedicated mini-hackathon channel for continued discussion and follow-up. | Dedicated multilingual channel for ongoing translation and editing work. |
+| **Honorarium** | Offered to **maintainers** and **mentors** for time spent preparing and guiding participants. | Offered to **editors** and **mentors** for preparation, guidance, and quality review. |
+| **Pilot Example** | 2025 events with global coverage (Europe and Australia time zones). | 2024 event in Portuguese alongside LatinR, focusing on documentation translation (participants from Latin America and African countries). |
+| **Learning Outcome** | Participants gain confidence with contributing code/docs to FOSS. | Participants gain confidence with the translation workflow (which includes software development tools and collaborative work) and style guidelines. |
