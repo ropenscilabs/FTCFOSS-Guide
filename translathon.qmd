@@ -4,28 +4,25 @@ title: "Mini-translathon"
 
 ## Overview
 
-Mini traslathon are a combination of translation (the communication of the meaning of a source-language text by means of an equivalent target-language text) with the ways and energy of a hackathon (a dedicated period of time where participants make contributions to selected FOSS projects).
-During 2 hours participants work together on translating open source documentation, website, blog post and interfaces into different human languages.
+Traslatons are 2-hour events designed as a combination of translation (the communication of the meaning of a source-language text by means of an equivalent target-language text) with the ways and energy of a hackathon (a dedicated period of time where participants make contributions to selected FOSS projects).
+During the mini-traslathon participants work together on translating open source documentation, website, blog post and interfaces into different human languages.
 Traslathons are live and synchronous: participants contribute, learn, and connect with others.
 
-In a traslathon, rOpenSci Staff and mentors are on hand to support participants with their contribution.
-Mentors sign up to participate beforehand and review the [translation process and rules](https://translationguide.ropensci.org), and the translation that need contribution.
-Mentors are preferably people who have already contributed to translations and know how the tools used in the process work and are also aware of the translation agreements of the language in which they are involved.
-rOpenSci staff will create and label all the pull requests with translation that needs a review and update the GitHub project with the status of the translation and localization work.
-
-During the event, and after a brief introduction on how the process work, attendees will choose from the GitHub project which pull request they want to work on.
-Mentors will be there to support and overseeing the process.
-People work on the main room or in different breakout rooms.
-All mentors and contributors are added to the multilingual channel in the rOpenSci Slack where they can further discuss and work on contributions after the events ends.
-
-The community call provided guidance on how to get started with translation contributions and different translations and localization efforts that exist for a human language in the community.
-
-> For our pilot these event were hosted in Portuguese and focus on Portuguese documentation translation.
-> The event occured in conjunction with LatinR 2024, were many members of the R Community in Latin America gather together.
+rOpenSci staff prepare the event by identifying materials in need of translation or review, creating and labeling pull requests, and setting up a GitHub Project board to track progress.
+During the event, after a brief introduction on how the event is structure, participants select a pull request to work on.
+Mentors and editors provide real-time support in breakout rooms or the main room.
+All contributors are also added to the multilingual channel in the rOpenSci Slack, where they can continue discussing and refining translations after the event.
 
 Participants completed an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.
 
-## Mentors
+The community call provided guidance on how to get started with translation contributions and different translations and localization efforts that exist for a human language in the community.
+
+## Mentors and Editors
+
+The main goal is traslathon events is to ensure participants have a good experience.
+Mentors sign up to participate beforehand and review the [translation process and rules](https://translationguide.ropensci.org), and the translation that need contribution.
+Mentors are preferably people who have already contributed to translations and know how the tools used in the process work and are also aware of the translation agreements of the language in which they are involved.
+
 
 ## Timeline
 
@@ -50,3 +47,5 @@ Participants completed an optional feedback survey collecting insights on their 
 ## Event
 
 ## Resources
+
+
