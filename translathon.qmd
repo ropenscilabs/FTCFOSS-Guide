@@ -21,20 +21,33 @@ The community call provided guidance on how to get started with translation cont
 
 The main goal is traslathon events is to ensure participants have a good experience:
 
-- learning how to contribute to translations,
-- gaining confidence in the process, and
-- building motivation to continue contributing beyond the event.
+-   learning how to contribute to translations,
+-   gaining confidence in the process, and
+-   building motivation to continue contributing beyond the event.
 
 To achieve this, traslathons rely on two key roles:
 
-* **Mentors:** contributors familiar with the translation process, tools, and community guidelines. They help participants get started, troubleshoot issues, and guide them through the workflow. 
+-   **Mentors:** contributors familiar with the translation process, tools, and community guidelines.
+    They help participants get started, troubleshoot issues, and guide them through the workflow.
 
-* **Editors:** experienced translators responsible for reviewing and maintaining the quality and consistency of translations. Editors check terminology, style, and adherence to the community’s translation agreements. 
+-   **Editors:** experienced translators responsible for reviewing and maintaining the quality and consistency of translations.
+    Editors check terminology, style, and adherence to the community’s translation agreements.
 
 Mentors and Editors sign up to participate beforehand and review the [translation process and rules](https://translationguide.ropensci.org), and the translation that need contribution.
-They are preferably people who have already contributed, as reviewers or editors, to rOpenSci's translations and know how the tools used in the process work and are also aware of the translation agreements of the language in which they are involved. 
+They are preferably people who have already contributed, as reviewers or editors, to rOpenSci's translations and know how the tools used in the process work and are also aware of the translation agreements of the language in which they are involved.
+
+Because preparing and reviewing translations requires additional effort, we suggest offering mentors and editors an honorarium to recognize their time and contributions.
+
+> In our 2024 pilot, the traslaton was hosted in Portuguese in conjunction with LatinR, where many members of the Latin American R community gathered.
+> NumFocus provide the funding to pay mentors and editors a \$200 USD honorarium for participating in the traslathons.
 
 ## Timeline
+
+See [Events Overview](events-overview.html) for the full timeline of paired 
+events.
+
+The timeline is setup for a single event, but repeat events are easy to insert
+after the first three tasks. 
 
 |  |  |  |
 |-------------------------|-----------------------|-------------------------|
@@ -50,9 +63,21 @@ They are preferably people who have already contributed, as reviewers or editors
 
 ## Planning
 
-## Registration
+### Set the date of the event 
 
-## GitHub Project
+In our pilot case, the translathon was held as a satellite event of the LatinR conference. Therefore, the date depended on the availability of both the conference schedule and the mentors and editors. For future general events, we recommend choosing the date first and then inviting mentors and editors. For niche events (e.g., by language or subject area), it may be more effective to coordinate with editors and mentors first and then set the date, similar to the dynamics of Community Calls. If you plan to organize multiple events, it is essential to take time zones into account to facilitate global and diverse participation.
+
+### Registration
+
+Registration is required for **mentors/editors** so we can confirm sufficient support and send them preparation instructions.
+For **participants**, registration can be optional, especially if the event is not part of a larger event. 
+
+> In our pilot we registered attendees free of charge using the same conference registration system. This system was also used to send pre-event notifications and to share access information for the online meeting wich helps with the logistic of the event. 
+
+
+### GitHub Project
+
+
 
 ## Event
 
