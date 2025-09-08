@@ -19,10 +19,20 @@ The community call provided guidance on how to get started with translation cont
 
 ## Mentors and Editors
 
-The main goal is traslathon events is to ensure participants have a good experience.
-Mentors sign up to participate beforehand and review the [translation process and rules](https://translationguide.ropensci.org), and the translation that need contribution.
-Mentors are preferably people who have already contributed to translations and know how the tools used in the process work and are also aware of the translation agreements of the language in which they are involved.
+The main goal is traslathon events is to ensure participants have a good experience:
 
+- learning how to contribute to translations,
+- gaining confidence in the process, and
+- building motivation to continue contributing beyond the event.
+
+To achieve this, traslathons rely on two key roles:
+
+* **Mentors:** contributors familiar with the translation process, tools, and community guidelines. They help participants get started, troubleshoot issues, and guide them through the workflow. 
+
+* **Editors:** experienced translators responsible for reviewing and maintaining the quality and consistency of translations. Editors check terminology, style, and adherence to the community’s translation agreements. 
+
+Mentors and Editors sign up to participate beforehand and review the [translation process and rules](https://translationguide.ropensci.org), and the translation that need contribution.
+They are preferably people who have already contributed, as reviewers or editors, to rOpenSci's translations and know how the tools used in the process work and are also aware of the translation agreements of the language in which they are involved. 
 
 ## Timeline
 
@@ -47,5 +57,3 @@ Mentors are preferably people who have already contributed to translations and k
 ## Event
 
 ## Resources
-
-
