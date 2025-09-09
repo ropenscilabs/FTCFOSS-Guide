@@ -77,8 +77,51 @@ For **participants**, registration can be optional, especially if the event is n
 
 ### GitHub Project
 
+rOpenSci translations are carried out using GitHub projects. We made sure the differents projects are up todate for the mini traslathons.
 
+rOpenSci staff create pull requests with the first automatic translation for the texts needing translation and label them with the translation corresponding tag and event-specific tag.
+
+> `translation :mate:` is the label used for Spanish translations
+> `Tradução` is the label used for Portuguese translations. 
+
+Translation issues should be:
+
+- relatively small (a blog post, a section of documentation, a tutorial, a chapter),
+- clearly scoped,
+- and already prepared in a pull request to reduce setup time.
+
+Issues can be categorized by:
+
+- Documentation (manuals, guides, books)
+- Website (pages, posts)
+- Interfaces (package messages, Web UI strings)
+- Tutorials (examples, lessons)
+
+Editors review translations during or after the event, ensuring contributions maintain quality.
 
 ## Event
+
+Here we cover the specifics of actually running the event. 
+What needs to be done just before, during, and after the event. 
+
+### To Do List
+
+- Before
+    - Create [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing) (prepopulate registrants)
+    - Prepare [Feedback forms](template_forms.html#feedback) and add to Coworking Doc and Slides
+    - Finalize [GitHub Project Board](#github-project-board)
+    - Add links to the Slack Channel
+    - Sent reminder one week before and one hour before (email and social media)
+- During
+    - Share link to Coworking Document
+    - Share link to GitHub Project Board
+    - Prepare Breakout rooms
+    - Keep track of contributions (get GitHub handles for all participants) and make sure people get acknowledged
+    - Share contributions and sucess on social media and Slack channel (with permission of the attendes)
+    - Remind people to fill out the feedback form throughout the event
+    - Sent the Slack invitation to the attendees and add them to the specific Slack channel. 
+- After
+    - Follow up as needed in Slack, keep updating PR merges etc.
+    - Send out email to maintainers/mentors to thank them and give them details on how to receive honourarium
 
 ## Resources
