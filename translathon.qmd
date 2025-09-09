@@ -43,11 +43,9 @@ Because preparing and reviewing translations requires additional effort, we sugg
 
 ## Timeline
 
-See [Events Overview](events-overview.html) for the full timeline of paired 
-events.
+See [Events Overview](events-overview.html) for the full timeline of paired events.
 
-The timeline is setup for a single event, but repeat events are easy to insert
-after the first three tasks. 
+The timeline is setup for a single event, but repeat events are easy to insert after the first three tasks.
 
 |  |  |  |
 |-------------------------|-----------------------|-------------------------|
@@ -63,65 +61,95 @@ after the first three tasks.
 
 ## Planning
 
-### Set the date of the event 
+### Set the date of the event
 
-In our pilot case, the translathon was held as a satellite event of the LatinR conference. Therefore, the date depended on the availability of both the conference schedule and the mentors and editors. For future general events, we recommend choosing the date first and then inviting mentors and editors. For niche events (e.g., by language or subject area), it may be more effective to coordinate with editors and mentors first and then set the date, similar to the dynamics of Community Calls. If you plan to organize multiple events, it is essential to take time zones into account to facilitate global and diverse participation.
+In our pilot case, the translathon was held as a satellite event of the LatinR conference.
+Therefore, the date depended on the availability of both the conference schedule and the mentors and editors.
+For future general events, we recommend choosing the date first and then inviting mentors and editors.
+For niche events (e.g., by language or subject area), it may be more effective to coordinate with editors and mentors first and then set the date, similar to the dynamics of Community Calls.
+If you plan to organize multiple events, it is essential to take time zones into account to facilitate global and diverse participation.
 
 ### Registration
 
 Registration is required for **mentors/editors** so we can confirm sufficient support and send them preparation instructions.
-For **participants**, registration can be optional, especially if the event is not part of a larger event. 
+For **participants**, registration can be optional, especially if the event is not part of a larger event.
 
-> In our pilot we registered attendees free of charge using the same conference registration system. This system was also used to send pre-event notifications and to share access information for the online meeting wich helps with the logistic of the event. 
-
+> In our pilot we registered attendees free of charge using the same conference registration system.
+> This system was also used to send pre-event notifications and to share access information for the online meeting wich helps with the logistic of the event.
 
 ### GitHub Project
 
-rOpenSci translations are carried out using GitHub projects. We made sure the differents projects are up todate for the mini traslathons.
+rOpenSci translations are carried out using GitHub projects.
+We made sure the differents projects are up todate for the mini traslathons.
 
 rOpenSci staff create pull requests with the first automatic translation for the texts needing translation and label them with the translation corresponding tag and event-specific tag.
 
-> `translation :mate:` is the label used for Spanish translations
-> `Tradução` is the label used for Portuguese translations. 
+> `translation :mate:` is the label used for Spanish translations `Tradução` is the label used for Portuguese translations.
 
 Translation issues should be:
 
-- relatively small (a blog post, a section of documentation, a tutorial, a chapter),
-- clearly scoped,
-- and already prepared in a pull request to reduce setup time.
+-   relatively small (a blog post, a section of documentation, a tutorial, a chapter),
+-   clearly scoped,
+-   and already prepared in a pull request to reduce setup time.
 
 Issues can be categorized by:
 
-- Documentation (manuals, guides, books)
-- Website (pages, posts)
-- Interfaces (package messages, Web UI strings)
-- Tutorials (examples, lessons)
+-   Documentation (manuals, guides, books)
+-   Website (pages, posts)
+-   Interfaces (package messages, Web UI strings)
+-   Tutorials (examples, lessons)
 
 Editors review translations during or after the event, ensuring contributions maintain quality.
 
 ## Event
 
-Here we cover the specifics of actually running the event. 
-What needs to be done just before, during, and after the event. 
+Here we cover the specifics of actually running the event.
+What needs to be done just before, during, and after the event.
 
 ### To Do List
 
-- Before
-    - Create [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing) (prepopulate registrants)
-    - Prepare [Feedback forms](template_forms.html#feedback) and add to Coworking Doc and Slides
-    - Finalize [GitHub Project Board](#github-project-board)
-    - Add links to the Slack Channel
-    - Sent reminder one week before and one hour before (email and social media)
-- During
-    - Share link to Coworking Document
-    - Share link to GitHub Project Board
-    - Prepare Breakout rooms
-    - Keep track of contributions (get GitHub handles for all participants) and make sure people get acknowledged
-    - Share contributions and sucess on social media and Slack channel (with permission of the attendes)
-    - Remind people to fill out the feedback form throughout the event
-    - Sent the Slack invitation to the attendees and add them to the specific Slack channel. 
-- After
-    - Follow up as needed in Slack, keep updating PR merges etc.
-    - Send out email to maintainers/mentors to thank them and give them details on how to receive honourarium
+-   Before
+    -   Create [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing) (prepopulate registrants)
+    -   Prepare [Feedback forms](template_forms.html#feedback) and add to Coworking Doc and Slides
+    -   Finalize [GitHub Project Board](#github-project-board)
+    -   Add links to the Slack Channel
+    -   Sent reminder one week before and one hour before (email and social media)
+-   During
+    -   Share link to Coworking Document
+    -   Share link to GitHub Project Board
+    -   Match participants with tasks and mentors/editors
+    -   Prepare Breakout rooms
+    -   Keep track of contributions (get GitHub handles for all participants) and make sure people get acknowledged
+    -   Share contributions and sucess on social media and Slack channel (with permission of the attendes)
+    -   Remind people to fill out the feedback form throughout the event
+    -   Sent the Slack invitation to the attendees and add them to the specific Slack channel.
+-   After
+    -   Follow up as needed in Slack, keep updating PR merges etc.
+    -   Editors finalize reviews and merges
+    -   Send out email to maintainers/mentors to thank them and give them details on how to receive honourarium
+
+### Running the event
+
+This is a schedule template:
+
+-   **Introduction (10–15 min)**: Orientation, code of conduct, overview of translation process, mentor/editor introductions.
+-   **Coworking (45 min)**: Participants select and work on translation tasks, supported by mentors.
+-   **Break/Check-in (5–10 min)**: Short pause to stretch, share progress, and regroup.
+-   **Coworking (45 min)**: Continued translation and review work in breakout or main rooms.
+-   **Wrap-up (5 min)**: Organizers summarize progress, highlight next steps, and encourage ongoing contributions in Slack.
 
 ## Resources
+
+-   **Guidelines**
+    -   [rOpenSci Translation Guide](https://translationguide.ropensci.org/)
+-   **Templates**
+    -   [Appendix - Email templates](templates_emails.html)
+    -   [Appendix - Form templates](templates_forms.html)
+-   **Example advertising**
+    -   [Blog] []() (Oct 22 2024)
+    -   [Blog] []() (Jan 24 2025)
+    -   [Blog] []() (Sep 19 2013)
+    -   [Event]  ([]() & []())
+-   **Supporting Tools for Running the Event**
+    -   [Coworking Document]() (Mar 4 2025)
+    -   [GitHub Translation Project Board]()
