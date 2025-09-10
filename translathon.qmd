@@ -39,6 +39,7 @@ They are preferably people who have already contributed, as reviewers or editors
 Because preparing and reviewing translations requires additional effort, we suggest offering mentors and editors an honorarium to recognize their time and contributions.
 
 > In our 2024 pilot, the traslaton was hosted in Portuguese in conjunction with LatinR, where many members of the Latin American R community gathered.
+> We focus the translation effort to one resource: rOpenSci Packages: Development, Maintenance, and Peer Review.
 > NumFocus provide the funding to pay mentors and editors a \$200 USD honorarium for participating in the traslathons.
 
 
@@ -161,10 +162,10 @@ This is a schedule template:
     -   [Appendix - Email templates](templates_emails.html)
     -   [Appendix - Form templates](templates_forms.html)
 -   **Example advertising**
-    -   [Blog] []() (Oct 22 2024)
-    -   [Blog] []() (Jan 24 2025)
-    -   [Blog] []() (Sep 19 2013)
-    -   [Event]  ([]() & []())
+    -   [Social media post before the traslathon] [Mastodon](https://fosstodon.org/@yabellini/113503640649820012) and [LinkedIn](https://www.linkedin.com/posts/latinrconf_tradu%C3%A7%C3%A3o-hackathon-traslaton-ropensci-activity-7264259615213637633-JPvT)
+    -   [Social media post during the event](https://bsky.app/profile/did:plc:435el47ddxdbziiobdihe5hh/post/3lb7zdy2r4mj2)
+    -   [Newsletter Higlight after the event](https://ropensci.org/blog/2024/11/29/news-november-2024/#tradução--hackathon--traslatón-ropensci)
+    -   [Event]  [rOpenSci Website](https://ropensci.org/events/latinr-2024/) & [LatinR WebSite](https://latinr.org/pt/cronograma/translaton/translaton-pt.html))
 -   **Supporting Tools for Running the Event**
-    -   [Coworking Document]() (Mar 4 2025)
-    -   [GitHub Translation Project Board]()
+    -   [Coworking Document](https://docs.google.com/document/d/1CjvRCIuX3gqJZ-_0_Nb29--LpP7PEMQdCiWTHVdH9XE/edit?tab=t.0)
+    -   [GitHub Translation Project Board](https://github.com/orgs/ropensci/projects/7)
