@@ -4,12 +4,12 @@ title: "Mini-translathon"
 
 ## Overview
 
-Traslatons are 2-hour events designed as a combination of translation (the communication of the meaning of a source-language text by means of an equivalent target-language text) with the ways and energy of a hackathon (a dedicated period of time where participants make contributions to selected FOSS projects).
+Traslatons are 2-hour events designed as a combination of *translation* (the communication of the meaning of a source-language text by means of an equivalent target-language text) with the ways and energy of a *hackathon* (a dedicated period of time where participants make contributions to selected FOSS projects).
 During the mini-traslathon participants work together on translating open source documentation, website, blog post and interfaces into different human languages.
 Traslathons are live and synchronous: participants contribute, learn, and connect with others.
 
 rOpenSci staff prepare the event by identifying materials in need of translation or review, creating and labeling pull requests, and setting up a GitHub Project board to track progress.
-During the event, after a brief introduction on how the event is structure, participants select a pull request to work on.
+During the event, after a brief introduction on how the event is structure, and how the translation process work, participants select a pull request to work on.
 Mentors and editors provide real-time support in breakout rooms or the main room.
 All contributors are also added to the multilingual channel in the rOpenSci Slack, where they can continue discussing and refining translations after the event.
 
@@ -41,6 +41,7 @@ Because preparing and reviewing translations requires additional effort, we sugg
 > In our 2024 pilot, the traslaton was hosted in Portuguese in conjunction with LatinR, where many members of the Latin American R community gathered.
 > NumFocus provide the funding to pay mentors and editors a \$200 USD honorarium for participating in the traslathons.
 
+
 ## Timeline
 
 See [Events Overview](events-overview.html) for the full timeline of paired events.
@@ -53,7 +54,7 @@ The timeline is setup for a single event, but repeat events are easy to insert a
 | 10 | Choose date for traslathon or an event to joint organization. |  |
 | 8 | Open call for mentors/editors at hands-on events | [Blog](https://ropensci.org/blog/) / Registration/ [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
 | 4–6 | Open call for participants at traslaton(s). | [Blog](https://ropensci.org/blog/) / [Registration](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167) (may vary if organized jointly with another event) / [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
-| 4–6 | Event Advertising | [Website](https://ropensci.org/events/) (may vary if organized jointly with another event) / [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
+| 4–6 | Event Advertising | [Website](https://ropensci.org/events/) (may vary if organized jointly with another event, example [LatinR Website](https://latinr.org/pt/cronograma/translaton/translaton-pt.html)) / [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
 | 1–2 | Send instructions to mentors/editors | Email (Process) |
 | 0–1 | Send instructions to participants | Email (only if we request registration) |
 | 0 | Run traslaton(s) | Zoom / [Docs](https://translationguide.ropensci.org/) / [Project Board](https://github.com/orgs/ropensci/projects/7?query=is%3Aopen+sort%3Aupdated-desc) |
@@ -63,24 +64,35 @@ The timeline is setup for a single event, but repeat events are easy to insert a
 
 ### Set the date of the event
 
-In our pilot case, the translathon was held as a satellite event of the LatinR conference.
-Therefore, the date depended on the availability of both the conference schedule and the mentors and editors.
+
+When you organize the traslathon as part of another event, the date depended on the availability of both the conference schedule and the mentors and editors.
+
 For future general events, we recommend choosing the date first and then inviting mentors and editors.
 For niche events (e.g., by language or subject area), it may be more effective to coordinate with editors and mentors first and then set the date, similar to the dynamics of Community Calls.
 If you plan to organize multiple events, it is essential to take time zones into account to facilitate global and diverse participation.
+
+> In our pilot case, the translathon was held as a satellite event of the LatinR conference. The conference offer us two potential days and we offer those days with time slots to mentors and editor to set the final date. 
 
 ### Registration
 
 Registration is required for **mentors/editors** so we can confirm sufficient support and send them preparation instructions.
 For **participants**, registration can be optional, especially if the event is not part of a larger event.
 
-> In our pilot we registered attendees free of charge using the same conference registration system.
+> In our pilot we registered attendees free of charge using the same conference registration system (Eventbrite).
 > This system was also used to send pre-event notifications and to share access information for the online meeting wich helps with the logistic of the event.
 
 ### GitHub Project
 
-rOpenSci translations are carried out using GitHub projects.
-We made sure the differents projects are up todate for the mini traslathons.
+rOpenSci translations are carried out using GitHub projects. Each translation Pull Request is listed in differents cards according to their status:
+
+- Todo - Automatic Translation
+- Todo - First Review
+- Todo - Second Review
+- To be merged
+- Merged
+
+We made sure the differents projects are up todate for the mini traslathons. Usually the PR listed under `Todo - First Review`
+and `Todo - Second Review` are the one to work during the traslathons.
 
 rOpenSci staff create pull requests with the first automatic translation for the texts needing translation and label them with the translation corresponding tag and event-specific tag.
 
@@ -109,7 +121,7 @@ What needs to be done just before, during, and after the event.
 ### To Do List
 
 -   Before
-    -   Create [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing) (prepopulate registrants)
+    -   Create [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78Bhttps://docs.google.com/document/d/1CjvRCIuX3gqJZ-_0_Nb29--LpP7PEMQdCiWTHVdH9XE/edit?usp=sharing) in the language of the event (prepopulate registrants)
     -   Prepare [Feedback forms](template_forms.html#feedback) and add to Coworking Doc and Slides
     -   Finalize [GitHub Project Board](#github-project-board)
     -   Add links to the Slack Channel
@@ -117,6 +129,7 @@ What needs to be done just before, during, and after the event.
 -   During
     -   Share link to Coworking Document
     -   Share link to GitHub Project Board
+    -   Share link to the Translation and Localization Guidelines
     -   Match participants with tasks and mentors/editors
     -   Prepare Breakout rooms
     -   Keep track of contributions (get GitHub handles for all participants) and make sure people get acknowledged
@@ -132,11 +145,13 @@ What needs to be done just before, during, and after the event.
 
 This is a schedule template:
 
--   **Introduction (10–15 min)**: Orientation, code of conduct, overview of translation process, mentor/editor introductions.
--   **Coworking (45 min)**: Participants select and work on translation tasks, supported by mentors.
+-   **Welcome (5 minutes)**: share docs and intro of host, mentor and editors.
+-   **Event instructions + translation instructions (15 min)**: Orientation, code of conduct, overview of translation process.
+-   **Task assignment (10 minutes)**: Participants select a translation tasks on the GitHub Project and comment on the PR.
+-   **Coworking (30 min)**: Participants work on translation tasks, supported by mentors.
 -   **Break/Check-in (5–10 min)**: Short pause to stretch, share progress, and regroup.
 -   **Coworking (45 min)**: Continued translation and review work in breakout or main rooms.
--   **Wrap-up (5 min)**: Organizers summarize progress, highlight next steps, and encourage ongoing contributions in Slack.
+-   **Wrap-up (15 min)**: Organizers summarize progress, highlight next steps, and encourage ongoing contributions in Slack.
 
 ## Resources
 
