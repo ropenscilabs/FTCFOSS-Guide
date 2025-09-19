@@ -140,7 +140,7 @@ Note that during coworking, we used a [slide](https://docs.google.com/presentati
 - Before
     - Create [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing) (prepopulate registrants)
     - Create [Slides](https://docs.google.com/presentation/d/1mMeMkt2Vy7B-ablhimxc2voEyqWOcTN-obuIUkgI1cE/edit?usp=sharing)
-    - Prepare [Feedback forms](template_forms.html#feedback) and add to Coworking Doc and Slides
+    - Prepare [Feedback forms](templates_forms.html#feedback) and add to Coworking Doc and Slides
     - Finalize [GitHub Project Board](#github-project-board)
     - Add links to the Slack Channel
 - During
