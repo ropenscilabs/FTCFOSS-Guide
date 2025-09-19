@@ -4,9 +4,8 @@ title: "Mini-translathon"
 
 ## Overview
 
-Traslatons are 2-hour events designed as a combination of *translation* (the communication of the meaning of a source-language text by means of an equivalent target-language text) with the ways and energy of a *hackathon* (a dedicated period of time where participants make contributions to selected FOSS projects).
-During the mini-traslathon participants work together on translating open source documentation, website, blog post and interfaces into different human languages.
-Traslathons are live and synchronous: participants contribute, learn, and connect with others.
+Translathons are 2-hour events designed as a combination of *translation* (the communication of the meaning of a source-language text by means of an equivalent target-language text) with the ways and energy of a *hackathon* (a dedicated period of time where participants make contributions to selected FOSS projects).
+Translathons are live and synchronous: participants contribute, learn, and connect with others.
 
 rOpenSci staff prepare the event by identifying materials in need of translation or review, creating and labeling pull requests, and setting up a GitHub Project board to track progress.
 During the event, after a brief introduction on how the event is structure, and how the translation process work, participants select a pull request to work on.
@@ -19,13 +18,13 @@ The community call provided guidance on how to get started with translation cont
 
 ## Mentors and Editors
 
-The main goal is traslathon events is to ensure participants have a good experience:
+The main goal is translathon events is to ensure participants have a good experience:
 
 -   learning how to contribute to translations,
 -   gaining confidence in the process, and
 -   building motivation to continue contributing beyond the event.
 
-To achieve this, traslathons rely on two key roles:
+To achieve this, translathons rely on two key roles:
 
 -   **Mentors:** contributors familiar with the translation process, tools, and community guidelines.
     They help participants get started, troubleshoot issues, and guide them through the workflow.
@@ -38,9 +37,9 @@ They are preferably people who have already contributed, as reviewers or editors
 
 Because preparing and reviewing translations requires additional effort, we suggest offering mentors and editors an honorarium to recognize their time and contributions.
 
-> In our 2024 pilot, the traslaton was hosted in Portuguese in conjunction with LatinR, where many members of the Latin American R community gathered.
+> In our 2024 pilot, the translathon was hosted in Portuguese in conjunction with LatinR, where many members of the Latin American R community gathered.
 > We focus the translation effort to one resource: rOpenSci Packages: Development, Maintenance, and Peer Review.
-> NumFocus provide the funding to pay mentors and editors a \$200 USD honorarium for participating in the traslathons.
+> NumFocus provide the funding to pay mentors and editors a \$200 USD honorarium for participating in the translathons.
 
 
 ## Timeline
@@ -52,13 +51,13 @@ The timeline is setup for a single event, but repeat events are easy to insert a
 |  |  |  |
 |-------------------------|-----------------------|-------------------------|
 | **Weeks Before** | **Task** | **Platform** |
-| 10 | Choose date for traslathon or an event to joint organization. |  |
+| 10 | Choose date for translathon or an event to joint organization. |  |
 | 8 | Open call for mentors/editors at hands-on events | [Blog](https://ropensci.org/blog/) / Registration/ [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
-| 4–6 | Open call for participants at traslaton(s). | [Blog](https://ropensci.org/blog/) / [Registration](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167) (may vary if organized jointly with another event) / [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
+| 4–6 | Open call for participants at translathon(s). | [Blog](https://ropensci.org/blog/) / [Registration](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167) (may vary if organized jointly with another event) / [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
 | 4–6 | Event Advertising | [Website](https://ropensci.org/events/) (may vary if organized jointly with another event, example [LatinR Website](https://latinr.org/pt/cronograma/translaton/translaton-pt.html)) / [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
 | 1–2 | Send instructions to mentors/editors | Email (Process) |
 | 0–1 | Send instructions to participants | Email (only if we request registration) |
-| 0 | Run traslaton(s) | Zoom / [Docs](https://translationguide.ropensci.org/) / [Project Board](https://github.com/orgs/ropensci/projects/7?query=is%3Aopen+sort%3Aupdated-desc) |
+| 0 | Run translathon(s) | Zoom / [Docs](https://translationguide.ropensci.org/) / [Project Board](https://github.com/orgs/ropensci/projects/7?query=is%3Aopen+sort%3Aupdated-desc) |
 | After event | Evaluate participant feedback | Survey form (Airtable) |
 
 ## Planning
@@ -66,7 +65,7 @@ The timeline is setup for a single event, but repeat events are easy to insert a
 ### Set the date of the event
 
 
-When you organize the traslathon as part of another event, the date depended on the availability of both the conference schedule and the mentors and editors.
+When you organize the translathon as part of another event, the date depended on the availability of both the conference schedule and the mentors and editors.
 
 For future general events, we recommend choosing the date first and then inviting mentors and editors.
 For niche events (e.g., by language or subject area), it may be more effective to coordinate with editors and mentors first and then set the date, similar to the dynamics of Community Calls.
@@ -92,8 +91,8 @@ rOpenSci translations are carried out using GitHub projects. Each translation Pu
 - To be merged
 - Merged
 
-We made sure the differents projects are up todate for the mini traslathons. Usually the PR listed under `Todo - First Review`
-and `Todo - Second Review` are the one to work during the traslathons.
+We made sure the differents projects are up todate for the mini translathons. Usually the PR listed under `Todo - First Review`
+and `Todo - Second Review` are the one to work during the translathons.
 
 rOpenSci staff create pull requests with the first automatic translation for the texts needing translation and label them with the translation corresponding tag and event-specific tag.
 
@@ -162,7 +161,7 @@ This is a schedule template:
     -   [Appendix - Email templates](templates_emails.html)
     -   [Appendix - Form templates](templates_forms.html)
 -   **Example advertising**
-    -   [Social media post before the traslathon] [Mastodon](https://fosstodon.org/@yabellini/113503640649820012) and [LinkedIn](https://www.linkedin.com/posts/latinrconf_tradu%C3%A7%C3%A3o-hackathon-traslaton-ropensci-activity-7264259615213637633-JPvT)
+    -   [Social media post before the translathon] [Mastodon](https://fosstodon.org/@yabellini/113503640649820012) and [LinkedIn](https://www.linkedin.com/posts/latinrconf_tradu%C3%A7%C3%A3o-hackathon-traslaton-ropensci-activity-7264259615213637633-JPvT)
     -   [Social media post during the event](https://bsky.app/profile/did:plc:435el47ddxdbziiobdihe5hh/post/3lb7zdy2r4mj2)
     -   [Newsletter Higlight after the event](https://ropensci.org/blog/2024/11/29/news-november-2024/#tradução--hackathon--traslatón-ropensci)
     -   [Event]  [rOpenSci Website](https://ropensci.org/events/latinr-2024/) & [LatinR WebSite](https://latinr.org/pt/cronograma/translaton/translaton-pt.html))
