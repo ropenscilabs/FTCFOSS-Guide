@@ -2,16 +2,16 @@
 title: "Social Media templates"
 ---
 
-Social media posts on Slack, LinkedIn, and 
+Social media posts on Slack, [LinkedIn](https://www.linkedin.com/company/ropensci), and [Mastodon](https://hachyderm.io/@rOpenSci)
 
 ## Slack - Maintainers announcement
 
-Hi @channel
+Hi \@channel
 
 Making your first contribution to Open Source can be both empowering and intimidating.
 Therefore we’re exited to announce a special series of activities to support first-time contributors to rOpenSci packages! :tada:
 
-In **2025**, we're planning a Community Call and several Coworking sessions/mini hackathons to support first-time contributors.
+In 2025[UPDATE], we're planning a Community Call and several Coworking sessions/mini hackathons to support first-time contributors.
 
 As part of these sessions, we're looking for rOpenSci package maintainers interested in helping people make their first(ish) contribution to Open Source.
 We know that maintaining a package requires a lot of time and effort, and teaching and mentoring someone through their first contribution can also take time. So we're also excited to announce that we have funding to offer participating maintainers a stipend to help offset their time.
@@ -20,10 +20,12 @@ See our [blog post](https://ropensci.org/events/coworking-2025-03/)[UPDATE LINK]
 
 ## Slack - Participants
 
-Coworking Mini-Hackathon for First-Time Contributors next week!
-:hourglass_flowing_sand: When: Tuesday February 4th 09:00 Australian Western (01:00 UTC)
-:grey_exclamation:Join other participants and mentors to make contributions to R package in a fun and supportive environment.
-Don't forget to register to participate!
+Coworking Mini-Hackathon for First-Time Contributors next week!  
+
+:hourglass_flowing_sand: When: Tuesday February 4th 09:00 Australian Western (01:00 UTC)  
+:grey_exclamation:Join other participants and mentors to make contributions to R package in a fun and supportive environment.  
+
+Don't forget to register to participate!  
 https://ropensci.org/events/coworking-2025-02
 
 ## Mastodon/LinkedIn - Maintainers announcement
