@@ -124,6 +124,8 @@ What needs to be done just before, during, and after the event.
     -   Prepare [Feedback forms](templates_forms.html#feedback) and add to Coworking Doc
     -   Finalize [GitHub Project Board](#github-project)
     -   Add links to the Slack event channel
+    -   Advertise with posts in rOpenSci Slack and other community Slack channels
+    -   Advertise event in HQ section of the rOpenSci Newsletter
     -   Send reminder one week before and one hour before (email and social media)
 -   During
     -   Share link to Coworking Document
