@@ -53,7 +53,7 @@ Weeks Before | Task                                    | Platform
 | 8 | Open call for mentors/editors at hands-on events | [Blog](https://ropensci.org/blog/) / Registration/ [Social](templates_social.html) |
 | 4–6 | Open call for participants at translathon(s). | [Blog](https://ropensci.org/blog/) / [Registration](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167) (may vary if organized jointly with another event) / [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
 | 4–6 | Event Advertising | [Website](https://ropensci.org/events/) (may vary if organized jointly with another event, example [LatinR Website](https://latinr.org/pt/cronograma/translaton/translaton-pt.html)) / [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
-| 1–2 | Send instructions to mentors/editors | Email (Process) |
+| 1–2 | Send instructions to mentors/editors | Email |
 | 0–1 | (If participants register) Send instructions to participants | Email |
 | 0 | Run translathon(s) | Zoom / [Docs](https://translationguide.ropensci.org/) / [Project Board](https://github.com/orgs/ropensci/projects/7?query=is%3Aopen+sort%3Aupdated-desc) |
 | After event | Evaluate participant feedback | Survey form (Airtable) |
