@@ -4,7 +4,7 @@ title: "Mini-translathon"
 
 ## Overview
 
-Translathons are 2-hour events designed as a combination of *translation* (the communication of the meaning of a source-language text by means of an equivalent target-language text) with the ways and energy of a *hackathon* (a dedicated period of time where participants make contributions to selected FOSS projects).
+Translathons are 2-hour events designed as a combination of *translation* with the ways and energy of a *hackathon* (a dedicated period of time where participants make contributions to selected FOSS projects).
 Translathons are live and synchronous: participants contribute, learn, and connect with others.
 
 rOpenSci staff prepare the event by identifying materials in need of translation or review, creating and labeling pull requests for participants to work on, and setting up a GitHub Project board to track progress.
