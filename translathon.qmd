@@ -38,40 +38,40 @@ They are preferably people who have already contributed, as reviewers or editors
 Because preparing and reviewing translations requires additional effort, we suggest offering mentors and editors an honorarium to recognize their time and contributions.
 
 > In our 2024 pilot, the translathon was hosted in Portuguese in conjunction with LatinR, where many members of the Latin American R community gathered.
-> We focus the translation effort to one resource: rOpenSci Packages: Development, Maintenance, and Peer Review.
-> NumFocus provide the funding to pay mentors and editors a \$200 USD honorarium for participating in the translathons.
+> We focused on translating one resource: rOpenSci Packages: Development, Maintenance, and Peer Review.
+> NumFocus provided the funding to pay mentors and editors a \$200 USD honorarium for participating in the translathon.
 
 
 ## Timeline
 
 See [Events Overview](events-overview.html) for the full timeline of paired events.
 
-The timeline is setup for a single event, but repeat events are easy to insert after the first three tasks.
+The timeline is setup for a single event, but repeat events are easy to insert.
 
-|  |  |  |
-|-------------------------|-----------------------|-------------------------|
-| **Weeks Before** | **Task** | **Platform** |
+Weeks Before | Task                                    | Platform
+----- | ---------------------------------------- | -------------
 | 10 | Choose date for translathon or an event to joint organization. |  |
-| 8 | Open call for mentors/editors at hands-on events | [Blog](https://ropensci.org/blog/) / Registration/ [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
+| 8 | Open call for mentors/editors at hands-on events | [Blog](https://ropensci.org/blog/) / Registration/ [Social](templates_social.html) |
 | 4–6 | Open call for participants at translathon(s). | [Blog](https://ropensci.org/blog/) / [Registration](https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167) (may vary if organized jointly with another event) / [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
 | 4–6 | Event Advertising | [Website](https://ropensci.org/events/) (may vary if organized jointly with another event, example [LatinR Website](https://latinr.org/pt/cronograma/translaton/translaton-pt.html)) / [Social](https://hachyderm.io/@rOpenSci) (include Slack workspaces) |
 | 1–2 | Send instructions to mentors/editors | Email (Process) |
-| 0–1 | Send instructions to participants | Email (only if we request registration) |
+| 0–1 | (If participants register) Send instructions to participants | Email |
 | 0 | Run translathon(s) | Zoom / [Docs](https://translationguide.ropensci.org/) / [Project Board](https://github.com/orgs/ropensci/projects/7?query=is%3Aopen+sort%3Aupdated-desc) |
 | After event | Evaluate participant feedback | Survey form (Airtable) |
+: Approximate timeline of tasks
 
 ## Planning
 
 ### Set the date of the event
 
 
-When you organize the translathon as part of another event, the date depended on the availability of both the conference schedule and the mentors and editors.
+When you organize the translathon as part of another event, the date will depend on the availability of both events and the mentors and editors.
 
 For future general events, we recommend choosing the date first and then inviting mentors and editors.
 For niche events (e.g., by language or subject area), it may be more effective to coordinate with editors and mentors first and then set the date, similar to the dynamics of Community Calls.
 If you plan to organize multiple events, it is essential to take time zones into account to facilitate global and diverse participation.
 
-> In our pilot case, the translathon was held as a satellite event of the LatinR conference. The conference offer us two potential days and we offer those days with time slots to mentors and editor to set the final date. 
+> In our pilot case, the translathon was held as a satellite event of the LatinR conference. The conference offered us two potential days and we offered those days with time slots to mentors and editors to set the final date. 
 
 ### Registration
 
@@ -79,7 +79,7 @@ Registration is required for **mentors/editors** so we can confirm sufficient su
 For **participants**, registration can be optional, especially if the event is not part of a larger event.
 
 > In our pilot we registered attendees free of charge using the same conference registration system (Eventbrite).
-> This system was also used to send pre-event notifications and to share access information for the online meeting wich helps with the logistic of the event.
+> This system was also used to send pre-event notifications and to share access information for the online meeting which helps with the logistics of the event.
 
 ### GitHub Project
 
@@ -91,20 +91,20 @@ rOpenSci translations are carried out using GitHub projects. Each translation Pu
 - To be merged
 - Merged
 
-We made sure the differents projects are up todate for the mini translathons. Usually the PR listed under `Todo - First Review`
-and `Todo - Second Review` are the one to work during the translathons.
+Ensure the different projects are up-to-date for the mini translathons. Usually the PR listed under `Todo - First Review`
+and `Todo - Second Review` are the best ones to work on during translathons.
 
-rOpenSci staff create pull requests with the first automatic translation for the texts needing translation and label them with the translation corresponding tag and event-specific tag.
+rOpenSci staff create pull requests with the first automatic translation for the texts needing translation and label them with the corresponding translation tag and event-specific tag (e.g., `ro-translathon-2024`).
 
 > `translation :mate:` is the label used for Spanish translations `Tradução` is the label used for Portuguese translations.
 
-Translation issues should be:
+Translation tasks should be:
 
 -   relatively small (a blog post, a section of documentation, a tutorial, a chapter),
 -   clearly scoped,
 -   and already prepared in a pull request to reduce setup time.
 
-Issues can be categorized by:
+Tasks can be categorized by:
 
 -   Documentation (manuals, guides, books)
 -   Website (pages, posts)
@@ -121,11 +121,11 @@ What needs to be done just before, during, and after the event.
 ### To Do List
 
 -   Before
-    -   Create [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78Bhttps://docs.google.com/document/d/1CjvRCIuX3gqJZ-_0_Nb29--LpP7PEMQdCiWTHVdH9XE/edit?usp=sharing) in the language of the event (prepopulate registrants)
-    -   Prepare [Feedback forms](template_forms.html#feedback) and add to Coworking Doc and Slides
-    -   Finalize [GitHub Project Board](#github-project-board)
-    -   Add links to the Slack Channel
-    -   Sent reminder one week before and one hour before (email and social media)
+    -   Create [Coworking Document](https://docs.google.com/document/d/1CjvRCIuX3gqJZ-_0_Nb29--LpP7PEMQdCiWTHVdH9XE) in the language of the event (prepopulate any registrants)
+    -   Prepare [Feedback forms](templates_forms.html#feedback) and add to Coworking Doc
+    -   Finalize [GitHub Project Board](#github-project)
+    -   Add links to the Slack event channel
+    -   Send reminder one week before and one hour before (email and social media)
 -   During
     -   Share link to Coworking Document
     -   Share link to GitHub Project Board
@@ -135,11 +135,11 @@ What needs to be done just before, during, and after the event.
     -   Keep track of contributions (get GitHub handles for all participants) and make sure people get acknowledged
     -   Share contributions and sucess on social media and Slack channel (with permission of the attendes)
     -   Remind people to fill out the feedback form throughout the event
-    -   Sent the Slack invitation to the attendees and add them to the specific Slack channel.
+    -   Send Slack invitations to the attendees and add them to the Slack event channel.
 -   After
     -   Follow up as needed in Slack, keep updating PR merges etc.
     -   Editors finalize reviews and merges
-    -   Send out email to maintainers/mentors to thank them and give them details on how to receive honourarium
+    -   Send out email to Mentors/Editors to thank them and give them details on how to receive honourarium
 
 ### Running the event
 
