@@ -19,6 +19,7 @@ book:
     - resources.qmd
     - templates_emails.qmd
     - templates_forms.qmd
+    - templates_social.qmd
     - examples_socials.qmd
 
 bibliography: references.bib
