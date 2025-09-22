@@ -7,18 +7,18 @@ title: "Mini-translathon"
 Translathons are 2-hour events designed as a combination of *translation* (the communication of the meaning of a source-language text by means of an equivalent target-language text) with the ways and energy of a *hackathon* (a dedicated period of time where participants make contributions to selected FOSS projects).
 Translathons are live and synchronous: participants contribute, learn, and connect with others.
 
-rOpenSci staff prepare the event by identifying materials in need of translation or review, creating and labeling pull requests, and setting up a GitHub Project board to track progress.
-During the event, after a brief introduction on how the event is structure, and how the translation process work, participants select a pull request to work on.
+rOpenSci staff prepare the event by identifying materials in need of translation or review, creating and labeling pull requests for participants to work on, and setting up a GitHub Project board to track progress.
+During the event, after a brief introduction on how the event is structured and how the translation process works, participants select a pull request to work on.
 Mentors and editors provide real-time support in breakout rooms or the main room.
 All contributors are also added to the multilingual channel in the rOpenSci Slack, where they can continue discussing and refining translations after the event.
 
-Participants completed an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.
+During and after the event, participants are invited to complete an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.
 
 The community call provided guidance on how to get started with translation contributions and different translations and localization efforts that exist for a human language in the community.
 
 ## Mentors and Editors
 
-The main goal is translathon events is to ensure participants have a good experience:
+The main goal of translathon events is to ensure participants have a good experience:
 
 -   learning how to contribute to translations,
 -   gaining confidence in the process, and
@@ -32,8 +32,8 @@ To achieve this, translathons rely on two key roles:
 -   **Editors:** experienced translators responsible for reviewing and maintaining the quality and consistency of translations.
     Editors check terminology, style, and adherence to the community’s translation agreements.
 
-Mentors and Editors sign up to participate beforehand and review the [translation process and rules](https://translationguide.ropensci.org), and the translation that need contribution.
-They are preferably people who have already contributed, as reviewers or editors, to rOpenSci's translations and know how the tools used in the process work and are also aware of the translation agreements of the language in which they are involved.
+Mentors and Editors sign up to participate beforehand and review the [translation process and rules](https://translationguide.ropensci.org), and the translations that need contributions.
+They are preferably people who have already contributed, as reviewers or editors, to rOpenSci's translations and know how the tools used in the process work and are also aware of the translation agreements for the language involved (for example, [the Spanish agreements](https://translationguide.ropensci.org/es/specific_guidelines.es.html))
 
 Because preparing and reviewing translations requires additional effort, we suggest offering mentors and editors an honorarium to recognize their time and contributions.
 
