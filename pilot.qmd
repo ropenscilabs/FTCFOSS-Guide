@@ -1,0 +1,108 @@
+# Pilot
+
+In 2024/2025 we hosted two sets of paired events to suppport first time contributors to open source software.
+
+The first set of events were designed to support first-time contributors to **open source translation projects**, using rOpenSci's Portugese translation projects as an example.
+To this end, in November 2024 we hosted a Portugese Community Call ([A comunidade R fala português](https://ropensci.org/commcalls/translation-portuguese/)) followed by a [mini-translathon at LatinR](https://latinr.org/en/cronograma/translaton/translaton-en.html).
+
+The second set of events were designed to support first-time contributors to **open source R packages**. 
+In Januaray 2025 we hosted an English Community Call ([From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/)), 
+followed by two mini-hackathon coworking sessions in [Februrary](https://ropensci.org/events/coworking-2025-02/) and [March](https://ropensci.org/events/coworking-2025-03/). 
+
+In this chapter we will discuss some of the feedback and lessons learned from this first set of events.
+To learn more about organizing these events, see the following chapters.
+
+## Feedback
+
+As part of each hands-on mini-translathon or mini-hackathon, 
+participants completed an optional feedback survey collecting insights on their experiences, 
+what they enjoyed and suggestions for improvement.
+
+### Translathons
+As part of the translation efforts, we organized a mini-hackathon focused on reviewing existing Portuguese translations and introducing participants to the review workflow. The event was divided into two main parts: a walkthrough of the translation review process and hands-on sessions where participants practiced doing reviews.
+
+Participants expressed that they enjoyed the opportunity to contribute and valued the chance to learn more about using GitHub. Many highlighted that learning the review process helped them contribute to this project and gave them skills and ideas they plan to apply in other open-source and localization projects. There was a suggestion to support other R-related translation projects. 
+
+ Most participants also mentioned that organizing this event in collaboration with the LatinR Conference was especially meaningful. It created a space to collaborate with others across the region and contribute to something that brings value to the broader Latin American community. 
+
+One key suggestion that emerged was the importance of documenting shared agreements—especially on how to translate technical terms consistently. Having a reference guide or glossary would support current and future contributors in maintaining coherence across translations.
+
+The enthusiasm sparked during the hackathon continued after the event, with several participants actively engaging in translation and review work in Slack and GitHub. Their commitment and motivation reflect the impact of creating inclusive, hands-on spaces for collaboration and learning.
+
+
+### Mini-hackathons
+Briefly, mini-hackathon coworking sessions were designed as an online event with mentors and participants. 
+We started with introductions, then had two periods for coworking separated by a break. 
+During coworking, we had breakout rooms to discuss different topics, and ask questions. For more details, see the [Chapter on Mini-hackathons](hackathon.html).
+
+In summary, participants reported that they appreciated the mentorship & support, 
+learning opportunities, social aspects, and organization of the event. 
+One particpant suggested we conduct more hackathons during our regularly scheduled coworking sessions.
+
+Specifically, participants enjoyed
+
+- having direct mentorship during the process (with many mentors), 
+- having the opportunity to listen to the questions asked by others,
+- learning about the contribution process
+- finishing a Pull Request
+- meeting people from different countries, 
+- having support in multiple languages,
+- the friendly atmosphere
+- the way the coworking session was organized and scheduled
+- the use of breakout rooms 
+
+Participants were also asked for suggestions for improvement. 
+In summary, they suggested having more issues/tasks, more language opportunities, 
+better organization of issues/tasks with respect to the experience and setup required to complete them,
+and finally, more training materials to help participants get started. 
+
+Specifically, participants suggested
+
+- More issues to address
+- Making aspects of the introduction bilingual to ensure everyone understands the instructions
+- Hosting topic or domain-specific events to tap into enthousiastic users in these fields (similar to translathosn)
+- Partnering with other organizations involved in specific domains which could host parallel sessions
+- Including more detailed material on the steps required to make and test a contribution
+- Considering what build tools participants might need to be familiar with to execute certain tasks
+- Providing training material/opportunities before the sessions which would cover build tools
+- Helping maintainers consider the complexity of tasks they recommend for this event 
+    - how many files need to be changed, and whether or not code needs to be run/built
+    - which tasks are more/less suitable for different types of participant experiences
+
+## Takeaways / Future ideas
+
+Based on the official feedback and the trends and details organizers observed themselves during the events,
+we have some general takeaways and ideas for future events.
+
+### Translathons
+For the **translathons** one of the suggestion was to organize events focused on translating resources into more languages. Before expanding to more languages, our priority is to consolidate our work in Spanish and Portuguese. We will continue improving and maintaining translations in these two languages to ensure quality and consistency.
+  
+We plan to organize more translathons, ideally in collaboration with other R community initiatives. Working together will allow us to share a common glossary and community language agreements, strengthening the overall translation effort. Organizing these events alongside other conferences or with communities like R-Ladies chapters or other R User Groups could help broaden participation. 
+
+Having the GitHub project listing Pull Requests which needed translation work (labelled by translation status) was very helpful to organize how participants chose what to work on, but even with this tool, some people accidentally started working on PRs already in use by another. This signalled to us that we need to be more clear on the process of assigning a PR to a reviewer. 
+
+After the event, contributors often continue their work asynchronously, supported by ongoing discussions and updates in our Slack multilingual channel, where people share progress, ask questions, and collaborate.  To support ongoing work, we’re considering regular traslathon meetings at a fixed time where people can join to learn, collaborate, and contribute to active translation projects.
+
+### Mini-hackathons
+
+For the mini-hackathons, while we had originally expected to have many participants new to GitHub, 
+in reality most participants were familiar with GitHub in general, but were unfamiliar with **collaborating on GitHub**. 
+They knew how to make and push commits, but wanted to learn how to make Pull Requests and how that process worked. 
+They were also interested in understanding the etiquette and workflow of making contributions.
+
+Further, many participants were very familiar with coding in R (or other programming languages), 
+but were not familiar with **R package development** (i.e. working with the package structure, using development tools, testing interactively, and using formal unit tests). 
+
+Adding breakout room topics such as "build tools in R" and "collaborating on GitHub" could be a simple way to help participants get support on these topics. 
+Developing a simple "Getting started" guide or workshop to share with participants before the event could be another method for participants who prefer to have a more formal set of instructions.
+
+It took time for participants to decide on an issue,
+and there was the sense sometimes that they felt a bit rushed. 
+If possible, it might therefore be nice to share the GitHub Issues Project Board with participatns *before* the start of coworking, so they have more time to explore the issues and think about what they would like to tackle.
+
+As suggested by one participant, it could also be interesting to try organizing these events with other groups for domain-specific software. 
+This could help build capacity in specific domains and strengthen ties among communities.
+
+rOpenSci staff also had suggestions, such as to consider using mini-hackathons to support/encourage/find new maintainers for rOpenSci packages, to invite [Champions](https://ropensci.org/champions) to attend, and to explore collaborations with other organizations. 
+
+All in all, these mini-hackathons were well received and the helpful feedback submitted indicates that participants are engaged and want to help improve and refine the format. 

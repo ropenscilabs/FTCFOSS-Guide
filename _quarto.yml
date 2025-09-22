@@ -10,6 +10,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - pilot.qmd
     - event-overview.qmd
     - commcall.qmd
     - translathon.qmd
@@ -19,6 +20,7 @@ book:
     - templates_emails.qmd
     - templates_forms.qmd
     - templates_social.qmd
+    - examples_socials.qmd
 
 bibliography: references.bib
 
