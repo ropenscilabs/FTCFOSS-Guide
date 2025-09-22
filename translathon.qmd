@@ -14,7 +14,6 @@ All contributors are also added to the multilingual channel in the rOpenSci Slac
 
 During and after the event, participants are invited to complete an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.
 
-The community call provided guidance on how to get started with translation contributions and different translations and localization efforts that exist for a human language in the community.
 
 ## Mentors and Editors
 
