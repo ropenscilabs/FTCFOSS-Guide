@@ -181,8 +181,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./templates_social.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Social Media templates</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./examples_socials.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Social Media examples</span></span></a>
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Social Media examples</span></span></a>
   </div>
 </li>
       </ul>
@@ -198,17 +204,17 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">7.1</span> Overview</a></li>
-  <li><a href="#maintainers-mentors" id="toc-maintainers-mentors" class="nav-link" data-scroll-target="#maintainers-mentors"><span class="header-section-number">7.2</span> Maintainers / Mentors</a></li>
+  <li><a href="#maintainers-and-mentors" id="toc-maintainers-and-mentors" class="nav-link" data-scroll-target="#maintainers-and-mentors"><span class="header-section-number">7.2</span> Maintainers and Mentors</a></li>
   <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline"><span class="header-section-number">7.3</span> Timeline</a></li>
   <li><a href="#planning" id="toc-planning" class="nav-link" data-scroll-target="#planning"><span class="header-section-number">7.4</span> Planning</a>
   <ul class="collapse">
-  <li><a href="#dates" id="toc-dates" class="nav-link" data-scroll-target="#dates"><span class="header-section-number">7.4.1</span> Choosing date/times</a></li>
+  <li><a href="#dates" id="toc-dates" class="nav-link" data-scroll-target="#dates"><span class="header-section-number">7.4.1</span> Set the date of the event</a></li>
   <li><a href="#registration" id="toc-registration" class="nav-link" data-scroll-target="#registration"><span class="header-section-number">7.4.2</span> Registration</a></li>
   <li><a href="#issues-and-labelling" id="toc-issues-and-labelling" class="nav-link" data-scroll-target="#issues-and-labelling"><span class="header-section-number">7.4.3</span> Issues and Labelling</a></li>
   <li><a href="#github-project-board" id="toc-github-project-board" class="nav-link" data-scroll-target="#github-project-board"><span class="header-section-number">7.4.4</span> GitHub Project Board</a></li>
   <li><a href="#outreach-and-communication" id="toc-outreach-and-communication" class="nav-link" data-scroll-target="#outreach-and-communication"><span class="header-section-number">7.4.5</span> Outreach and Communication</a></li>
   </ul></li>
-  <li><a href="#coworking" id="toc-coworking" class="nav-link" data-scroll-target="#coworking"><span class="header-section-number">7.5</span> Coworking</a>
+  <li><a href="#event" id="toc-event" class="nav-link" data-scroll-target="#event"><span class="header-section-number">7.5</span> Event</a>
   <ul class="collapse">
   <li><a href="#to-do-list" id="toc-to-do-list" class="nav-link" data-scroll-target="#to-do-list"><span class="header-section-number">7.5.1</span> To Do List</a></li>
   <li><a href="#running-the-event" id="toc-running-the-event" class="nav-link" data-scroll-target="#running-the-event"><span class="header-section-number">7.5.2</span> Running the event</a></li>
@@ -245,23 +251,24 @@ ul.task-list li input[type="checkbox"] {
 <p>rOpenSci <a href="https://ropensci.org/coworking/">Coworking Sessions</a> are generally 2-hr sessions with a primary host and a guest community host with a different theme each month. During a session, the primary host orientates participants and leads introductions. Then participants can choose work on their own projects, to socialize or discuss the monthly theme in a ‘noisy’ breakout room with the community host, or a combination of the two. The primary host arranges a break and mini-scavenger hunt in the middle and wraps up the meeting at the end.</p>
 <p>Mini-hackathons differ from coworking (and from many hackathons) in that it is presumed that most if not all participants are attending to contribute to FOSS (possibly for the first time), there are many breakout rooms, and there are at least 5-10 mentors or maintainers to support the participants.</p>
 <p>In a mini-hackathon, rOpenSci staff, package maintainers, and mentors are on hand to support participants with their first contributions. Maintainers and mentors sign up to participate beforehand and prepare relevant issues for new contributors. During the coworking session, mentors and maintainers split into different Zoom breakout rooms to chat with participants one-on-one or in small groups to support them with their contributions. All maintainers, mentors, and participants are also added to a special mini-hackathon channel in the rOpenSci Slack where they can further discuss contributions after the event ends.</p>
+<p>During and after the event, participants are invited to complete an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.</p>
 </section>
-<section id="maintainers-mentors" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="maintainers-mentors"><span class="header-section-number">7.2</span> Maintainers / Mentors</h2>
+<section id="maintainers-and-mentors" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="maintainers-and-mentors"><span class="header-section-number">7.2</span> Maintainers and Mentors</h2>
 <p>The goal of mini-hackathons is less that open source projects receive attention, and more that participants have a good experience from which they learn how to make contributions, and gain the confidence/motivation to continue making contributions. Therefore, the core idea of the mini-hackathon is that it is a <strong>live</strong> and <strong>synchronous</strong> event, and that there will be active and immediate support for participants.</p>
 <p>As such it is important to ensure that sufficient maintainers <em>and</em> mentors are present. <strong>Maintainers</strong> are those who maintain an R package to which they will be supporting contributions. <strong>Mentors</strong> are those who are not expliciting supporting contributions to their own R package, but who will be generally helping participants learn how to make contributions to other packages.</p>
 <blockquote class="blockquote">
-<p>Originally we solicited participation from maintainers of rOpenSci packages in particular, later however, we opened up registration to maintainers of any R package and mentors in general in order to increase the number of maintainers/mentors participating.</p>
+<p>Originally we solicited participation from maintainers of rOpenSci packages in particular, later however, we opened up registration to maintainers of any R package and mentors in general in order to increase the number of maintainers and mentors participating.</p>
 </blockquote>
-<p>Because this work doesn’t necessarily directly benefit the maintainer/mentor and it may require extra work to prepare an R package for contributions of this nature, <strong>we suggest offering maintainers/mentors an honorarium</strong> to help equalize participation by offsetting the cost of their time. If you do, prepare clear instructions on how mentors can receive their honorarium after the event. Depending on how your organization works, you may wish to include links to optional invoice templates.</p>
+<p>Because this work doesn’t necessarily directly benefit the maintainer or mentor, and for maintainers it may require extra work to prepare an R package for contributions of this nature, <strong>we suggest offering maintainers and mentors an honorarium</strong> to help equalize participation by offsetting the cost of their time. If you do, prepare clear instructions on how mentors can receive their honorarium after the event. Depending on how your organization works, you may wish to include links to optional invoice templates.</p>
 <blockquote class="blockquote">
-<p>In our 2024/2025 pilot we applied for and received funding from NumFocus through an Small Development Grant which allowed us to offer maintainers/mentors a $200 USD honorarium for participating in the mini-hackathons.</p>
+<p>In our 2024/2025 pilot we applied for and received funding from NumFocus through an Small Development Grant which allowed us to offer maintainers and mentors a $200 USD honorarium for participating in the mini-hackathons.</p>
 </blockquote>
 </section>
 <section id="timeline" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="timeline"><span class="header-section-number">7.3</span> Timeline</h2>
 <p>See <a href="events-overview.html">Events Overview</a> for the full timeline of paired events.</p>
-<p>The following timeline is setup for a single event, but repeat events are easy to insert after the first three tasks.</p>
+<p>The following timeline is setup for a single event, but repeat events are easy to insert.</p>
 <table class="caption-top table">
 <caption>Approximate timeline of tasks</caption>
 <thead>
@@ -299,7 +306,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>0-1</td>
-<td>Send instructions to participants</td>
+<td>(If participants register) Send instructions to participants</td>
 <td>Email (<a href="templates_emails.html#participants">Process</a>)</td>
 </tr>
 <tr class="odd">
@@ -310,7 +317,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>After event</td>
 <td>Evaluate participant feedback</td>
-<td></td>
+<td>Survey form (Airtable)</td>
 </tr>
 </tbody>
 </table>
@@ -318,9 +325,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="planning" class="level2" data-number="7.4">
 <h2 data-number="7.4" class="anchored" data-anchor-id="planning"><span class="header-section-number">7.4</span> Planning</h2>
 <section id="dates" class="level3" data-number="7.4.1">
-<h3 data-number="7.4.1" class="anchored" data-anchor-id="dates"><span class="header-section-number">7.4.1</span> Choosing date/times</h3>
-<p>Pick dates for the events prior to advertising open calls for maintainers/mentors and participants. Make sure you give yourself enough time to recruit maintainers/mentors (~6-8 weeks) and to change the date if you feel that you may not have enough maintainers/mentors. Then once you have a good set of maintainers/mentors registered, start advertizing for general participants (~4-6 weeks).</p>
-<p>However, if conducting domain-specific events, then it could be worth contacting maintainers/mentors first and <em>then</em> picking dates with their schedules in mind (similar to how rOpenSci organizes <a href="https://ropensci.org/blog/2021/02/02/ropensci-community-calls/">Community Calls</a>).</p>
+<h3 data-number="7.4.1" class="anchored" data-anchor-id="dates"><span class="header-section-number">7.4.1</span> Set the date of the event</h3>
+<p>Pick dates for the events prior to advertising open calls for maintainers and mentors and participants. Make sure you give yourself enough time to recruit maintainers and mentors (~6-8 weeks) and to change the date if you feel that you may not have enough maintainers and mentors. Then once you have a good set of maintainers and mentors registered, start advertizing for general participants (~4-6 weeks).</p>
+<p>However, if conducting domain-specific events, then it could be worth contacting maintainers and mentors first and <em>then</em> picking dates with their schedules in mind (similar to how rOpenSci organizes <a href="https://ropensci.org/blog/2021/02/02/ropensci-community-calls/">Community Calls</a>).</p>
 <blockquote class="blockquote">
 <p>In our pilot we had opened the call for mentors before setting a date. We then used a poll to decide on appropriate dates for the mini-hackathon. This made it difficult for mentors to commit to the event, as we were asking for expressions of interest before we had a date.</p>
 </blockquote>
@@ -331,15 +338,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="registration" class="level3" data-number="7.4.2">
 <h3 data-number="7.4.2" class="anchored" data-anchor-id="registration"><span class="header-section-number">7.4.2</span> Registration</h3>
-<p>Registration is required for <a href="templates_forms.html#mentors">maintainers/mentors</a> as we need to ensure there we have enough to help, and we need a way of contacting them to send out further instructions.</p>
-<p>Registration is optional for <a href="templates_forms.html#participants">participants</a> to encourage last minute attendance, while still giving us an idea of the level of interest in the event. This helps us ensure we have enough maintainers/mentors and makes it easier to send Slack invitations as we already have the emails of some participants. We also pre-populate the coworking documents with the names of maintainers/mentors as well as registered participants.</p>
+<p>Registration is required for <a href="templates_forms.html#mentors">maintainers and mentors</a> as we need to ensure there we have enough to help, and we need a way of contacting them to send out further instructions.</p>
+<p>Registration is optional for <a href="templates_forms.html#participants">participants</a> to encourage last minute attendance, while still giving us an idea of the level of interest in the event. This helps us ensure we have enough maintainers and mentors and makes it easier to send Slack invitations as we already have the emails of some participants. We also pre-populate the coworking documents with the names of maintainers and mentors as well as registered participants.</p>
 <blockquote class="blockquote">
 <p>In our first mini-hackathon pilot we made registration mandatory for participants, but in the end we didn’t find it necessary, so for the second event we made registration optional.</p>
 </blockquote>
 <p>We find that optional registration simplifies organizing the event as we dodn’t necessarily <em>have</em> to send out meeting links or deal with last minute registrants.</p>
 <p>However, by having mandatory registration you would have an even better idea of the number of participants to expect, so the trade offs may be worth it for your organization, or depending on the nature of your hackathon.</p>
 <blockquote class="blockquote">
-<p>We used AirTable forms to collect registrations for <a href="templates_forms.html#mentors">maintainers/mentors</a> as well as <a href="templates_forms.html#participants">participants</a>. However, any registration form system could work for this step (e.g., Google Forms, Zoom, etc.)</p>
+<p>We used AirTable forms to collect registrations for <a href="templates_forms.html#mentors">maintainers and mentors</a> as well as <a href="templates_forms.html#participants">participants</a>. However, any registration form system could work for this step (e.g., Google Forms, Zoom, etc.)</p>
 </blockquote>
 </section>
 <section id="issues-and-labelling" class="level3" data-number="7.4.3">
@@ -370,7 +377,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="outreach-and-communication" class="level3" data-number="7.4.5">
 <h3 data-number="7.4.5" class="anchored" data-anchor-id="outreach-and-communication"><span class="header-section-number">7.4.5</span> Outreach and Communication</h3>
-<p>We advertise the calls for maintainers/mentors and participants with</p>
+<p>We advertise the calls for maintainers and mentors and participants with</p>
 <ul>
 <li>blog posts (e.g., <a href="https://ropensci.org/blog/2024/10/22/first-time-contributions/">mentors</a>, <a href="https://ropensci.org/blog/2025/01/24/coworking-hackathons/">participants</a>)</li>
 <li>social media (e.g., LinkedIn and Mastodon; see <a href="examples_socials.html#hackathon">example</a> text),</li>
@@ -380,8 +387,8 @@ ul.task-list li input[type="checkbox"] {
 <p>In addition the these announcements, it’s important to send reminders 1 week, 1 day, and 1 hour in advance on social media (<a href="examples_socials.html#hackathon">examples</a>).</p>
 </section>
 </section>
-<section id="coworking" class="level2" data-number="7.5">
-<h2 data-number="7.5" class="anchored" data-anchor-id="coworking"><span class="header-section-number">7.5</span> Coworking</h2>
+<section id="event" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="event"><span class="header-section-number">7.5</span> Event</h2>
 <p>Here we cover the specifics of actually running the event, specifically what needs to be done just before, during, and after.</p>
 <p>Note that during coworking, we use a <a href="https://docs.google.com/presentation/d/1mMeMkt2Vy7B-ablhimxc2voEyqWOcTN-obuIUkgI1cE/edit?usp=sharing">slide deck</a> and <a href="https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?usp=sharing">Coworking Document</a> for introductions, sharing links, and sharing notes.</p>
 <section id="to-do-list" class="level3" data-number="7.5.1">
@@ -423,7 +430,7 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="unnumbered anchored" data-anchor-id="after">After</h4>
 <ul>
 <li>Follow up as needed on Slack, keep updating PR merges etc.</li>
-<li>Send out email to maintainers/mentors to thank them and give them details on how to receive honourarium</li>
+<li>Send out email to maintainers and mentors to thank them and give them details on how to receive honourarium</li>
 </ul>
 </section>
 </section>
@@ -438,7 +445,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Co-working (45 min)</li>
 <li>Wrap up (5 min)</li>
 </ul>
-<p>During the introductions each maintainer/mentor introduces themself and comments on how they can help or what kind of contributions they expect for their package. In this way the attendees can begin to decide what they would like to work on and with whom.</p>
+<p>During the introductions each maintainer and mentor introduces themself and comments on how they can help or what kind of contributions they expect for their package. In this way the attendees can begin to decide what they would like to work on and with whom.</p>
 <p>During coworking, we open breakout rooms to cover different topics. We include a Quiet room where people can work without chatter, as well as several generic rooms (“Room 1”, etc.) where package maintainers can chat one-on-one or with small groups of participants about their package.</p>
 <p>At the start of coworking an organizer asks mentors (those without a package), to go to a topic room and stay for 5 min in case a participant would like help with that topic. Afterwards they are free to ‘roam’ and see where they might assist participants or maintainers.</p>
 <p>Next an organizer will ask participants if they have a particular package or issue they’d like to work on, and will help match participants up with maintainers if they are unsure. The organizer will assign maintainers to specific rooms to chat with participants as participants express interest.</p>
@@ -477,8 +484,8 @@ ul.task-list li input[type="checkbox"] {
 <li>[Blog] <a href="https://ropensci.org/blog/2024/10/22/first-time-contributions/">Looking for Maintainers to Support First-Time Contributors</a> (Oct 22 2024)</li>
 <li>[Blog] <a href="https://ropensci.org/blog/2025/01/24/coworking-hackathons/">Coworking Mini-Hackathon for First-Time Contributors</a> (Jan 24 2025)</li>
 <li>[Blog] <a href="https://ropensci.org/blog/2023/09/19/help-wanted/">Attract Contributors with ‘help wanted’ Issues</a> (Sep 19 2013)</li>
-<li>[Event] Coworking Mini-Hackathon for First-Time Contributors! (<a href="https://ropensci.org/events/coworking-2025-02/">Feb 4 2025</a> &amp; <a href="https://ropensci.org/events/coworking-2025-03/">Mar 4 2025</a>)</li>
-<li><a href="https://ropensci.org/blog/2024/11/29/news-november-2024/#looking-for-maintainers-to-support-first-time-contributors">rOpenSci Newsletter - Maintainers/Mentors</a></li>
+<li><a href="#event">Event</a> Coworking Mini-Hackathon for First-Time Contributors! (<a href="https://ropensci.org/events/coworking-2025-02/">Feb 4 2025</a> &amp; <a href="https://ropensci.org/events/coworking-2025-03/">Mar 4 2025</a>)</li>
+<li><a href="https://ropensci.org/blog/2024/11/29/news-november-2024/#looking-for-maintainers-to-support-first-time-contributors">rOpenSci Newsletter - Maintainers and Mentors</a></li>
 <li><a href="https://ropensci.org/blog/2025/01/27/news-january-2025/#coworking-mini-hackathons">rOpenSci Newsletter - Participants</a></li>
 </ul></li>
 <li><strong>Supporting Tools for Running the Event</strong>
