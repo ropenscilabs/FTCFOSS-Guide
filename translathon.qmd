@@ -165,7 +165,7 @@ This is a schedule template:
     -   [Social media post before the translathon] [Mastodon](https://fosstodon.org/@yabellini/113503640649820012) and [LinkedIn](https://www.linkedin.com/posts/latinrconf_tradu%C3%A7%C3%A3o-hackathon-traslaton-ropensci-activity-7264259615213637633-JPvT)
     -   [Social media post during the event](https://bsky.app/profile/did:plc:435el47ddxdbziiobdihe5hh/post/3lb7zdy2r4mj2)
     -   [Newsletter Higlight after the event](https://ropensci.org/blog/2024/11/29/news-november-2024/#tradução--hackathon--traslatón-ropensci)
-    -   [Event]  [rOpenSci Website](https://ropensci.org/events/latinr-2024/) & [LatinR WebSite](https://latinr.org/pt/cronograma/translaton/translaton-pt.html))
+    -   [Event]  [rOpenSci Website](https://ropensci.org/events/latinr-2024/) & [LatinR WebSite](https://latinr.org/pt/cronograma/translaton/translaton-pt.html)
 -   **Supporting Tools for Running the Event**
     -   [Coworking Document](https://docs.google.com/document/d/1CjvRCIuX3gqJZ-_0_Nb29--LpP7PEMQdCiWTHVdH9XE/edit?tab=t.0)
     -   [GitHub Translation Project Board](https://github.com/orgs/ropensci/projects/7)

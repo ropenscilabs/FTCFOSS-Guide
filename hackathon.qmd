@@ -23,7 +23,9 @@ Maintainers and mentors sign up to participate beforehand and prepare relevant i
 During the coworking session, mentors and maintainers split into different Zoom breakout rooms to chat with participants one-on-one or in small groups to support them with their contributions. 
 All maintainers, mentors, and participants are also added to a special mini-hackathon channel in the rOpenSci Slack where they can further discuss contributions after the event ends.
 
-## Maintainers / Mentors
+During and after the event, participants are invited to complete an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.
+
+## Maintainers and Mentors
 
 The goal of mini-hackathons is less that open source projects receive attention, and more that participants have a good experience from which they learn how to make contributions, and gain the confidence/motivation to continue making contributions. 
 Therefore, the core idea of the mini-hackathon is that it is a **live** and **synchronous** event, and that there will be active and immediate support for participants. 
@@ -34,23 +36,21 @@ As such it is important to ensure that sufficient maintainers *and* mentors are 
 
 > Originally we solicited participation from maintainers of rOpenSci packages in particular, 
 > later however, we opened up registration to maintainers of any R package and mentors in general 
-> in order to increase the number of maintainers/mentors participating.
+> in order to increase the number of maintainers and mentors participating.
 
-Because this work doesn't necessarily directly benefit the maintainer/mentor and it may require extra work to prepare an R package for contributions of this nature, 
-**we suggest offering maintainers/mentors an honorarium** to help equalize participation by offsetting the cost of their time. If you do, prepare clear instructions on how mentors can receive their honorarium after the event. 
+Because this work doesn't necessarily directly benefit the maintainer or mentor, and for maintainers it may require extra work to prepare an R package for contributions of this nature, 
+**we suggest offering maintainers and mentors an honorarium** to help equalize participation by offsetting the cost of their time. If you do, prepare clear instructions on how mentors can receive their honorarium after the event. 
 Depending on how your organization works, you may wish to include links to optional invoice templates.
 
 > In our 2024/2025 pilot we applied for and received funding from NumFocus through an Small Development Grant
-> which allowed us to offer maintainers/mentors a $200 USD honorarium for participating in the
+> which allowed us to offer maintainers and mentors a $200 USD honorarium for participating in the
 > mini-hackathons.
 
 ## Timeline
 
-See [Events Overview](events-overview.html) for the full timeline of paired 
-events.
+See [Events Overview](events-overview.html) for the full timeline of paired events.
 
-The following timeline is setup for a single event, but repeat events are easy to insert
-after the first three tasks. 
+The following timeline is setup for a single event, but repeat events are easy to insert. 
 
 Weeks Before | Task                                    | Platform
 ----- | ---------------------------------------- | -------------
@@ -59,9 +59,9 @@ Weeks Before | Task                                    | Platform
 4-6 | Open call for participants at hands-on event(s) | [Blog](https://ropensci.org/blog/2025/01/24/coworking-hackathons/) / [Registration](templates_forms.html#participants) / [Social](https://hachyderm.io/@rOpenSci/113884059275725175)
 4-6 | Event advertising[^1] | [Website](https://ropensci.org/events/coworking-2025-03/) 
 1-2 | Send instructions to maintainers  | Email ([Labelling](templates_emails.html#mentors1) & [Process](templates_emails.html#mentors2))
-0-1 | Send instructions to participants  | Email ([Process](templates_emails.html#participants))
+0-1 | (If participants register) Send instructions to participants  | Email ([Process](templates_emails.html#participants))
  0   |Run mini-hackathon(s) | Zoom / [Docs](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?tab=t.0#heading=h.jja0j3hbdd5p) / [Issues](https://github.com/search?q=label%3Aro-hackathon-2025&type=issues) / [Project Board](https://github.com/orgs/rosadmin/projects/14/views/1)
-After event | Evaluate participant feedback | 
+After event | Evaluate participant feedback |  Survey form (Airtable)
 : Approximate timeline of tasks
 
 [^1]: Advertising the Open Call for participants has a lot of overlap with 
@@ -69,14 +69,14 @@ advertising the dates of the event itself.
 
 ## Planning
 
-### Choosing date/times {#dates}
+### Set the date of the event {#dates}
 
-Pick dates for the events prior to advertising open calls for maintainers/mentors and participants. 
-Make sure you give yourself enough time to recruit maintainers/mentors (~6-8 weeks) and to change the date if you feel that you may not have enough maintainers/mentors. 
-Then once you have a good set of maintainers/mentors registered, 
+Pick dates for the events prior to advertising open calls for maintainers and mentors and participants. 
+Make sure you give yourself enough time to recruit maintainers and mentors (~6-8 weeks) and to change the date if you feel that you may not have enough maintainers and mentors. 
+Then once you have a good set of maintainers and mentors registered, 
 start advertizing for general participants (~4-6 weeks). 
 
-However, if conducting domain-specific events, then it could be worth contacting maintainers/mentors first and *then* picking dates with their schedules in mind (similar to how rOpenSci organizes [Community Calls](https://ropensci.org/blog/2021/02/02/ropensci-community-calls/)). 
+However, if conducting domain-specific events, then it could be worth contacting maintainers and mentors first and *then* picking dates with their schedules in mind (similar to how rOpenSci organizes [Community Calls](https://ropensci.org/blog/2021/02/02/ropensci-community-calls/)). 
 
 > In our pilot we had opened the call for mentors before setting a date. 
 > We then used a poll to decide on appropriate dates for the mini-hackathon. 
@@ -90,14 +90,14 @@ choose times which give a reasonable level of international coverage.
 
 ### Registration
 
-Registration is required for [maintainers/mentors](templates_forms.html#mentors) 
+Registration is required for [maintainers and mentors](templates_forms.html#mentors) 
 as we need to ensure there we have enough to help, and we need a way of contacting them to send out further instructions.
 
 Registration is optional for [participants](templates_forms.html#participants)
 to encourage last minute attendance, while still giving us an idea of the level 
 of interest in the event. 
-This helps us ensure we have enough maintainers/mentors and makes it easier to send Slack invitations as we already have the emails of some participants.
-We also pre-populate the coworking documents with the names of maintainers/mentors as well as registered participants. 
+This helps us ensure we have enough maintainers and mentors and makes it easier to send Slack invitations as we already have the emails of some participants.
+We also pre-populate the coworking documents with the names of maintainers and mentors as well as registered participants. 
 
 > In our first mini-hackathon pilot we made registration mandatory for participants, 
 but in the end we didn't find it necessary, so for the second event we made registration optional.
@@ -106,7 +106,7 @@ We find that optional registration simplifies organizing the event as we dodn't 
 
 However, by having mandatory registration you would have an even better idea of the number of participants to expect, so the trade offs may be worth it for your organization, or depending on the nature of your hackathon.
 
-> We used AirTable forms to collect registrations for [maintainers/mentors](templates_forms.html#mentors)
+> We used AirTable forms to collect registrations for [maintainers and mentors](templates_forms.html#mentors)
 as well as [participants](templates_forms.html#participants).
 > However, any registration form system could work for this step (e.g., Google Forms, Zoom, etc.)
 
@@ -150,7 +150,7 @@ The links to the Project and the Search are added to the Coworking document as w
 
 ### Outreach and Communication
 
-We advertise the calls for maintainers/mentors and participants
+We advertise the calls for maintainers and mentors and participants
 with 
 
 - blog posts (e.g., [mentors](https://ropensci.org/blog/2024/10/22/first-time-contributions/), [participants](https://ropensci.org/blog/2025/01/24/coworking-hackathons/))
@@ -160,7 +160,7 @@ with
 
 In addition the these announcements, it's important to send reminders 1 week, 1 day, and 1 hour in advance on social media ([examples](examples_socials.html#hackathon)).
 
-## Coworking
+## Event
 
 Here we cover the specifics of actually running the event, 
 specifically what needs to be done just before, during, and after. 
@@ -198,7 +198,7 @@ and [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO
 
 #### After {-}
 - Follow up as needed on Slack, keep updating PR merges etc.
-- Send out email to maintainers/mentors to thank them and give them details on how to receive honourarium
+- Send out email to maintainers and mentors to thank them and give them details on how to receive honourarium
 
 
 ### Running the event
@@ -211,7 +211,7 @@ and [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO
 - Co-working (45 min)
 - Wrap up (5 min)
 
-During the introductions each maintainer/mentor introduces themself and comments 
+During the introductions each maintainer and mentor introduces themself and comments 
 on how they can help or what kind of contributions they expect for their package. 
 In this way the attendees can begin to decide what they would like to work on and with whom. 
 
@@ -254,7 +254,7 @@ After this initial sorting, at least one organizer remains in the 'main' room to
     - [Blog] [Coworking Mini-Hackathon for First-Time Contributors](https://ropensci.org/blog/2025/01/24/coworking-hackathons/) (Jan 24 2025)
     - [Blog] [Attract Contributors with ‘help wanted’ Issues](https://ropensci.org/blog/2023/09/19/help-wanted/) (Sep 19 2013)
     - [Event] Coworking Mini-Hackathon for First-Time Contributors! ([Feb 4 2025](https://ropensci.org/events/coworking-2025-02/) & [Mar 4 2025](https://ropensci.org/events/coworking-2025-03/))
-    - [rOpenSci Newsletter - Maintainers/Mentors](https://ropensci.org/blog/2024/11/29/news-november-2024/#looking-for-maintainers-to-support-first-time-contributors)
+    - [rOpenSci Newsletter - Maintainers and Mentors](https://ropensci.org/blog/2024/11/29/news-november-2024/#looking-for-maintainers-to-support-first-time-contributors)
     - [rOpenSci Newsletter - Participants](https://ropensci.org/blog/2025/01/27/news-january-2025/#coworking-mini-hackathons)
     
     
