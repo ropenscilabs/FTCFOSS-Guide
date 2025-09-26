@@ -30,9 +30,8 @@ We hope this book will inspire and empower you to run your own events to support
 
 ## Summary Comparision
 
-|  |  |  |
-|------------------------|------------------------|------------------------|
 | **Aspect** | **Mini-Hackathon** | **Traslathon** |
+|------------------------|------------------------|------------------------|
 | **Main Goal** | Help participants make their **first contributions** to FOSS projects, usually through coding or documentation. | Help participants make their **first contributions** to translations/localizations of FOSS documentation or websites. |
 | **Format** | 2-hour live online coworking session combining hackathon + rOpenSci coworking. | 2-hour live online coworking session combining translation + rOpenSci coworking. |
 | **Expected Participant Role** | Contribute code or small documentation fixes to issues prepared by maintainers. | Review translated texts prepared as pull requests. |
