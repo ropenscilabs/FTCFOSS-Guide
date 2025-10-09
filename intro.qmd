@@ -38,4 +38,4 @@ In the Appendices we share examples and templates useful for running these event
 
 We hope this book will inspire and empower you to run your own events to support first-time contributors to open source software and translation projects.
 
-[^1]: Igor Steinmacher, Tayana Conte, Marco Aurélio Gerosa, and David Redmiles. 2015. Social Barriers Faced by Newcomers Placing Their First Contribution in Open Source Software Projects. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work &amp; Social Computing (CSCW '15). Association for Computing Machinery, New York, NY, USA, 1379–1392. https://doi.org/10.1145/2675133.2675215
+[^1]: Igor Steinmacher, Tayana Conte, Marco Aurélio Gerosa, and David Redmiles. 2015. Social Barriers Faced by Newcomers Placing Their First Contribution in Open Source Software Projects. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work &amp; Social Computing (CSCW '15). Association for Computing Machinery, New York, NY, USA, 1379–1392. <https://doi.org/10.1145/2675133.2675215>
