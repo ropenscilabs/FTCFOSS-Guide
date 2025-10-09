@@ -2,7 +2,7 @@
 
 Making your first contribution to Open Source can be both empowering and yet very intimidating.
 
-A study[^1] analyzing the social barriers preventing newcomers from making their first contributions found that the three most important barriers are: 
+Steinmacher et al.[^1] identified 13 social barriers preventing newcomers from making their first contributions to open source software projects, including barriers related to Reception, Communication, and Orientation. We consider that most of these barriers are, in one way or another, related to: 
 
 1. How easy it is to get set up to make a contribution
 
