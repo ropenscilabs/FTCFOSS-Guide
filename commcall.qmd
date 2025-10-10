@@ -27,7 +27,7 @@ We create a event page in our website under Community Calls to share the main in
 
 The event page is shared through our communications channels:
 
-* **Newsletter:** Our newsletter has around 2500 registered readers. We shared all upcoming community calls in our HQ section and the resources (like video, articles and slides) after the call.
+* **Newsletter:** Our newsletter reaches a large audience (>1000 opens per month). We shared all upcoming community calls in our HQ section and the resources (like video, articles and slides) after the call.
 
 * **Social Media:** Before the call, we use social media posts to announce the theme and raise awareness. We set the same agenda for all community calls: a "Save the date" announcement a month before, a reminder one week before the event, one day before the event and one hour before the call. 
 During the community call, we live-post under a dedicated hashtag (#translathon and #rohackathon2025), sharing screenshots, participant quotes, and quick updates to capture the energy of the event. After the call, we post highlights and linked to the [recap blog](/blog/2025/01/24/coworking-hackathons/), while beginning a countdown to the hackathon.
