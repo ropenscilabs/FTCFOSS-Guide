@@ -90,3 +90,69 @@ Original posted on [Mastodon](https://hachyderm.io/@rOpenSci/114104077511757525)
 >
 > #RStats  
 > \@rstats@a.gup.pe
+
+--- 
+
+## Traslathon
+
+### Before the event
+
+Original posted on [Mastodon](https://hachyderm.io/@rOpenSci/113385128160490468)
+
+> Essa chamada da comunidade será seguida por uma reunião de tradução na @latinr_conf
+> 
+> 🕓 Monday, 18 November 2024 - 13:00 UTC.
+> ✨  https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167
+
+
+--- 
+
+Original posted on [Mastodon](https://fosstodon.org/@yabellini/113503640649820012)
+
+> Es hoy! Es hoy!!! 
+> 
+> Arranca @latinr_conf 
+> 
+> Venite al Traslaton de @rOpenSci a las 10:00 am UTC-3
+> 
+> https://www.eventbrite.cl/e/traducao-hackathon-traslaton-ropensci-tickets-1045507530167
+
+---
+
+### During the event
+
+Live posting of the activities happening during the event. Original posted on [Mastodon](https://fosstodon.org/@yabellini/113504172589903267)
+
+> Our @rOpenSci Traslaton started !!
+> 
+> @pedropark99 is explaining our review process
+
+> @rOpenSci @pedropark99 
+> 
+> Now @beamilz is doing the first review of the PR with the authomatic translation of our CoC in Portuguese:
+>
+> https://github.com/ropensci/roweb3/pull/890
+> ...
+>
+
+---
+
+### At the end of the event
+
+Original posted on [Mastodon](https://fosstodon.org/@yabellini/113504968115673613)
+
+@rOpenSci @latinr_conf 
+
+> Traslatón summary:
+> 
+> - 4 merged PR by @pedropark99 + Rafael Fontenelle + Ildeberto Vasconcelos 
+>
+> - CoC Automatic translation finished + First Review finished + Second Review started by @beamilz and Francesca Palmeira
+> 
+> -  2 first review started by Bea Milz and Rafael Fontenelle
+> 
+> - 1 second review started by Ariana Cabral and 1 finished by Samuel Carleial
+> 
+> We discuss a Portuguese glossary and the overall process. 
+> 
+> Thank so much to all the participants 🙏 🤩 🚀
