@@ -1,8 +1,7 @@
----
-title: "Mini-translathon"
----
 
-## Overview
+# Mini-translathon {#translathon}
+
+## Overview 
 
 Translathons are 2-hour events designed as a combination of *translation* with the ways and energy of a *hackathon* (a dedicated period of time where participants make contributions to selected FOSS projects).
 Translathons are live and synchronous: participants contribute, learn, and connect with others.

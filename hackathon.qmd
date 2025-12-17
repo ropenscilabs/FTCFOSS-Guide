@@ -1,8 +1,6 @@
----
-title: "Mini-hackathons"
----
+# Mini-hackathons {#hackathon}
 
-## Overview
+## Overview 
 
 Mini-hackathons are 2-hr events designed as a variation on the standard rOpenSci coworking format. 
 They are a combination of a hackathon (a dedicated period of time where participants make contributions to selected FOSS projects) 
