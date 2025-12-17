@@ -1,13 +1,13 @@
 # Pilot
 
-In 2024/2025 we hosted two sets of paired events to suppport first time contributors to open source software.
+In 2024/2025 we hosted two sets of paired events to support first time contributors to open source software.
 
-The first set of events were designed to support first-time contributors to **open source translation projects**, using rOpenSci's Portugese translation projects as an example.
-To this end, in November 2024 we hosted a Portugese Community Call ([A comunidade R fala português](https://ropensci.org/commcalls/translation-portuguese/)) followed by a [mini-translathon at LatinR](https://latinr.org/en/cronograma/translaton/translaton-en.html).
+The first set of events were designed to support first-time contributors to **open source translation projects**, using rOpenSci's Portuguese translation projects as an example.
+To this end, in November 2024 we hosted a Portuguese Community Call ([A comunidade R fala português](https://ropensci.org/commcalls/translation-portuguese/)) followed by a [mini-translathon at LatinR](https://latinr.org/en/cronograma/translaton/translaton-en.html).
 
 The second set of events were designed to support first-time contributors to **open source R packages**. 
-In Januaray 2025 we hosted an English Community Call ([From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/)), 
-followed by two mini-hackathon coworking sessions in [Februrary](https://ropensci.org/events/coworking-2025-02/) and [March](https://ropensci.org/events/coworking-2025-03/). 
+In January 2025 we hosted an English Community Call ([From Novice to Contributor: Making and Supporting First-Time Contributions to FOSS](https://ropensci.org/commcalls/first-time-contributor/)), 
+followed by two mini-hackathon coworking sessions in [February](https://ropensci.org/events/coworking-2025-02/) and [March](https://ropensci.org/events/coworking-2025-03/). 
 
 In this chapter we will discuss some of the feedback and lessons learned from this first set of events.
 To learn more about organizing these events, see the following chapters.
@@ -37,7 +37,7 @@ During coworking, we had breakout rooms to discuss different topics, and ask que
 
 In summary, participants reported that they **appreciated the mentorship & support**, 
 **learning opportunities**, **social aspects**, and **organization** of the event. 
-One particpant suggested we conduct more hackathons during our regularly scheduled coworking sessions.
+One participant suggested we conduct more hackathons during our regularly scheduled coworking sessions.
 
 Specifically, participants enjoyed
 
@@ -60,7 +60,7 @@ Specifically, participants suggested
 
 - More issues to address
 - Making aspects of the introduction bilingual to ensure everyone understands the instructions
-- Hosting topic or domain-specific events to tap into enthousiastic users in these fields (similar to translathosn)
+- Hosting topic or domain-specific events to tap into enthusiastic users in these fields (similar to translathons)
 - Partnering with other organizations involved in specific domains which could host parallel sessions
 - Including more detailed material on the steps required to make and test a contribution
 - Considering what build tools participants might need to be familiar with to execute certain tasks
@@ -82,7 +82,7 @@ We plan to organize more translathons, ideally in collaboration with other R com
 
 Having the GitHub project listing Pull Requests which needed translation work (labelled by translation status) was very helpful to organize how participants chose what to work on, but even with this tool, some people accidentally started working on PRs already in use by another. This signalled to us that we need to be more clear on the process of assigning a PR to a reviewer. 
 
-After the event, contributors often continue their work asynchronously, supported by ongoing discussions and updates in our Slack multilingual channel, where people share progress, ask questions, and collaborate.  To support ongoing work, we’re considering regular traslathon meetings at a fixed time where people can join to learn, collaborate, and contribute to active translation projects.
+After the event, contributors often continue their work asynchronously, supported by ongoing discussions and updates in our Slack multilingual channel, where people share progress, ask questions, and collaborate.  To support ongoing work, we’re considering regular translathon meetings at a fixed time where people can join to learn, collaborate, and contribute to active translation projects.
 
 ### Mini-hackathons
 
@@ -99,7 +99,7 @@ Developing a simple "Getting started" guide or workshop to share with participan
 
 It took time for participants to decide on an issue,
 and there was the sense sometimes that they felt a bit rushed. 
-If possible, it might therefore be nice to share the GitHub Issues Project Board with participatns *before* the start of coworking, so they have more time to explore the issues and think about what they would like to tackle.
+If possible, it might therefore be nice to share the GitHub Issues Project Board with participants *before* the start of coworking, so they have more time to explore the issues and think about what they would like to tackle.
 
 As suggested by one participant, it could also be interesting to try organizing these events with other groups for domain-specific software. 
 This could help build capacity in specific domains and strengthen ties among communities.

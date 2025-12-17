@@ -21,11 +21,9 @@ Chapter | Task                                    | Platform
 [5](translathon.qmd)/[6](hackathon.qmd) | Run mini-translathon(s)/hackathon(s) | Zoom / Docs
 [5](translathon.qmd)/[6](hackathon.qmd) | Evaluate participant [feedback](pilot.qmd#feedback) | 
 
-<!-- TODO: Yani, does this timeline work for the translathons as well as the hackathons? -->
+## Summary Comparison
 
-## Summary Comparision
-
-| **Aspect** | **Mini-Hackathon** | **Traslathon** |
+| **Aspect** | **Mini-Hackathon** | **Translathon** |
 |------------------------|------------------------|------------------------|
 | **Main Goal** | Help participants make their **first contributions** to FOSS projects, usually through coding or documentation. | Help participants make their **first contributions** to translations/localizations of FOSS documentation or websites. |
 | **Format** | 2-hour live online coworking session combining hackathon + rOpenSci coworking. | 2-hour live online coworking session combining translation + rOpenSci coworking. |
