@@ -10,16 +10,16 @@ See the relevant chapter for specific details for organizing a specific event ty
 
 Chapter | Task                                    | Platform
 --- | ---------------------------------------- | -------------
-[2](commcall.qmd) | Contact potential panelists and moderators for Community Call | Email etc.
-[2](commcall.qmd) | Choose date for Community call with participants' input | 
-[2](commcall.qmd) | Advertise Community call | Website / Social Media
-[5](translathon.qmd)/[6](hackathon.qmd) | Choose date(s) for mini-translathon/hackathon | 
-[5](translathon.qmd)/[6](hackathon.qmd) | Open call for mentors/maintainers at hands-on events | Blog / Registration
-[5](translathon.qmd)/[6](hackathon.qmd) | Advertise Mini-translathon(s)/hackathon(s) | Website / Social Media
-[5](translathon.qmd)/[6](hackathon.qmd) | Open call for participants at hands-on event(s)  | Blog / Registration
-[2](commcall.qmd) | Run Community Call | Zoom / Docs
-[5](translathon.qmd)/[6](hackathon.qmd) | Run mini-translathon(s)/hackathon(s) | Zoom / Docs
-[5](translathon.qmd)/[6](hackathon.qmd) | Evaluate participant [feedback](pilot.qmd#feedback) | 
+[5](commcall.qmd) | Contact potential panelists and moderators for Community Call | Email etc.
+[5](commcall.qmd) | Choose date for Community call with participants' input | 
+[5](commcall.qmd) | Advertise Community call | Website / Social Media
+[6](translathon.qmd)/[7](hackathon.qmd) | Choose date(s) for mini-translathon/hackathon | 
+[6](translathon.qmd)/[7](hackathon.qmd) | Open call for mentors/maintainers at hands-on events | Blog / Registration
+[6](translathon.qmd)/[7](hackathon.qmd) | Advertise Mini-translathon(s)/hackathon(s) | Website / Social Media
+[6](translathon.qmd)/[7](hackathon.qmd) | Open call for participants at hands-on event(s)  | Blog / Registration
+[5](commcall.qmd) | Run Community Call | Zoom / Docs
+[6](translathon.qmd)/[7](hackathon.qmd) | Run mini-translathon(s)/hackathon(s) | Zoom / Docs
+[6](translathon.qmd)/[7](hackathon.qmd) | Evaluate participant [feedback](pilot.qmd#feedback) | 
 
 <!-- TODO: Yani, does this timeline work for the translathons as well as the hackathons? -->
 

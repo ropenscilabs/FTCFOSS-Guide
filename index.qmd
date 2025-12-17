@@ -17,6 +17,7 @@ While instructions and notes are presented within an rOpenSci context, we hope t
 that they could be adapted as a model for use in other organizations.
 The format has been designed to be scalable across our federation of scientific open source software and we hope will serve as a model for maintainers to replicate in recruiting contributors and co-maintainers.
 
+### Contributions to this book
 If you find any errors or things that need clarification, we would be grateful if you opened an issue or pull request in the repository for this book.
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.

@@ -193,7 +193,6 @@ and [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO
 - Share contributions on social media (use the event hastag) and in the event Slack channel 
 - Remind people to fill out the feedback form throughout the event
 
-
 #### After {-}
 - Follow up as needed on Slack, keep updating PR merges etc.
 - Send out email to maintainers and mentors to thank them and give them details on how to receive honourarium
