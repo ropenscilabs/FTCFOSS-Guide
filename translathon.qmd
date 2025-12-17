@@ -118,28 +118,30 @@ What needs to be done just before, during, and after the event.
 
 ### To Do List
 
--   Before
-    -   Create [Coworking Document](https://docs.google.com/document/d/1CjvRCIuX3gqJZ-_0_Nb29--LpP7PEMQdCiWTHVdH9XE) in the language of the event (prepopulate any registrants)
-    -   Prepare [Feedback forms](templates_forms.html#feedback) and add to Coworking Doc
-    -   Finalize [GitHub Project Board](#github-project)
-    -   Add links to the Slack event channel
-    -   Advertise with posts in rOpenSci Slack and other community Slack channels
-    -   Advertise event in HQ section of the rOpenSci Newsletter
-    -   Send reminder one week before and one hour before (email and social media)
--   During
-    -   Share link to Coworking Document
-    -   Share link to GitHub Project Board
-    -   Share link to the Translation and Localization Guidelines
-    -   Match participants with tasks and mentors/editors
-    -   Prepare Breakout rooms
-    -   Keep track of contributions (get GitHub handles for all participants) and make sure people get acknowledged
-    -   Share contributions and sucess on social media and Slack channel (with permission of the attendes)
-    -   Remind people to fill out the feedback form throughout the event
-    -   Send Slack invitations to the attendees and add them to the Slack event channel.
--   After
-    -   Follow up as needed in Slack, keep updating PR merges etc.
-    -   Editors finalize reviews and merges
-    -   Send out email to Mentors/Editors to thank them and give them details on how to receive honourarium
+#### Before {-}
+-   Create [Coworking Document](https://docs.google.com/document/d/1CjvRCIuX3gqJZ-_0_Nb29--LpP7PEMQdCiWTHVdH9XE) in the language of the event (prepopulate any registrants)
+-   Prepare [Feedback forms](templates_forms.html#feedback) and add to Coworking Doc
+-   Finalize [GitHub Project Board](#github-project)
+-   Add links to the Slack event channel
+-   Advertise with posts in rOpenSci Slack and other community Slack channels
+-   Advertise event in HQ section of the rOpenSci Newsletter
+-   Send reminder one week before and one hour before (email and social media)
+
+#### During {-}
+-   Share link to Coworking Document
+-   Share link to GitHub Project Board
+-   Share link to the Translation and Localization Guidelines
+-   Match participants with tasks and mentors/editors
+-   Prepare Breakout rooms
+-   Keep track of contributions (get GitHub handles for all participants) and make sure people get acknowledged
+-   Share contributions and sucess on social media and Slack channel (with permission of the attendes)
+-   Remind people to fill out the feedback form throughout the event
+-   Send Sack invitations to the attendees and add them to the Slack event channel.
+
+#### After {-}
+-   Follow up as needed in Slack, keep updating PR merges etc.
+-   Editors finalize reviews and merges
+-   Send out email to Mentors/Editors to thank them and give them details on how to receive honourarium
 
 ### Running the event
 
