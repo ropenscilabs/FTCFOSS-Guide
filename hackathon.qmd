@@ -1,8 +1,6 @@
----
-title: "Mini-hackathons"
----
+# Mini-hackathons {#hackathon}
 
-## Overview
+## Overview 
 
 Mini-hackathons are 2-hr events designed as a variation on the standard rOpenSci coworking format. 
 They are a combination of a hackathon (a dedicated period of time where participants make contributions to selected FOSS projects) 
@@ -194,7 +192,6 @@ and [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO
 - Keep track of contributions and make sure people get acknowledged
 - Share contributions on social media (use the event hastag) and in the event Slack channel 
 - Remind people to fill out the feedback form throughout the event
-
 
 #### After {-}
 - Follow up as needed on Slack, keep updating PR merges etc.
