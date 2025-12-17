@@ -19,7 +19,9 @@ title: "Example Resources"
     - Coworking Mini-Hackathon for First-Time Contributors! ([Feb 4 2025](https://ropensci.org/events/coworking-2025-02/) & [Mar 4 2025](https://ropensci.org/events/coworking-2025-03/))
     
 - Coworking mini-translathons
-    - XXXX
+    - [Translating the rOpenSci Dev Guide into Portuguese: Collaboration, Community, Challenges, and Impact](https://ropensci.org/blog/2025/11/25/translation-devguide-pt/)
+    - [Traduzindo o Dev Guide da rOpenSci para o Português: Colaboração, Comunidade, Desafios e Impacto](https://ropensci.org/pt/blog/2025/11/25/tradução-devguide-pt/)
+    - [Translathon GitHub Project](https://github.com/orgs/ropensci/projects/7)
     
 - Coworking mini-hackathons
   - [Coworking Document](https://docs.google.com/document/d/1juXuCMvz7a9BX_VK6SO4QCs7T78BZDHAs589wHjL3Ug/edit?tab=t.0#heading=h.jja0j3hbdd5p) (Mar 4 2025)
