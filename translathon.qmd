@@ -35,7 +35,7 @@ They are preferably people who have already contributed, as reviewers or editors
 
 Because preparing and reviewing translations requires additional effort, we suggest offering mentors and editors an honorarium to recognize their time and contributions.
 
-> In our 2024 pilot, the translathon was hosted in Portuguese in conjunction with LatinR, where many members of the Latin American R community gathered.
+> In our 2024 pilot, the translathon was held in Portuguese in conjunction with the [Latin American Conference on the Use of R in R&D (LatinR)](https://latinr.org/en/), where many members of the Latin American R community gathered.
 > We focused on translating one resource: rOpenSci Packages: Development, Maintenance, and Peer Review.
 > NumFocus provided the funding to pay mentors and editors a \$200 USD honorarium for participating in the translathon.
 
