@@ -8,7 +8,7 @@ toc: false
 
 ## **Community-Driven Open Source:<br>Enabling First-Time Contributors to Open Source Projects** {-}
 
-Over the last decade, [rOpenSci](https://ropensci.org) has played a pivotal role in diversifying the open research software community by integrating new developers from underrepresented communities and transforming newcomers into regular contributors to our federation of scientific software via various engagement channels.
+Over the last decade, [rOpenSci](https://ropensci.org) has played a pivotal role in diversifying the open research software community by integrating new developers from underrepresented communities and enabling newcomers to become regular contributors to our federation of scientific software via various engagement channels.
 
 To further this work, in 2024 we proposed to pilot a new program designed to support sustainability for scientific software packages by recruiting and mentoring contributors and co-maintainers, using community calls and coworking sessions (mini-hackathons and mini-translathons) to provide a structured yet flexible environment to onboard new participants to open-source projects in real-time.
 
