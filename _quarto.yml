@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "FTCFOSS-Guide"
+  title: "From User to Contributor: Organizing Events for First-Time Contributors"
   author: "Yanina Bellini Saibene and Steffi LaZerte"
   date: "10/10/2025"
   favicon: apple-touch-icon.png
