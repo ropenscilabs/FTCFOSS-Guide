@@ -9,7 +9,6 @@ book:
   repo-url: https://github.com/ropenscilabs/FTCFOSS-Guide
   chapters:
     - index.qmd
-    - intro.qmd
     - pilot.qmd
     - event-overview.qmd
     - commcall.qmd
