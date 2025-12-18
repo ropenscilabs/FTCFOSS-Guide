@@ -28,6 +28,11 @@ jobs:
           target: gh-pages
           render: false
 
+ 
+      - name: CNAME
+        run: |         
+          cp ghpagescname _book/CNAME
+
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@4.1.7
