@@ -14,3 +14,5 @@ If you find any errors or things that need clarification, we would be grateful i
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.
 
 This work was supported by a NumFOCUS Small Development Grant to rOpenSci.
+
+Cite as: Yanina Bellini Saibene and Steffi LaZerte (2026). From User to Contributor: Organizing Events for First-Time Contributors v1.0
