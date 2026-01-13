@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18235703.svg)](https://doi.org/10.5281/zenodo.18235703)
+
 # Guide for First-time Contributor to FOSS events at rOpenSci
 
 Over the last decade, [rOpenSci](https://ropensci.org) has played a pivotal role in diversifying the open research software community by integrating new developers from underrepresented communities and transforming newcomers into regular contributors to our federation of scientific software via various engagement channels.

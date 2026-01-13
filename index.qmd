@@ -60,4 +60,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 This work was supported by a NumFOCUS Small Development Grant to rOpenSci.
 
 ### How to cite this book
-Yanina Bellini Saibene & Steffi LaZerte. (2026). From User to Contributor: Organizing Events for First-Time Contributors (Version v1.0).
+Yanina Bellini Saibene & Steffi LaZerte. (2026). From User to Contributor: Organizing Events for First-Time Contributors (Version v1.0). https://doi.org/10.5281/zenodo.18235703
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18235703.svg)](https://doi.org/10.5281/zenodo.18235703)
