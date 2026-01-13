@@ -17,4 +17,4 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 
 This work was supported by a NumFOCUS Small Development Grant to rOpenSci.
 
-Cite as: Yanina Bellini Saibene and Steffi LaZerte (2026). From User to Contributor: Organizing Events for First-Time Contributors v1.0
+Cite as: Yanina Bellini Saibene and Steffi LaZerte (2026). From User to Contributor: Organizing Events for First-Time Contributors v1.0. https://doi.org/10.5281/zenodo.18235703
