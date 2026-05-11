@@ -102,61 +102,61 @@
   {
     "objectID": "translathon.html",
     "href": "translathon.html",
-    "title": "5  Mini-translathon",
+    "title": "5  Mini-translathons",
     "section": "",
     "text": "5.1 Overview\nTranslathons are 2-hour events designed as a combination of translation with the ways and energy of a hackathon (a dedicated period of time where participants make contributions to selected FOSS projects). Translathons are live and synchronous: participants contribute, learn, and connect with others. Plan a community call to provide guidance on how to get started with translation contributions and different translations and localization efforts that exist for a human language in the community. rOpenSci staff prepare the event by identifying materials in need of translation or review, creating and labeling pull requests for participants to work on, and setting up a GitHub Project board to track progress. During the event, after a brief introduction on how the event is structured and how the translation process works, participants select a pull request to work on. Mentors and editors provide real-time support in breakout rooms or the main room. All contributors are also added to the multilingual channel in the rOpenSci Slack, where they can continue discussing and refining translations after the event.\nDuring and after the event, participants are invited to complete an optional feedback survey collecting insights on their experiences, challenges faced, and suggestions for improvement.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathon</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathons</span>"
     ]
   },
   {
     "objectID": "translathon.html#mentors-and-editors",
     "href": "translathon.html#mentors-and-editors",
-    "title": "5  Mini-translathon",
+    "title": "5  Mini-translathons",
     "section": "5.2 Mentors and Editors",
     "text": "5.2 Mentors and Editors\nThe main goal of translathon events is to ensure participants have a good experience:\n\nlearning how to contribute to translations,\ngaining confidence in the process, and\nbuilding motivation to continue contributing beyond the event.\n\nTo achieve this, translathons rely on two key roles:\n\nMentors: contributors familiar with the translation process, tools, and community guidelines. They help participants get started, troubleshoot issues, and guide them through the workflow.\nEditors: experienced translators responsible for reviewing and maintaining the quality and consistency of translations. Editors check terminology, style, and adherence to the community’s translation agreements.\n\nMentors and Editors sign up to participate beforehand and review the translation process and rules, and the translations that need contributions. They are preferably people who have already contributed, as reviewers or editors, to rOpenSci’s translations and know how the tools used in the process work and are also aware of the translation agreements for the language involved (for example, the Spanish agreements)\nBecause preparing and reviewing translations requires additional effort, we suggest offering mentors and editors an honorarium to recognize their time and contributions.\n\nIn our 2024 pilot, the translathon was held in Portuguese in conjunction with the Latin American Conference on the Use of R in R&D (LatinR), where many members of the Latin American R community gathered. We focused on translating one resource: rOpenSci Packages: Development, Maintenance, and Peer Review. NumFocus provided the funding to pay mentors and editors a $200 USD honorarium for participating in the translathon.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathon</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathons</span>"
     ]
   },
   {
     "objectID": "translathon.html#timeline",
     "href": "translathon.html#timeline",
-    "title": "5  Mini-translathon",
+    "title": "5  Mini-translathons",
     "section": "5.3 Timeline",
     "text": "5.3 Timeline\nSee Events Overview for the full timeline of paired events.\nThe timeline is setup for a single event, but repeat events are easy to insert.\n\nApproximate timeline of tasks\n\n\nWeeks Before\nTask\nPlatform\n\n\n\n\n10\nChoose date for translathon or an event to joint organization.\n\n\n\n8\nOpen call for mentors/editors at hands-on events\nBlog / Registration/ Social\n\n\n4–6\nOpen call for participants at translathon(s).\nBlog / Registration (may vary if organized jointly with another event) / Social (include Slack workspaces)\n\n\n4–6\nEvent Advertising\nWebsite (may vary if organized jointly with another event, example LatinR Website) / Social (include Slack workspaces)\n\n\n1–2\nSend instructions to mentors/editors\nEmail\n\n\n0–1\n(If participants register) Send instructions to participants\nEmail\n\n\n0\nRun translathon(s)\nZoom / Docs / Project Board\n\n\nAfter event\nEvaluate participant feedback\nSurvey form (Airtable)",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathon</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathons</span>"
     ]
   },
   {
     "objectID": "translathon.html#planning",
     "href": "translathon.html#planning",
-    "title": "5  Mini-translathon",
+    "title": "5  Mini-translathons",
     "section": "5.4 Planning",
     "text": "5.4 Planning\n\n5.4.1 Set the date of the event\nWhen you organize the translathon as part of another event, the date will depend on the availability of both events and the mentors and editors.\nFor future general events, we recommend choosing the date first and then inviting mentors and editors. For niche events (e.g., by language or subject area), it may be more effective to coordinate with editors and mentors first and then set the date, similar to the dynamics of Community Calls. If you plan to organize multiple events, it is essential to take time zones into account to facilitate global and diverse participation.\n\nIn our pilot case, the translathon was held as a satellite event of the LatinR conference. The conference offered us two potential days and we offered those days with time slots to mentors and editors to set the final date.\n\n\n\n5.4.2 Registration\nRegistration is required for mentors/editors so we can confirm sufficient support and send them preparation instructions. For participants, registration can be optional, especially if the event is not part of a larger event.\n\nIn our pilot we registered attendees free of charge using the same conference registration system (Eventbrite). This system was also used to send pre-event notifications and to share access information for the online meeting which helps with the logistics of the event.\n\n\n\n5.4.3 GitHub Project\nrOpenSci translations are carried out using GitHub projects. Each translation Pull Request is listed on different cards according to their status:\n\nTodo - Automatic Translation\nTodo - First Review\nTodo - Second Review\nTo be merged\nMerged\n\nEnsure the different projects are up-to-date for the mini translathons. Usually the PR listed under Todo - First Review and Todo - Second Review are the best ones to work on during translathons.\nrOpenSci staff create pull requests with the first automatic translation for the texts needing translation and label them with the corresponding translation tag and event-specific tag (e.g., ro-translathon-2024).\n\ntranslation :mate: is the label used for Spanish translations Tradução is the label used for Portuguese translations.\n\nTranslation tasks should be:\n\nrelatively small (a blog post, a section of documentation, a tutorial, a chapter),\nclearly scoped,\nand already prepared in a pull request to reduce setup time.\n\nTasks can be categorized by:\n\nDocumentation (manuals, guides, books)\nWebsite (pages, posts)\nInterfaces (package messages, Web UI strings)\nTutorials (examples, lessons)\n\nEditors review translations during or after the event, ensuring contributions maintain quality.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathon</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathons</span>"
     ]
   },
   {
     "objectID": "translathon.html#event",
     "href": "translathon.html#event",
-    "title": "5  Mini-translathon",
+    "title": "5  Mini-translathons",
     "section": "5.5 Event",
     "text": "5.5 Event\nHere we cover the specifics of actually running the event. What needs to be done just before, during, and after the event.\n\n5.5.1 To Do List\n\nBefore\n\nCreate Coworking Document in the language of the event (prepopulate any registrants)\nPrepare Feedback forms and add to Coworking Doc\nFinalize GitHub Project Board\nAdd links to the Slack event channel\nAdvertise with posts in rOpenSci Slack and other community Slack channels\nAdvertise event in HQ section of the rOpenSci Newsletter\nSend reminder one week before and one hour before (email and social media)\n\n\n\nDuring\n\nShare link to Coworking Document\nShare link to GitHub Project Board\nShare link to the Translation and Localization Guidelines\nMatch participants with tasks and mentors/editors\nPrepare Breakout rooms\nKeep track of contributions (get GitHub handles for all participants) and make sure people get acknowledged\nShare contributions and success on social media and Slack channel (with permission of the attendees)\nRemind people to fill out the feedback form throughout the event\nSend Sack invitations to the attendees and add them to the Slack event channel.\n\n\n\nAfter\n\nFollow up as needed in Slack, keep updating PR merges etc.\nEditors finalize reviews and merges\nSend out email to Mentors/Editors to thank them and give them details on how to receive honorarium\n\n\n\n\n5.5.2 Running the event\nThis is a schedule template:\n\nWelcome (5 minutes): share docs and intro of host, mentor and editors.\nEvent instructions + translation instructions (15 min): Orientation, code of conduct, overview of translation process.\nTask assignment (10 minutes): Participants select a translation tasks on the GitHub Project and comment on the PR.\nCoworking (30 min): Participants work on translation tasks, supported by mentors.\nBreak/Check-in (5–10 min): Short pause to stretch, share progress, and regroup.\nCoworking (45 min): Continued translation and review work in breakout or main rooms.\nWrap-up (15 min): Organizers summarize progress, highlight next steps, and encourage ongoing contributions in Slack.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathon</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathons</span>"
     ]
   },
   {
     "objectID": "translathon.html#resources",
     "href": "translathon.html#resources",
-    "title": "5  Mini-translathon",
+    "title": "5  Mini-translathons",
     "section": "5.6 Resources",
     "text": "5.6 Resources\n\nGuidelines\n\nrOpenSci Translation Guide\n\nTemplates\n\nAppendix - Email templates\nAppendix - Form templates\n\nExample advertising\n\n[Social media post before the translathon] Mastodon and LinkedIn\nSocial media post during the event\nNewsletter highlight after the event\nEvent rOpenSci Website & LatinR WebSite\n\nSupporting Tools for Running the Event\n\nCoworking Document\nGitHub Translation Project Board",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathon</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mini-translathons</span>"
     ]
   },
   {
